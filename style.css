@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.upper .heading {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+}
+
+.heading {
+    font-family: "Inter", sans-serif;
+    color: #666666;
+}
+
+.flex-grid {
+    display: flex;
+  }
+  .flex-grid .col {
+    flex: 1;
+  }
+  .flex-grid-thirds {
+    display: flex;
+    justify-content: space-between;
+  }
+  .flex-grid-thirds .col {
+    width: 32%;
+  }
+  
+  @media (max-width: 400px) {
+    .flex-grid,
+    .flex-grid-thirds {
+      display: block;
+      .col {
+        width: 100%;
+        margin: 0 0 10px 0;
+      }
+    }
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+  body {
+    padding: 20px;
+  }
+  .flex-grid { 
+    margin: 0 0 20px 0;
+  }
+  .col {
+    background: #FFF1FF;
+    padding: 20px;
+    color: #AB0A83;
+    font-weight: 700;
+    font-family: "Inter";
+  }
+  
+  .col1 {
+    background: #FFF1FF;
+    padding: 20px;
+    font-size: 25px;
+    color: #AB0A83;
+    font-weight: 700;
+    font-family: "Inter";
+  }
+
+.col2 {
+    background: #FFF1FF;
+    padding: 20px;
+    font-size: 25px;
+    color: #AB0A83;
+    font-weight: 700;
+    font-family: "Inter";
+}
+
+.col3 {
+    background: #FFF1FF;
+    padding: 20px;
+    font-size: 25px;
+    background-color: #E6FCE8;
+    color: #006400;
+    font-weight: 700;
+    font-family: "Inter";
+}
+
+.col4 {
+    background: #FFF1FF;
+    padding: 20px;
+    font-size: 25px;
+    background-color: #FFF6DD;
+    color: #AF6002;
+    font-weight: 700;
+    font-family: "Inter";
+}
+
+.img-sec {
+    margin-top: 40px;
+    margin-left: 380px;
+}
+
+img {
+    width: 450px;
+    height: 300px;
+}
