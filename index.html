@@ -12,28 +12,28 @@
     <link rel="icon" type="image/x-icon" href="favicon.ico">
   </head>
   <body>
+    <div class="loader_wrap">
+      <div class="loader"></div>
+    </div>
     <header class="upper">
         <h2 class="heading">ARCADE REVIEW STATISTICS</h2>
-        <a href="https://github.com/Aryankpoor/reviewstats" target="_blank"><button class="button">
-          <div class="blob1"></div>
-          <div class="blob2"></div>
-          <div class="inner">Contribute on Github </div>
-        </button></a>
     </header>
     <hr />  
 
-      
+        
+
+
         <div class="flex-grid">
         <div class="col1">Total (all)</div>
         <div class="col2"></div>
         <div class="col"></div>
-        <div class="col2">111295</div>
+        <div class="col2">111395</div>
         <div class="col"></div>
       </div>
       
       <div class="flex-grid-thirds">
-        <div class="col3">Reviewed: 78662</div>
-        <div class="col4">Pending (Tied to scrapbook): 2253</div>
+        <div class="col3">Reviewed: 78740</div>
+        <div class="col4">Pending (Tied to scrapbook): 2205</div>
         <div class="col">The numbers are manually updated every hour.</div>
       </div>
       
@@ -44,9 +44,16 @@
         <div class="col1">Last Update:</div>
         <div class="col2"></div>
         <div class="col"></div>
-        <div class="col2">18th August 18:30</div>
+        <div class="col2">18th August 17:30</div>
         <div class="col"></div>
       </div>
       
+    <script>
+      const fadeOut= () => {
+        const loaderWrapper = document.querySelector('.loader_wrap');
+        loaderWrapper.classList.add('fade');
+      }
+      window.addEventListener('load', fadeOut);
+    </script>
   </body>
   </html>
