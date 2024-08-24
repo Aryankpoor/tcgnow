@@ -35,9 +35,6 @@ import {
     Group,
     Color,
     Points,
-    Vector3,
-    TextureLoader,
-    PointsMaterial,
     BufferGeometry,
     AdditiveBlending,
     Float32BufferAttribute,
@@ -90,15 +87,7 @@ import {
       this.group.add(points);
     }
   
-    getRandomSpherePoint() {
-      const radius = Math.random() * 25 + 25;
-      const u = Math.random();
-      const v = Math.random();
-      const theta = 2 * Math.PI * u;
-      const phi = Math.acos(2 * v - 1);
-      let x = radius * Math.sin(phi) * Math.cos(theta);
-      let y = radius * Math.sin(phi) * Math.sin(theta);
-      let z = radius * Math.cos(phi);
+
   
       return {
         pos: new Vector3(x, y, z),
