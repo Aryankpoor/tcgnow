@@ -25,7 +25,7 @@ void getup()
 int t,speed=40;
 void ds(int jump=0)
 {
-    static int a=1; // Aaaaaah why do I keep forgetting to add semicolons
+    static int a=1; 
 
     if(jump==0)
        t=0;
