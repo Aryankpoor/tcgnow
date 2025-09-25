@@ -11,8 +11,15 @@ export default function Home() {
   return (
     <div>
       <Navbar />
+      
+        <h1 className="scroll-m-20 text-center text-4xl font-extrabold tracking-tight text-balance">
+          Welcome to TCGNOW
+      </h1>
+      <p className="text-muted-foreground text-xl">
+      A modal dialog that interrupts the user with important content and expects
+      a response.
+    </p>
 
-   
       <main className="pt-16">
         {/* main content goes here */}
       </main>
