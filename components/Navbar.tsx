@@ -24,6 +24,22 @@ export default function Navbar() {
               <NavigationMenuLink>Match Attax 22/23</NavigationMenuLink>
               <NavigationMenuLink>Match Attax 21/22 Extra</NavigationMenuLink>
               <NavigationMenuLink>Match Attax 21/22</NavigationMenuLink>
+              <NavigationMenuLink>Match Attax 17/18 Premier League</NavigationMenuLink>
+            </NavigationMenuContent>
+          </NavigationMenuItem>
+
+          <NavigationMenuItem>
+            <NavigationMenuTrigger>Topps Match Attax Champions League</NavigationMenuTrigger>
+            <NavigationMenuContent>
+              <NavigationMenuLink>Match Attax 20/21 Extra</NavigationMenuLink>
+              <NavigationMenuLink>Match Attax 20/21/</NavigationMenuLink>
+              <NavigationMenuLink>Match Attax 19/20 Extra</NavigationMenuLink>
+              <NavigationMenuLink>Match Attax 19/20</NavigationMenuLink>
+              <NavigationMenuLink>Match Attax 18/19 Extra</NavigationMenuLink>
+              <NavigationMenuLink>Match Attax 18/19</NavigationMenuLink>
+              
+              <NavigationMenuLink>Match Attax 21/22 Extra</NavigationMenuLink>
+              <NavigationMenuLink>Match Attax 21/22</NavigationMenuLink>
               <NavigationMenuLink>Match Attax 20/21 Extra</NavigationMenuLink>
               <NavigationMenuLink>Match Attax 20/21</NavigationMenuLink>
               <NavigationMenuLink>Match Attax 19/20 Extra</NavigationMenuLink>
@@ -34,8 +50,8 @@ export default function Navbar() {
           <NavigationMenuItem>
             <NavigationMenuTrigger>Topps Cricket Attax</NavigationMenuTrigger>
             <NavigationMenuContent>
-              <NavigationMenuLink>Cricket Attax 'THE HUNDRED' 2022</NavigationMenuLink>
-              <NavigationMenuLink>Cricket Attax 'THE HUNDRED' 2021</NavigationMenuLink>
+              <NavigationMenuLink>Cricket Attax &apos;THE HUNDRED&apos; 2022</NavigationMenuLink>
+              <NavigationMenuLink>Cricket Attax &apos;THE HUNDRED&apos; 2021</NavigationMenuLink>
               <NavigationMenuLink>Cricket Attax 2017</NavigationMenuLink>
               <NavigationMenuLink>Cricket Attax 2016</NavigationMenuLink>
               <NavigationMenuLink>Cricket Attax 2015</NavigationMenuLink>
@@ -60,7 +76,7 @@ export default function Navbar() {
           <NavigationMenuItem>
             <NavigationMenuTrigger>Topps Now</NavigationMenuTrigger>
             <NavigationMenuContent>
-              <NavigationMenuLink>Link</NavigationMenuLink>
+              <NavigationMenuLink>Lamine Yamal Inherits Messi no 10</NavigationMenuLink>
             </NavigationMenuContent>
           </NavigationMenuItem>
         </NavigationMenuList>
