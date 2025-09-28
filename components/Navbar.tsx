@@ -15,36 +15,36 @@ const components: { title: string; href: string; description: string }[] = [
     title: "Match Attax 24/25 Extra",
     href: "/docs/primitives/alert-dialog",
     description:
-      "The match attax extra collection release of match attax 24/25 released january 2025",
+      "Released January 2025",
   },
   {
-    title: "Hover Card",
+    title: "Match Attax 24/25",
     href: "/docs/primitives/hover-card",
     description:
-      "For sighted users to preview content available behind a link.",
+      "Released September 2024",
   },
   {
-    title: "Progress",
+    title: "Match Attax 23/24 Extra",
     href: "/docs/primitives/progress",
     description:
-      "Displays an indicator showing the completion progress of a task, typically displayed as a progress bar.",
+      "Released December 2023",
   },
   {
-    title: "Scroll-area",
+    title: "Match Attax 23/24",
     href: "/docs/primitives/scroll-area",
-    description: "Visually or semantically separates content.",
+    description: "Released August 2023",
   },
   {
-    title: "Tabs",
+    title: "Match Attax 22/23 Extra",
     href: "/docs/primitives/tabs",
     description:
-      "A set of layered sections of content—known as tab panels—that are displayed one at a time.",
+      "Released January 2023",
   },
   {
-    title: "Tooltip",
+    title: "Match Attax 22/23",
     href: "/docs/primitives/tooltip",
     description:
-      "A popup that displays information related to an element when the element receives keyboard focus or the mouse hovers over it.",
+      "Released August 2022",
   },
 ]
 
@@ -77,11 +77,11 @@ export default function Navbar() {
                         Match Attax
                       </div>
                       <p className="text-muted-foreground text-sm leading-tight">
-                        Football Card Attax Collection
+                        2025 edition will be uploaded following Indian rollout
                       </p>
                     </Link>
                   </NavigationMenuLink>
-                </li>
+                </li> 
               </ul>
             </NavigationMenuContent>
           </NavigationMenuItem>
