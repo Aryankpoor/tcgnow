@@ -11,16 +11,15 @@ export default function Home() {
   return (
     <div>
       <Navbar />
-      
+      <header className="pt-20 pb-8 px-4">
         <h1 className="scroll-m-20 text-center text-4xl font-extrabold tracking-tight text-balance">
-          Welcome to TCGNOW
-      </h1>
-      <p className="text-muted-foreground text-xl">
-      A modal dialog that interrupts the user with important content and expects
-      a response.
-    </p>
+          Welcome to TCGNOW</h1>
+        <p className="text-xl text-center mt-4">
+          An archive for all from hobbyists to box breakers! Find all you need regarding a Topps collection :)
+        </p>
+      </header>
 
-      <main className="pt-16">
+      <main className="px-4">
         {/* main content goes here */}
       </main>
 
@@ -33,7 +32,6 @@ export default function Home() {
                 <p>TCGNOW currently includes UK, US and Indian Design pattern of trading cards. Only these variants are currently available in site</p>
               </AccordionContent>
             </AccordionItem>
-
             <AccordionItem value="item-2">
               <AccordionTrigger>Where does TCGNOW ship?</AccordionTrigger>
               <AccordionContent className="flex flex-col gap-4 text-balance">
