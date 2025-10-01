@@ -82,15 +82,15 @@ export default function MatchAttax2425() {
                         <HoverCardTrigger asChild>
                           <span className="cursor-pointer">{card.card}</span>
                         </HoverCardTrigger>
-                        <HoverCardContent className="w-48">
-                          <Image
-                            src={card.image}
-                            alt={card.card}
-                            width={180}
-                            height={180}
-                            className="absolute top-full left-0 mt-1 w-32 h-32 object-cover hidden group-hover:block z-10 border"
-                          />
-                        </HoverCardContent>
+                        <HoverCardContent className="w-48 p-2">
+  <Image
+    src={card.image}
+    alt={card.card}
+    width={180}
+    height={180}
+    className="object-cover rounded-md border"
+  />
+</HoverCardContent>
                       </HoverCard>
                     ) : (
                       card.card
