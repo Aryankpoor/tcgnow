@@ -12,7 +12,7 @@ export async function GET(
 
     // Use the dynamic collection parameter
     const items = await db
-      .collection("ma")
+      .collection("topps")
       .find({ collection: params.collection })
       .sort({ sno: 1 })
       .toArray();
