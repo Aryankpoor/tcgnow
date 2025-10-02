@@ -28,7 +28,7 @@ export default function MatchAttax2425() {
   const [checklists, setChecklists] = useState<CardEntry[]>([]);
 
   useEffect(() => {
-  fetch("/api/items/MA2425E")
+  fetch("/api/items/MA2425e")
     .then(res => res.json())
     .then(data => {
       console.log("Fetched data:", data);
