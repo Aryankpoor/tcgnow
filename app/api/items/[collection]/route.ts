@@ -11,11 +11,8 @@ export async function GET(
     const db = client.db("cards");
 
     // Use the dynamic collection parameter
-    const items = await db
-      .collection("topps")
-      .find({ collection: params.collection })
-      .sort({ sno: 1 })
-      .toArray();
+    const items = await db.collection("topps").find({}).sort({ sno: 1 }).toArray();
+
 
     console.log("Items fetched:", items.length);
 
