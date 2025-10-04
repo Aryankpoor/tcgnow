@@ -56,7 +56,7 @@ export default function MatchAttax2425() {
           <div className="grid gap-4">
             <div className="p-6 border rounded-lg">
               <h2 className="text-2xl font-bold mb-4">Collection Overview</h2>
-              <p>Information about Cricket Attax 2011 collection.</p>
+              <p>Fun Fact: Deccan Chargers is the only team in this first edition of the collection which does not have a captain.</p>
             </div>
           </div>
 
@@ -65,15 +65,16 @@ export default function MatchAttax2425() {
             <TableHeader>
               <TableRow>
                 <TableHead>No.</TableHead>
-                <TableHead className="w-[100px]">Name</TableHead>
+                <TableHead className="w-[70px]">Name</TableHead>
                 <TableHead>Card</TableHead>
-                <TableHead className="w-[100px]">Sub Collection</TableHead>
-                <TableHead className="w-[100px]">Rarity</TableHead>
+                <TableHead className="w-[50px]">Sub Collection</TableHead>
+                <TableHead className="w-[40px] ">Rarity</TableHead>
               </TableRow>
             </TableHeader>
             <TableBody>
               {checklists.map((card) => (
-                <TableRow key={card.card}>
+                <TableRow key={card.sno}>
+
                   <TableCell className="font-medium">{card.sno}</TableCell>
 
                   <TableCell className="font-medium">
@@ -99,7 +100,7 @@ export default function MatchAttax2425() {
 
                   <TableCell>{card.type}</TableCell>
                   <TableCell>{card.subcollection}</TableCell>
-                  <TableCell className="text-right">{card.rarity}</TableCell>
+                  <TableCell>{card.rarity}</TableCell>
                 </TableRow>
               ))}
             </TableBody>

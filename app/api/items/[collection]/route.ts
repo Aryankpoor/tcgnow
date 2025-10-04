@@ -3,18 +3,23 @@ import { NextResponse } from "next/server";
 
 export async function GET(
   req: Request,
-  context: { params: Promise<{ collection: string }> }
+  context: { params: Promise<{ collection: string }> } 
 ) {
   try {
-    const params = await context.params; // await the promise
+    const params = await context.params;
+    const collectionName = params.collection;
+
+    // Connect to MongoDB
     const client = await clientPromise;
     const db = client.db("cards");
 
-    // Use the dynamic collection parameter
-    const items = await db.collection("topps").find({}).sort({ sno: 1 }).toArray();
+    const items = await db
+      .collection("topps")      
+      .find({ collection: collectionName }) 
+      .sort({ sno: 1 })         
+      .toArray();
 
-
-    console.log("Items fetched:", items.length);
+    console.log(`Items fetched for ${collectionName}:`, items.length);
 
     return NextResponse.json(items);
   } catch (err) {
