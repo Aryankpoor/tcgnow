@@ -56,7 +56,7 @@ export default function MatchAttax2425() {
           <div className="grid gap-4">
             <div className="p-6 border rounded-lg">
               <h2 className="text-2xl font-bold mb-4">Collection Overview</h2>
-              <p>Information about Cricket Attax 2011 collection.</p>
+              <p>Fun Fact: Deccan Chargers is the only team in this first edition of the collection which does not have a captain.</p>
             </div>
           </div>
 

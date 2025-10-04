@@ -1,24 +1,20 @@
-import clientPromise from "@/lib/mongodb";
 import { NextResponse } from "next/server";
+import clientPromise from "@/lib/mongodb";
 
 export async function GET(
-  req: Request,
-  { params }: { params: { collection: string } }
+  request: Request,
+  { params }: { params: Promise<{ collection: string }> }
 ) {
-  try {
-    const client = await clientPromise;
-    const db = client.db("cards");
+  const { collection } = await params; // ✅ must await here
 
-    // ✅ Fetch only docs where collection matches the route param
-    const items = await db
-      .collection("topps")
-      .find({ collection: params.collection })
-      .sort({ sno: 1 })
-      .toArray();
+  const client = await clientPromise;
+  const db = client.db("cards");
 
-    return NextResponse.json(items);
-  } catch (err) {
-    console.error("Failed to fetch items:", err);
-    return NextResponse.json([], { status: 500 });
-  }
+  const items = await db
+    .collection("topps")
+    .find({ collection })
+    .sort({ sno: 1 })
+    .toArray();
+
+  return NextResponse.json(items);
 }

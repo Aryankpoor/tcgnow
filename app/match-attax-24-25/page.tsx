@@ -73,7 +73,7 @@ export default function MatchAttax2425() {
             </TableHeader>
             <TableBody>
               {checklists.map((card) => (
-                <TableRow key={card.card}>
+                <TableRow key={card.sno}>
                   <TableCell className="font-medium">{card.sno}</TableCell>
 
                   <TableCell className="font-medium">
