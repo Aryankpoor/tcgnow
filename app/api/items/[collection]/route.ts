@@ -3,18 +3,18 @@ import { NextResponse } from "next/server";
 
 export async function GET(
   req: Request,
-  context: { params: Promise<{ collection: string }> }
+  { params }: { params: { collection: string } }
 ) {
   try {
-    const params = await context.params; // await the promise
     const client = await clientPromise;
     const db = client.db("cards");
 
-    // Use the dynamic collection parameter
-    const items = await db.collection("topps").find({}).sort({ sno: 1 }).toArray();
-
-
-    console.log("Items fetched:", items.length);
+    // ✅ Fetch only docs where collection matches the route param
+    const items = await db
+      .collection("topps")
+      .find({ collection: params.collection })
+      .sort({ sno: 1 })
+      .toArray();
 
     return NextResponse.json(items);
   } catch (err) {
