@@ -68,7 +68,7 @@ export default function MatchAttax2425() {
                 <TableHead className="w-[100px]">Name</TableHead>
                 <TableHead>Card</TableHead>
                 <TableHead className="w-[100px]">Sub Collection</TableHead>
-                <TableHead className="w-[80px]">Collection Rarity</TableHead>
+                <TableHead className="w-[100px]">Rarity</TableHead>
               </TableRow>
             </TableHeader>
             <TableBody>
