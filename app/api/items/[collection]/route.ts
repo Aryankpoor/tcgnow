@@ -1,20 +1,29 @@
-import { NextResponse } from "next/server";
 import clientPromise from "@/lib/mongodb";
+import { NextResponse } from "next/server";
 
 export async function GET(
-  request: Request,
-  { params }: { params: Promise<{ collection: string }> }
+  req: Request,
+  context: { params: Promise<{ collection: string }> } 
 ) {
-  const { collection } = await params; // ✅ must await here
+  try {
+    const params = await context.params;
+    const collectionName = params.collection;
 
-  const client = await clientPromise;
-  const db = client.db("cards");
+    // Connect to MongoDB
+    const client = await clientPromise;
+    const db = client.db("cards");
 
-  const items = await db
-    .collection("topps")
-    .find({ collection })
-    .sort({ sno: 1 })
-    .toArray();
+    const items = await db
+      .collection("topps")      
+      .find({ collection: collectionName }) 
+      .sort({ sno: 1 })         
+      .toArray();
 
-  return NextResponse.json(items);
+    console.log(`Items fetched for ${collectionName}:`, items.length);
+
+    return NextResponse.json(items);
+  } catch (err) {
+    console.error("Failed to fetch items:", err);
+    return NextResponse.json([], { status: 500 });
+  }
 }
