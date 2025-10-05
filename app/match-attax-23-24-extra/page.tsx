@@ -80,8 +80,13 @@ export default function MatchAttax2425() {
                     {card.image ? (
                       <HoverCard>
                         <HoverCardTrigger asChild>
-                          <span className="cursor-pointer">{card.card}</span>
-                        </HoverCardTrigger>
+  <a
+    href={`/match-attax-23-24-extra/${encodeURIComponent(card.card)}`}
+    className="cursor-pointer text-blue-600 hover:underline"
+  >
+    {card.card}
+  </a>
+</HoverCardTrigger>
                         <HoverCardContent className="w-48 p-2">
   <Image
     src={card.image}
