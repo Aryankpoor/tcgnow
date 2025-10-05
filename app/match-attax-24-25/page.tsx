@@ -80,9 +80,16 @@ export default function MatchAttax2425() {
                     {card.image ? (
                       <HoverCard>
                         <HoverCardTrigger asChild>
-                          <span className="cursor-pointer">{card.card}</span>
-                        </HoverCardTrigger>
+  <a
+    href={`/match-attax-24-25/${encodeURIComponent(card.card)}`}
+    className="cursor-pointer text-blue-600 hover:underline"
+  >
+    {card.card}
+  </a>
+</HoverCardTrigger>
+
                         <HoverCardContent className="w-48 p-2">
+  {card.image ? (
   <Image
     src={card.image}
     alt={card.card}
@@ -90,6 +97,12 @@ export default function MatchAttax2425() {
     height={180}
     className="object-cover rounded-md border"
   />
+) : (
+  <div className="text-sm text-muted-foreground italic">
+    No image available
+  </div>
+)}
+
 </HoverCardContent>
                       </HoverCard>
                     ) : (
