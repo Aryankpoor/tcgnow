@@ -16,37 +16,42 @@ import { HoverCard, HoverCardTrigger, HoverCardContent } from "@/components/ui/h
 import Image from "next/image";
 
 type CardEntry = {
-  sno: number;
+  sno: string; // changed from number → string
   card: string;
   type: string;
   subcollection: string;
   rarity: string;
-  image?: string; // optional if some items have no image
+  image?: string;
 };
 
 export default function MatchAttax2425() {
   const [checklists, setChecklists] = useState<CardEntry[]>([]);
 
   useEffect(() => {
-  fetch("/api/items/MA2425e")
-    .then(res => res.json())
-    .then(data => {
-      console.log("Fetched data:", data);
-      setChecklists(Array.isArray(data) ? data : []);
-    })
-    .catch(err => {
-      console.error("Failed to fetch items:", err);
-      setChecklists([]);
-    });
-}, []);
+    fetch("/api/items/MA2425e")
+      .then((res) => res.json())
+      .then((data) => {
+        console.log("Fetched data:", data);
 
+        // ✅ Ensure data stays in original order as in JSON
+        if (Array.isArray(data)) {
+          setChecklists(data);
+        } else {
+          setChecklists([]);
+        }
+      })
+      .catch((err) => {
+        console.error("Failed to fetch items:", err);
+        setChecklists([]);
+      });
+  }, []);
 
   return (
     <div>
       <Navbar />
       <main className="pt-20 pb-8 px-4">
         <h1 className="scroll-m-20 text-center text-4xl font-extrabold tracking-tight text-balance mb-8">
-          Match Attax 2025 Extra
+          Match Attax 24/25 Extra
         </h1>
         <div className="max-w-4xl mx-auto">
           <p className="text-lg text-center mb-8">
@@ -56,12 +61,12 @@ export default function MatchAttax2425() {
           <div className="grid gap-4">
             <div className="p-6 border rounded-lg">
               <h2 className="text-2xl font-bold mb-4">Collection Overview</h2>
-              <p>Information about Match Attax 24/25 Extra collection.</p>
+              <p>The Latest Installment in the match attax extra lineup with brand new designs and players</p>
             </div>
           </div>
 
           <Table>
-            <TableCaption>Match Attax 2025 Extra Checklist</TableCaption>
+            <TableCaption>Match Attax 24/25 Extra Checklist</TableCaption>
             <TableHeader>
               <TableRow>
                 <TableHead>No.</TableHead>
@@ -72,25 +77,30 @@ export default function MatchAttax2425() {
               </TableRow>
             </TableHeader>
             <TableBody>
-              {checklists.map((card) => (
-                <TableRow key={card.card}>
+              {checklists.map((card, index) => (
+                <TableRow key={`${card.card}-${index}`}>
                   <TableCell className="font-medium">{card.sno}</TableCell>
 
                   <TableCell className="font-medium">
                     {card.image ? (
                       <HoverCard>
                         <HoverCardTrigger asChild>
-                          <span className="cursor-pointer">{card.card}</span>
+                          <a
+                            href={`/match-attax-23-24/${encodeURIComponent(card.card)}`}
+                            className="cursor-pointer text-blue-600 hover:underline"
+                          >
+                            {card.card}
+                          </a>
                         </HoverCardTrigger>
                         <HoverCardContent className="w-48 p-2">
-  <Image
-    src={card.image}
-    alt={card.card}
-    width={180}
-    height={180}
-    className="object-cover rounded-md border"
-  />
-</HoverCardContent>
+                          <Image
+                            src={card.image}
+                            alt={card.card}
+                            width={180}
+                            height={180}
+                            className="object-cover rounded-md border"
+                          />
+                        </HoverCardContent>
                       </HoverCard>
                     ) : (
                       card.card
@@ -107,7 +117,9 @@ export default function MatchAttax2425() {
             <TableFooter>
               <TableRow>
                 <TableCell colSpan={3}>Total</TableCell>
-                <TableCell className="text-right">{checklists.length} Cards</TableCell>
+                <TableCell className="text-right">
+                  {checklists.length} Cards
+                </TableCell>
               </TableRow>
             </TableFooter>
           </Table>

@@ -1,0 +1,22 @@
+[
+    {
+        "sno": 28,
+        "card": "Marc-Andre Ter Stegen #BAR-2",
+        "type": "Base",
+        "subcollection": "FC Barcelona Team Set",
+        "rarity": "3 in every packet",
+        "position": "G",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma1920",
+        "collection": "MA1920"
+    },
+    {
+        "sno": 287,
+        "card": "Lionel Messi #CLU-11",
+        "type": "Blue Foil",
+        "subcollection": "100 club ultimate 11",
+        "rarity": "1 in every 5 packets",
+        "position": "A",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma1920/",
+        "collection": "MA2425e"
+    }
+]

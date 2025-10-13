@@ -1,25 +1,21 @@
-import clientPromise from "@/lib/mongodb";
 import { NextResponse } from "next/server";
+import path from "path";
+import fs from "fs/promises";
 
 export async function GET(
   req: Request,
-  context: { params: Promise<{ collection: string }> } 
+  context: { params: Promise<{ collection: string }> } // note: params is a Promise
 ) {
   try {
-    const params = await context.params;
-    const collectionName = params.collection;
+    // await the params promise
+    const { collection } = await context.params;
 
-    // Connect to MongoDB
-    const client = await clientPromise;
-    const db = client.db("cards");
+    // build path to your JSON file
+    const filePath = path.join(process.cwd(), "images", collection, `${collection}.json`);
 
-    const items = await db
-      .collection("topps")      
-      .find({ collection: collectionName }) 
-      .sort({ sno: 1 })         
-      .toArray();
-
-    console.log(`Items fetched for ${collectionName}:`, items.length);
+    // read the JSON file
+    const fileData = await fs.readFile(filePath, "utf-8");
+    const items = JSON.parse(fileData);
 
     return NextResponse.json(items);
   } catch (err) {

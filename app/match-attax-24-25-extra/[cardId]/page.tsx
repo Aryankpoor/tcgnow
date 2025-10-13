@@ -23,8 +23,8 @@ export default function CardProfilePage() {
     if (!cardId) return;
 
     // ✅ Fetch from your API route instead of directly from JSON
-    fetch(`/api/items/MA2324/${encodeURIComponent(cardId)}`)
-      .then((res) => {
+    fetch(`/api/items/MA2425e/${encodeURIComponent(cardId)}`)
+      .then((res) => {  
         if (!res.ok) throw new Error("Card not found");
         return res.json();
       })
