@@ -5,8 +5,8 @@
         "type": "Silver Foil",
         "subcollection": "Chennai Super Kings team set",
         "rarity": "1 in 2 packets",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": 2,
@@ -15,8 +15,8 @@
         "subcollection": "Chennai Super Kings team set",
         "rarity": "1 in 2 packets",
         "position": "B",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": 3,
@@ -25,8 +25,8 @@
         "subcollection": "Chennai Super Kings team set",
         "rarity": "4 in each packet",
         "position": "B",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": 4,
@@ -35,28 +35,28 @@
         "subcollection": "Chennai Super Kings team set",
         "rarity": "4 in each packet",
         "position": "B",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": 5,
-        "card": "George Bailey",
+        "card": "Suresh Raina",
         "type": "Base",
         "subcollection": "Chennai Super Kings team set",
         "rarity": "4 in each packet",
         "position": "B",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": 6,
-        "card": "Francois Du Plessis",
+        "card": "Anirudha Srikkanth",
         "type": "Base",
         "subcollection": "Chennai Super Kings team set",
         "rarity": "4 in each packet",
         "position": "A",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": 7,
@@ -65,8 +65,8 @@
         "subcollection": "Chennai Super Kings team set",
         "rarity": "4 in each packet",
         "position": "A",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": 8,
@@ -75,8 +75,8 @@
         "subcollection": "Chennai Super Kings team set",
         "rarity": "4 in each packet",
         "position": "A",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": 9,
@@ -85,8 +85,8 @@
         "subcollection": "Chennai Super Kings team set",
         "rarity": "4 in each packet",
         "position": "A",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": 10,
@@ -95,77 +95,77 @@
         "subcollection": "Chennai Super Kings team set",
         "rarity": "4 in each packet",
         "position": "A",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": 11,
-        "card": "Ben Hiflenhaus",
+        "card": "Shadab Jakati",
         "type": "Base",
         "subcollection": "Chennai Super Kings team set",
         "rarity": "4 in each packet",
         "position": "O",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": 12,
-        "card": "Nuvan Kulasekara",
+        "card": "Joginder Sharma",
         "type": "Base",
         "subcollection": "Chennai Super Kings team set",
         "rarity": "4 in each packet",
         "position": "O",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": 13,
-        "card": "Suraj Randiv",
-        "type": "Base",
-        "subcollection": "Chennai Super Kings team set",
-        "rarity": "4 in each packet",
-        "position": "O",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
-    },
-    {
-        "sno": 14,
         "card": "Doug Bollinger",
         "type": "Base",
         "subcollection": "Chennai Super Kings team set",
         "rarity": "4 in each packet",
         "position": "O",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
-        "sno": 15,
-        "card": "Ravichandran Ashwin",
+        "sno": 14,
+        "card": "Nuwan Kulasekara",
         "type": "Base",
         "subcollection": "Chennai Super Kings team set",
         "rarity": "4 in each packet",
         "position": "O",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": 15,
+        "card": "Tim Southee",
+        "type": "Base",
+        "subcollection": "Chennai Super Kings team set",
+        "rarity": "4 in each packet",
+        "position": "O",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": 16,
-        "card": "M.S. Dhoni",
-        "type": "Base - Captain",
+        "card": "Wriddhiman Saha",
+        "type": "Base",
         "subcollection": "Chennai Super Kings team set",
         "rarity": "4 in each packet",
         "position": "W",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": 17,
-        "card": "Suresh Raina",
-        "type": "Silver Foil",
-        "subcollection": "Chennai Super Kings Star Player",
+        "card": "M.S. Dhoni",
+        "type": "Base - Captain",
+        "subcollection": "Chennai Super Kings team set",
         "rarity": "1 in 2 packets",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
 
 
@@ -176,8 +176,8 @@
         "type": "Silver Foil",
         "subcollection": "Deccan Chargers team set",
         "rarity": "1 in 2 packets",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": 19,
@@ -186,8 +186,8 @@
         "subcollection": "Deccan Chargers team set",
         "rarity": "4 in each packet",
         "position": "B",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": 20,
@@ -196,8 +196,8 @@
         "subcollection": "Deccan Chargers team set",
         "rarity": "4 in each packet",
         "position": "B",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": 21,
@@ -206,8 +206,8 @@
         "subcollection": "Deccan Chargers team set",
         "rarity": "4 in each packet",
         "position": "B",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": 22,
@@ -216,8 +216,8 @@
         "subcollection": "Deccan Chargers team set",
         "rarity": "4 in each packet",
         "position": "B",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": 23,
@@ -226,8 +226,8 @@
         "subcollection": "Deccan Chargers team set",
         "rarity": "4 in each packet",
         "position": "A",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": 24,
@@ -236,8 +236,8 @@
         "subcollection": "Deccan Chargers team set",
         "rarity": "4 in each packet",
         "position": "A",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": 25,
@@ -246,8 +246,8 @@
         "subcollection": "Deccan Chargers team set",
         "rarity": "4 in each packet",
         "position": "A",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": 26,
@@ -256,8 +256,8 @@
         "subcollection": "Deccan Chargers team set",
         "rarity": "4 in each packet",
         "position": "A",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": 27,
@@ -266,8 +266,8 @@
         "subcollection": "Deccan Chargers team set",
         "rarity": "4 in each packet",
         "position": "O",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": 28,
@@ -276,8 +276,8 @@
         "subcollection": "Deccan Chargers team set",
         "rarity": "4 in each packet",
         "position": "O",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": 29,
@@ -286,8 +286,8 @@
         "subcollection": "Deccan Chargers team set",
         "rarity": "4 in each packet",
         "position": "O",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": 30,
@@ -296,8 +296,8 @@
         "subcollection": "Deccan Chargers team set",
         "rarity": "4 in each packet",
         "position": "O",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": 31,
@@ -306,8 +306,8 @@
         "subcollection": "Deccan Chargers team set",
         "rarity": "4 in each packet",
         "position": "O",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": 32,
@@ -316,8 +316,8 @@
         "subcollection": "Deccan Chargers team set",
         "rarity": "4 in each packet",
         "position": "O",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": 33,
@@ -326,8 +326,8 @@
         "subcollection": "Deccan Chargers team set",
         "rarity": "4 in each packet",
         "position": "O",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": 34,
@@ -336,8 +336,8 @@
         "subcollection": "Deccan Chargers Star Player",
         "rarity": "1 in 2 packets",
         "position": "W",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
 
 
@@ -348,8 +348,8 @@
         "type": "Silver Foil",
         "subcollection": "Delhi Daredevils team set",
         "rarity": "1 in 2 packets",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": 36,
@@ -358,8 +358,8 @@
         "subcollection": "Delhi Daredevils team set",
         "rarity": "4 in each packet",
         "position": "B",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": 37,
@@ -368,8 +368,8 @@
         "subcollection": "Delhi Daredevils team set",
         "rarity": "4 in each packet",
         "position": "B",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": 38,
@@ -378,8 +378,8 @@
         "subcollection": "Delhi Daredevils team set",
         "rarity": "4 in each packet",
         "position": "B",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": 39,
@@ -388,8 +388,8 @@
         "subcollection": "Delhi Daredevils team set",
         "rarity": "4 in each packet",
         "position": "B",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": 40,
@@ -398,8 +398,8 @@
         "subcollection": "Delhi Daredevils team set",
         "rarity": "4 in each packet",
         "position": "B",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": 41,
@@ -408,8 +408,8 @@
         "subcollection": "Delhi Daredevils team set",
         "rarity": "4 in each packet",
         "position": "A",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": 42,
@@ -418,8 +418,8 @@
         "subcollection": "Delhi Daredevils team set",
         "rarity": "4 in each packet",
         "position": "A",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": 43,
@@ -428,8 +428,8 @@
         "subcollection": "Delhi Daredevils team set",
         "rarity": "4 in each packet",
         "position": "A",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": 44,
@@ -438,8 +438,8 @@
         "subcollection": "Delhi Daredevils team set",
         "rarity": "4 in each packet",
         "position": "A",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": 45,
@@ -448,8 +448,8 @@
         "subcollection": "Delhi Daredevils team set",
         "rarity": "4 in each packet",
         "position": "A",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": 46,
@@ -458,8 +458,8 @@
         "subcollection": "Delhi Daredevils team set",
         "rarity": "4 in each packet",
         "position": "O",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": 47,
@@ -468,8 +468,8 @@
         "subcollection": "Delhi Daredevils team set",
         "rarity": "4 in each packet",
         "position": "O",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": 48,
@@ -478,8 +478,8 @@
         "subcollection": "Delhi Daredevils team set",
         "rarity": "4 in each packet",
         "position": "O",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": 49,
@@ -488,8 +488,8 @@
         "subcollection": "Delhi Daredevils team set",
         "rarity": "4 in each packet",
         "position": "W",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": 50,
@@ -498,8 +498,8 @@
         "subcollection": "Delhi Daredevils team set",
         "rarity": "4 in each packet",
         "position": "W",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": 51,
@@ -508,8 +508,8 @@
         "subcollection": "Delhi Daredevils Star Player",
         "rarity": "1 in 2 packets",
         "position": "B",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
 
 
@@ -521,8 +521,8 @@
         "type": "Base",
         "subcollection": "Kings XI Punjab team set",
         "rarity": "1 in 2 packets",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": 53,
@@ -531,8 +531,8 @@
         "subcollection": "Kings XI Punjab team set",
         "rarity": "4 in each packet",
         "position": "B",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": 54,
@@ -541,8 +541,8 @@
         "subcollection": "Kings XI Punjab team set",
         "rarity": "4 in each packet",
         "position": "B",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": 55,
@@ -551,8 +551,8 @@
         "subcollection": "Kings XI Punjab team set",
         "rarity": "4 in each packet",
         "position": "B",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": 56,
@@ -561,8 +561,8 @@
         "subcollection": "Kings XI Punjab team set",
         "rarity": "4 in each packet",
         "position": "B",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": 57,
@@ -571,8 +571,8 @@
         "subcollection": "Kings XI Punjab team set",
         "rarity": "4 in each packet",
         "position": "B",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": 58,
@@ -581,8 +581,8 @@
         "subcollection": "Kings XI Punjab team set",
         "rarity": "4 in each packet",
         "position": "B",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": 59,
@@ -591,8 +591,8 @@
         "subcollection": "Kings XI Punjab team set",
         "rarity": "4 in each packet",
         "position": "B",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": 60,
@@ -601,8 +601,8 @@
         "subcollection": "Kings XI Punjab team set",
         "rarity": "4 in each packet",
         "position": "B",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": 61,
@@ -611,8 +611,8 @@
         "subcollection": "Kings XI Punjab team set",
         "rarity": "4 in each packet",
         "position": "B",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": 62,
@@ -621,8 +621,8 @@
         "subcollection": "Kings XI Punjab team set",
         "rarity": "4 in each packet",
         "position": "B",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": 63,
@@ -631,8 +631,8 @@
         "subcollection": "Kings XI Punjab team set",
         "rarity": "4 in each packet",
         "position": "B",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": 64,
@@ -641,8 +641,8 @@
         "subcollection": "Kings XI Punjab team set",
         "rarity": "4 in each packet",
         "position": "B",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": 65,
@@ -651,8 +651,8 @@
         "subcollection": "Kings XI Punjab team set",
         "rarity": "4 in each packet",
         "position": "B",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": 66,
@@ -661,8 +661,8 @@
         "subcollection": "Kings XI Punjab team set",
         "rarity": "4 in each packet",
         "position": "W",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": 67,
@@ -671,8 +671,8 @@
         "subcollection": "Kings XI Punjab team set",
         "rarity": "4 in each packet",
         "position": "W",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": 68,
@@ -681,8 +681,8 @@
         "subcollection": "Kings XI Punjab Star Player",
         "rarity": "1 in 2 packets",
         "position": "A",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
 
 
@@ -693,8 +693,8 @@
         "type": "Silver Foil",
         "subcollection": "Kochi Tuskers Kerala team set",
         "rarity": "1 in 2 packets",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": 70,
@@ -703,8 +703,8 @@
         "subcollection": "Kochi Tuskers Kerala team set",
         "rarity": "4 in each packet",
         "position": "B",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": 71,
@@ -713,8 +713,8 @@
         "subcollection": "Kochi Tuskers Kerala team set",
         "rarity": "4 in each packet",
         "position": "B",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": 72,
@@ -723,8 +723,8 @@
         "subcollection": "Kochi Tuskers Kerala team set",
         "rarity": "4 in each packet",
         "position": "B",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": 73,
@@ -733,8 +733,8 @@
         "subcollection": "Kochi Tuskers Kerala team set",
         "rarity": "4 in each packet",
         "position": "B",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": 74,
@@ -743,8 +743,8 @@
         "subcollection": "Kochi Tuskers Kerala team set",
         "rarity": "4 in each packet",
         "position": "B",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": 75,
@@ -753,8 +753,8 @@
         "subcollection": "Kochi Tuskers Kerala team set",
         "rarity": "4 in each packet",
         "position": "B",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": 76,
@@ -763,8 +763,8 @@
         "subcollection": "Kochi Tuskers Kerala team set",
         "rarity": "4 in each packet",
         "position": "A",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": 77,
@@ -773,8 +773,8 @@
         "subcollection": "Kochi Tuskers Kerala team set",
         "rarity": "4 in each packet",
         "position": "A",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": 78,
@@ -783,8 +783,8 @@
         "subcollection": "Kochi Tuskers Kerala team set",
         "rarity": "4 in each packet",
         "position": "A",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": 79,
@@ -793,8 +793,8 @@
         "subcollection": "Kochi Tuskers Kerala team set",
         "rarity": "4 in each packet",
         "position": "A",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": 80,
@@ -803,8 +803,8 @@
         "subcollection": "Kochi Tuskers Kerala team set",
         "rarity": "4 in each packet",
         "position": "A",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": 81,
@@ -813,8 +813,8 @@
         "subcollection": "Kochi Tuskers Kerala team set",
         "rarity": "4 in each packet",
         "position": "O",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": 82,
@@ -823,8 +823,8 @@
         "subcollection": "Kochi Tuskers Kerala team set",
         "rarity": "4 in each packet",
         "position": "O",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": 83,
@@ -833,8 +833,8 @@
         "subcollection": "Kochi Tuskers Kerala team set",
         "rarity": "4 in each packet",
         "position": "O",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": 84,
@@ -843,8 +843,8 @@
         "subcollection": "Kochi Tuskers Kerala team set",
         "rarity": "4 in each packet",
         "position": "W",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": 85,
@@ -853,8 +853,8 @@
         "subcollection": "Kochi Tuskers Kerala team set",
         "rarity": "1 in 2 packets",
         "position": "B",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
 
 
@@ -865,8 +865,8 @@
         "type": "Silver Foil",
         "subcollection": "Kolkata Knight Riders team set",
         "rarity": "1 in 2 packets",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": 87,
@@ -875,8 +875,8 @@
         "subcollection": "Kolkata Knight Riders team set",
         "rarity": "4 in each packet",
         "position": "B",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": 88,
@@ -885,8 +885,8 @@
         "subcollection": "Kolkata Knight Riders team set",
         "rarity": "4 in each packet",
         "position": "B",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": 89,
@@ -895,8 +895,8 @@
         "subcollection": "Kolkata Knight Riders team set",
         "rarity": "4 in each packet",
         "position": "B",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": 90,
@@ -905,8 +905,8 @@
         "subcollection": "Kolkata Knight Riders team set",
         "rarity": "4 in each packet",
         "position": "A",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": 91,
@@ -915,8 +915,8 @@
         "subcollection": "Kolkata Knight Riders team set",
         "rarity": "4 in each packet",
         "position": "A",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": 92,
@@ -925,8 +925,8 @@
         "subcollection": "Kolkata Knight Riders team set",
         "rarity": "4 in each packet",
         "position": "A",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": 93,
@@ -935,8 +935,8 @@
         "subcollection": "Kolkata Knight Riders team set",
         "rarity": "4 in each packet",
         "position": "A",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": 94,
@@ -945,8 +945,8 @@
         "subcollection": "Kolkata Knight Riders team set",
         "rarity": "4 in each packet",
         "position": "A",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": 95,
@@ -955,8 +955,8 @@
         "subcollection": "Kolkata Knight Riders team set",
         "rarity": "4 in each packet",
         "position": "O",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": 96,
@@ -965,8 +965,8 @@
         "subcollection": "Kolkata Knight Riders team set",
         "rarity": "4 in each packet",
         "position": "O",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": 97,
@@ -975,8 +975,8 @@
         "subcollection": "Kolkata Knight Riders team set",
         "rarity": "4 in each packet",
         "position": "O",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": 98,
@@ -985,8 +985,8 @@
         "subcollection": "Kolkata Knight Riders team set",
         "rarity": "4 in each packet",
         "position": "O",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": 99,
@@ -995,8 +995,8 @@
         "subcollection": "Kolkata Knight Riders team set",
         "rarity": "4 in each packet",
         "position": "O",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": 100,
@@ -1005,8 +1005,8 @@
         "subcollection": "Kolkata Knight Riders team set",
         "rarity": "4 in each packet",
         "position": "W",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": 101,
@@ -1015,8 +1015,8 @@
         "subcollection": "Kolkata Knight Riders team set",
         "rarity": "4 in each packet",
         "position": "W",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": 102,
@@ -1025,8 +1025,8 @@
         "subcollection": "Kolkata Knight Riders team set",
         "rarity": "1 in 2 packets",
         "position": "A",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
 
 
@@ -1037,8 +1037,8 @@
         "type": "Silver Foil",
         "subcollection": "Mumbai Indians team set",
         "rarity": "1 in 2 packets",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": 104,
@@ -1047,8 +1047,8 @@
         "subcollection": "Mumbai Indians team set",
         "rarity": "4 in each packet",
         "position": "B",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": 105,
@@ -1057,8 +1057,8 @@
         "subcollection": "Mumbai Indians team set",
         "rarity": "4 in each packet",
         "position": "B",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": 106,
@@ -1067,8 +1067,8 @@
         "subcollection": "Mumbai Indians team set",
         "rarity": "4 in each packet",
         "position": "A",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": 107,
@@ -1077,8 +1077,8 @@
         "subcollection": "Mumbai Indians team set",
         "rarity": "4 in each packet",
         "position": "A",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": 108,
@@ -1087,8 +1087,8 @@
         "subcollection": "Mumbai Indians team set",
         "rarity": "4 in each packet",
         "position": "A",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": 109,
@@ -1097,8 +1097,8 @@
         "subcollection": "Mumbai Indians team set",
         "rarity": "4 in each packet",
         "position": "A",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": 110,
@@ -1107,8 +1107,8 @@
         "subcollection": "Mumbai Indians team set",
         "rarity": "4 in each packet",
         "position": "A",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": 111,
@@ -1117,8 +1117,8 @@
         "subcollection": "Mumbai Indians team set",
         "rarity": "4 in each packet",
         "position": "A",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": 112,
@@ -1127,8 +1127,8 @@
         "subcollection": "Mumbai Indians team set",
         "rarity": "4 in each packet",
         "position": "O",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": 113,
@@ -1137,8 +1137,8 @@
         "subcollection": "Mumbai Indians team set",
         "rarity": "4 in each packet",
         "position": "O",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": 114,
@@ -1147,8 +1147,8 @@
         "subcollection": "Mumbai Indians team set",
         "rarity": "4 in each packet",
         "position": "O",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": 115,
@@ -1157,8 +1157,8 @@
         "subcollection": "Mumbai Indians team set",
         "rarity": "4 in each packet",
         "position": "O",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": 116,
@@ -1167,8 +1167,8 @@
         "subcollection": "Mumbai Indians team set",
         "rarity": "4 in each packet",
         "position": "O",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": 117,
@@ -1177,8 +1177,8 @@
         "subcollection": "Mumbai Indians team set",
         "rarity": "4 in each packet",
         "position": "W",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": 118,
@@ -1187,8 +1187,8 @@
         "subcollection": "Mumbai Indians team set",
         "rarity": "4 in each packet",
         "position": "W",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": 119,
@@ -1197,8 +1197,8 @@
         "subcollection": "Mumbai Indians Star Player",
         "rarity": "1 in 2 packets",
         "position": "B",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
 
 
@@ -1210,8 +1210,8 @@
         "type": "Silver Foil",
         "subcollection": "Pune Warriors India Star Player",
         "rarity": "1 in 2 packets",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": 121,
@@ -1220,8 +1220,8 @@
         "subcollection": "team set",
         "rarity": "4 in each packet",
         "position": "B",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": 122,
@@ -1230,8 +1230,8 @@
         "subcollection": "team set",
         "rarity": "4 in each packet",
         "position": "B",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": 123,
@@ -1240,8 +1240,8 @@
         "subcollection": "team set",
         "rarity": "4 in each packet",
         "position": "B",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": 124,
@@ -1250,8 +1250,8 @@
         "subcollection": "team set",
         "rarity": "4 in each packet",
         "position": "A",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": 125,
@@ -1260,8 +1260,8 @@
         "subcollection": "team set",
         "rarity": "4 in each packet",
         "position": "A",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": 126,
@@ -1270,8 +1270,8 @@
         "subcollection": "team set",
         "rarity": "4 in each packet",
         "position": "A",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": 127,
@@ -1280,8 +1280,8 @@
         "subcollection": "team set",
         "rarity": "4 in each packet",
         "position": "A",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": 128,
@@ -1290,8 +1290,8 @@
         "subcollection": "team set",
         "rarity": "4 in each packet",
         "position": "A",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": 129,
@@ -1300,8 +1300,8 @@
         "subcollection": "team set",
         "rarity": "4 in each packet",
         "position": "B",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": 130,
@@ -1310,8 +1310,8 @@
         "subcollection": "team set",
         "rarity": "4 in each packet",
         "position": "B",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": 131,
@@ -1320,8 +1320,8 @@
         "subcollection": "team set",
         "rarity": "4 in each packet",
         "position": "B",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": 132,
@@ -1330,8 +1330,8 @@
         "subcollection": "team set",
         "rarity": "4 in each packet",
         "position": "B",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": 133,
@@ -1340,8 +1340,8 @@
         "subcollection": "team set",
         "rarity": "4 in each packet",
         "position": "B",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": 134,
@@ -1350,8 +1350,8 @@
         "subcollection": "team set",
         "rarity": "4 in each packet",
         "position": "B",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": 135,
@@ -1360,8 +1360,8 @@
         "subcollection": "team set",
         "rarity": "4 in each packet",
         "position": "W",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": 136,
@@ -1370,8 +1370,8 @@
         "subcollection": "Pune Warriors India Star Player",
         "rarity": "1 in 2 packets",
         "position": "W",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
 
 
@@ -1383,8 +1383,8 @@
         "type": "Silver Foil",
         "subcollection": "Rajasthan Royals team set",
         "rarity": "1 in 2 packets",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": 138,
@@ -1393,8 +1393,8 @@
         "subcollection": "Rajasthan Royals team set",
         "rarity": "4 in each packet",
         "position": "B",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": 139,
@@ -1403,8 +1403,8 @@
         "subcollection": "team set",
         "rarity": "4 in each packet",
         "position": "B",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": 140,
@@ -1413,8 +1413,8 @@
         "subcollection": "team set",
         "rarity": "4 in each packet",
         "position": "B",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": 141,
@@ -1423,8 +1423,8 @@
         "subcollection": "team set",
         "rarity": "4 in each packet",
         "position": "B",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": 142,
@@ -1433,8 +1433,8 @@
         "subcollection": "team set",
         "rarity": "4 in each packet",
         "position": "A",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": 143,
@@ -1443,8 +1443,8 @@
         "subcollection": "team set",
         "rarity": "4 in each packet",
         "position": "A",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": 144,
@@ -1453,8 +1453,8 @@
         "subcollection": "team set",
         "rarity": "4 in each packet",
         "position": "A",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": 145,
@@ -1463,8 +1463,8 @@
         "subcollection": "team set",
         "rarity": "4 in each packet",
         "position": "A",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": 146,
@@ -1473,8 +1473,8 @@
         "subcollection": "team set",
         "rarity": "4 in each packet",
         "position": "O",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": 147,
@@ -1483,8 +1483,8 @@
         "subcollection": "team set",
         "rarity": "4 in each packet",
         "position": "O",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": 148,
@@ -1493,8 +1493,8 @@
         "subcollection": "team set",
         "rarity": "4 in each packet",
         "position": "O",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": 149,
@@ -1503,8 +1503,8 @@
         "subcollection": "team set",
         "rarity": "4 in each packet",
         "position": "O",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": 150,
@@ -1513,8 +1513,8 @@
         "subcollection": "team set",
         "rarity": "4 in each packet",
         "position": "O",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": 151,
@@ -1523,18 +1523,18 @@
         "subcollection": "team set",
         "rarity": "4 in each packet",
         "position": "O",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": 152,
         "card": "Anil Paunkar",
         "type": "Base",
-        "subcollection": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
+        "subcollection": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
         "rarity": "4 in each packet",
         "position": "W",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": 153,
@@ -1543,8 +1543,8 @@
         "subcollection": "Rajasthan Royals Star Player",
         "rarity": "1 in 2 packets",
         "position": "B",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
 
 
@@ -1556,8 +1556,8 @@
         "type": "Silver Foil",
         "subcollection": "Royal Challengers Bangalore team set",
         "rarity": "1 in 2 packets",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": 155,
@@ -1566,8 +1566,8 @@
         "subcollection": "Royal Challengers Bangalore team set",
         "rarity": "4 in each packet",
         "position": "B",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": 156,
@@ -1576,8 +1576,8 @@
         "subcollection": "Royal Challengers Bangalore team set",
         "rarity": "4 in each packet",
         "position": "B",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": 157,
@@ -1586,8 +1586,8 @@
         "subcollection": "Royal Challengers Bangalore team set",
         "rarity": "4 in each packet",
         "position": "B",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": 158,
@@ -1596,8 +1596,8 @@
         "subcollection": "Royal Challengers Bangalore team set",
         "rarity": "4 in each packet",
         "position": "B",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": 159,
@@ -1606,8 +1606,8 @@
         "subcollection": "Royal Challengers Bangalore team set",
         "rarity": "4 in each packet",
         "position": "B",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": 160,
@@ -1616,8 +1616,8 @@
         "subcollection": "Royal Challengers Bangalore team set",
         "rarity": "4 in each packet",
         "position": "B",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": 161,
@@ -1626,8 +1626,8 @@
         "subcollection": "Royal Challengers Bangalore team set",
         "rarity": "4 in each packet",
         "position": "B",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": 162,
@@ -1636,8 +1636,8 @@
         "subcollection": "Royal Challengers Bangalore team set",
         "rarity": "4 in each packet",
         "position": "A",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": "163",
@@ -1646,8 +1646,8 @@
         "subcollection": "Royal Challengers Bangalore team set",
         "rarity": "4 in each packet",
         "position": "A",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": "164",
@@ -1656,8 +1656,8 @@
         "subcollection": "Royal Challengers Bangalore team set",
         "rarity": "4 in each packet",
         "position": "A",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": "165",
@@ -1666,8 +1666,8 @@
         "subcollection": "Royal Challengers Bangalore team set",
         "rarity": "4 in each packet",
         "position": "O",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": "166",
@@ -1676,8 +1676,8 @@
         "subcollection": "Royal Challengers Bangalore team set",
         "rarity": "4 in each packet",
         "position": "O",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": "167",
@@ -1686,8 +1686,8 @@
         "subcollection": "Royal Challengers Bangalore team set",
         "rarity": "4 in each packet",
         "position": "O",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": "168",
@@ -1696,8 +1696,8 @@
         "subcollection": "Royal Challengers Bangalore team set",
         "rarity": "4 in each packet",
         "position": "O",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": "169",
@@ -1706,8 +1706,8 @@
         "subcollection": "Royal Challengers Bangalore team set",
         "rarity": "4 in each packet",
         "position": "W",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": "170",
@@ -1716,8 +1716,8 @@
         "subcollection": "Star Player",
         "rarity": "1 in 2 packets",
         "position": "B",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
 
 
@@ -1730,8 +1730,8 @@
         "subcollection": "Man of the Match",
         "rarity": "1 in 5 packets",
         "position": "B",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": "172",
@@ -1740,8 +1740,8 @@
         "subcollection": "team set",
         "rarity": "1 in 5 packets",
         "position": "O",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": "173",
@@ -1750,8 +1750,8 @@
         "subcollection": "team set",
         "rarity": "1 in 5 packets",
         "position": "A",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": "174",
@@ -1760,8 +1760,8 @@
         "subcollection": "team set",
         "rarity": "1 in 5 packets",
         "position": "A",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": "175",
@@ -1770,8 +1770,8 @@
         "subcollection": "team set",
         "rarity": "1 in 5 packets",
         "position": "B",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": "176",
@@ -1780,8 +1780,8 @@
         "subcollection": "team set",
         "rarity": "1 in 5 packets",
         "position": "W",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": "177",
@@ -1790,8 +1790,8 @@
         "subcollection": "team set",
         "rarity": "1 in 5 packets",
         "position": "A",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": "178",
@@ -1800,8 +1800,8 @@
         "subcollection": "team set",
         "rarity": "1 in 5 packets",
         "position": "W",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": "179",
@@ -1810,8 +1810,8 @@
         "subcollection": "team set",
         "rarity": "1 in 5 packets",
         "position": "A",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": "180",
@@ -1820,8 +1820,8 @@
         "subcollection": "team set",
         "rarity": "1 in 5 packets",
         "position": "W",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": "181",
@@ -1830,8 +1830,8 @@
         "subcollection": "team set",
         "rarity": "1 in 5 packets",
         "position": "A",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": "182",
@@ -1840,8 +1840,8 @@
         "subcollection": "team set",
         "rarity": "1 in 5 packets",
         "position": "A",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": "183",
@@ -1850,8 +1850,8 @@
         "subcollection": "team set",
         "rarity": "1 in 5 packets",
         "position": "B",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": "184",
@@ -1860,8 +1860,8 @@
         "subcollection": "team set",
         "rarity": "1 in 5 packets",
         "position": "A",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": "185",
@@ -1870,8 +1870,8 @@
         "subcollection": "team set",
         "rarity": "1 in 5 packets",
         "position": "B",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": "186",
@@ -1880,8 +1880,8 @@
         "subcollection": "team set",
         "rarity": "1 in 5 packets",
         "position": "O",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": "187",
@@ -1890,8 +1890,8 @@
         "subcollection": "team set",
         "rarity": "1 in 5 packets",
         "position": "A",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": "188",
@@ -1900,8 +1900,8 @@
         "subcollection": "team set",
         "rarity": "1 in 5 packets",
         "position": "O",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": "189",
@@ -1910,8 +1910,8 @@
         "subcollection": "team set",
         "rarity": "1 in 5 packets",
         "position": "B",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": "190",
@@ -1920,8 +1920,8 @@
         "subcollection": "team set",
         "rarity": "1 in 5 packets",
         "position": "B",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": "191",
@@ -1930,8 +1930,8 @@
         "subcollection": "Auction Stars",
         "rarity": "Only available in special packets",
         "position": "W",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": "192",
@@ -1940,8 +1940,8 @@
         "subcollection": "Auction Stars",
         "rarity": "1 each in special packets",
         "position": "A",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": "193",
@@ -1950,8 +1950,8 @@
         "subcollection": "Auction Stars",
         "rarity": "1 each in special packets",
         "position": "B",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": "194",
@@ -1960,8 +1960,8 @@
         "subcollection": "Auction Stars",
         "rarity": "1 each in special packets",
         "position": "B",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": "195",
@@ -1970,8 +1970,8 @@
         "subcollection": "Auction Stars",
         "rarity": "1 each in special packets",
         "position": "A",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": "196",
@@ -1980,8 +1980,8 @@
         "subcollection": "Hat-trick Hero",
         "rarity": "Unknown",
         "position": "O",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": "197",
@@ -1990,8 +1990,8 @@
         "subcollection": "IPL3 Orange Cap Winner",
         "rarity": "Unknown",
         "position": "B",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": "198",
@@ -2000,8 +2000,8 @@
         "subcollection": "IPL3 Purple Cap Winner",
         "rarity": "Unknown",
         "position": "O",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     },
     {
         "sno": "199",
@@ -2010,7 +2010,7 @@
         "subcollection": "IPL3 POTT",
         "rarity": "Unknown",
         "position": "B",
-        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2011/",
-        "collection": "CA2011"
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
     }
 ]

@@ -8,5 +8,15 @@
         "position": "L",
         "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2021/",
         "collection": "MA2021"  
+    },
+    {
+        "sno": "CL9",
+        "card": "Lionel Messi",
+        "type": "Foil",
+        "subcollection": "100 Club Ultimate XI",
+        "rarity": "1 in 5 packets",
+        "position": "F",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2021/",
+        "collection": "MA2021"  
     }
 ]
