@@ -3,7 +3,7 @@ import path from "path";
 import fs from "fs/promises";
 
 type CardEntry = {
-  sno: string;
+  sno: number;
   card: string;
   type: string;
   subcollection: string;
@@ -11,8 +11,7 @@ type CardEntry = {
   image?: string;
 };
 
-// In-memory cache with proper type
-const collectionsCache: Record<string, CardEntry[]> = {};
+const cache: Record<string, CardEntry[]> = {};
 
 export async function GET(
   req: Request,
@@ -21,25 +20,23 @@ export async function GET(
   try {
     const { collection, cardId } = await context.params;
 
-    // Check cache first
-    if (!collectionsCache[collection]) {
-      const filePath = path.join(process.cwd(), "public", "data", collection, `${collection}.json`);
+    if (!cache[collection]) {
+      const filePath = path.join(process.cwd(), "public", "data", collection, `${collection.toUpperCase()}.json`);
       const fileData = await fs.readFile(filePath, "utf-8");
-      collectionsCache[collection] = JSON.parse(fileData) as CardEntry[];
+      cache[collection] = JSON.parse(fileData) as CardEntry[];
     }
 
-    const items = collectionsCache[collection];
-
-    // Find the requested card
-    const card = items.find(
+    const card = cache[collection].find(
       (c) => c.card.toLowerCase() === decodeURIComponent(cardId).toLowerCase()
     );
 
-    if (!card) return NextResponse.json({ message: "Card not found" }, { status: 404 });
+    if (!card) {
+      return NextResponse.json({ message: "Card not found" }, { status: 404 });
+    }
 
     return NextResponse.json(card);
   } catch (err) {
     console.error("Failed to fetch card:", err);
-    return NextResponse.json({ message: "Internal server error" }, { status: 500 });
+    return NextResponse.json({ message: "Internal Server Error" }, { status: 500 });
   }
 }

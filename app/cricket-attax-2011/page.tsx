@@ -21,25 +21,27 @@ type CardEntry = {
   type: string;
   subcollection: string;
   rarity: string;
-  image?: string; // optional if some items have no image
+  image?: string;
 };
 
-export default function MatchAttax2425() {
+export default function CricketAttax2011() {
   const [checklists, setChecklists] = useState<CardEntry[]>([]);
 
   useEffect(() => {
-  fetch("/api/items/CA2011")
-    .then(res => res.json())
-    .then(data => {
-      console.log("Fetched data:", data);
-      setChecklists(Array.isArray(data) ? data : []);
-    })
-    .catch(err => {
-      console.error("Failed to fetch items:", err);
-      setChecklists([]);
-    });
-}, []);
-
+    fetch("/data/ca2011/CA2011.json")
+      .then((res) => {
+        if (!res.ok) throw new Error(`Failed to load: ${res.status}`);
+        return res.json();
+      })
+      .then((data) => {
+        console.log("Fetched data:", data);
+        setChecklists(Array.isArray(data) ? data : []);
+      })
+      .catch((err) => {
+        console.error("Failed to fetch JSON:", err);
+        setChecklists([]);
+      });
+  }, []);
 
   return (
     <div>
@@ -56,7 +58,10 @@ export default function MatchAttax2425() {
           <div className="grid gap-4">
             <div className="p-6 border rounded-lg">
               <h2 className="text-2xl font-bold mb-4">Collection Overview</h2>
-              <p>Fun Fact: Deccan Chargers is the only team in this first edition of the collection which does not have a captain.</p>
+              <p>
+                Fun Fact: Deccan Chargers is the only team in this first edition of the collection
+                which does not have a captain.
+              </p>
             </div>
           </div>
 
@@ -68,35 +73,34 @@ export default function MatchAttax2425() {
                 <TableHead className="w-[70px]">Name</TableHead>
                 <TableHead>Card</TableHead>
                 <TableHead className="w-[50px]">Sub Collection</TableHead>
-                <TableHead className="w-[40px] ">Rarity</TableHead>
+                <TableHead className="w-[40px]">Rarity</TableHead>
               </TableRow>
             </TableHeader>
             <TableBody>
               {checklists.map((card) => (
                 <TableRow key={card.sno}>
-
                   <TableCell className="font-medium">{card.sno}</TableCell>
 
                   <TableCell className="font-medium">
                     {card.image ? (
                       <HoverCard>
                         <HoverCardTrigger asChild>
-  <a
-    href={`/cricket-attax-2011/${encodeURIComponent(card.card)}`}
-    className="cursor-pointer text-blue-600 hover:underline"
-  >
-    {card.card}
-  </a>
-</HoverCardTrigger>
+                          <a
+                            href={`/cricket-attax-2011/${encodeURIComponent(card.card)}`}
+                            className="cursor-pointer text-blue-600 hover:underline"
+                          >
+                            {card.card}
+                          </a>
+                        </HoverCardTrigger>
                         <HoverCardContent className="w-48 p-2">
-  <Image
-    src={card.image}
-    alt={card.card}
-    width={180}
-    height={180}
-    className="object-cover rounded-md border"
-  />
-</HoverCardContent>
+                          <Image
+                            src={card.image}
+                            alt={card.card}
+                            width={180}
+                            height={180}
+                            className="object-cover rounded-md border"
+                          />
+                        </HoverCardContent>
                       </HoverCard>
                     ) : (
                       card.card

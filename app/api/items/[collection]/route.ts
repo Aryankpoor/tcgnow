@@ -4,22 +4,16 @@ import fs from "fs/promises";
 
 export async function GET(
   req: Request,
-  context: { params: Promise<{ collection: string }> } // note: params is a Promise
+  context: { params: Promise<{ collection: string }> }
 ) {
   try {
-    // await the params promise
     const { collection } = await context.params;
-
-    // build path to your JSON file
-    const filePath = path.join(process.cwd(), "public", "data", collection, `${collection}.json`);
-
-    // read the JSON file
+    const filePath = path.join(process.cwd(), "public", "data", collection, `${collection.toUpperCase()}.json`);
     const fileData = await fs.readFile(filePath, "utf-8");
     const items = JSON.parse(fileData);
-
     return NextResponse.json(items);
   } catch (err) {
     console.error("Failed to fetch items:", err);
-    return NextResponse.json([], { status: 500 });
+    return NextResponse.json({ error: "Internal Server Error" }, { status: 500 });
   }
 }
