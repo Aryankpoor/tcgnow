@@ -23,7 +23,7 @@ export async function GET(
 
     // Check cache first
     if (!collectionsCache[collection]) {
-      const filePath = path.join(process.cwd(), "images", collection, `${collection}.json`);
+      const filePath = path.join(process.cwd(), "public", "data", collection, `${collection}.json`);
       const fileData = await fs.readFile(filePath, "utf-8");
       collectionsCache[collection] = JSON.parse(fileData) as CardEntry[];
     }
