@@ -24,12 +24,12 @@ type CardEntry = {
   image?: string;
 };
 
-export default function CricketAttax2016() {
+export default function CricketAttax2011() {
   const [checklists, setChecklists] = useState<CardEntry[]>([]);
-  const collection = "CA2016";
+  const collection = "CA2012";
 
   useEffect(() => {
-    fetch("/data/ca2016/CA2016.json")
+    fetch("/data/ca2012/CA2012.json")
       .then((res) => {
         if (!res.ok) throw new Error(`Failed to load: ${res.status}`);
         return res.json();
@@ -67,7 +67,7 @@ export default function CricketAttax2016() {
 
         <div className="max-w-4xl mx-auto">
           <p className="text-lg text-center mb-8">
-            Explore the complete Cricket Attax 2016 collection.
+            Explore the complete Cricket Attax 2012 collection.
           </p>
 
           <div className="grid gap-4">

@@ -26,6 +26,7 @@ type CardEntry = {
 
 export default function CricketAttax2011() {
   const [checklists, setChecklists] = useState<CardEntry[]>([]);
+  const collection = "CA2011";
 
   useEffect(() => {
     fetch("/data/ca2011/CA2011.json")
@@ -47,9 +48,23 @@ export default function CricketAttax2011() {
     <div>
       <Navbar />
       <main className="pt-20 pb-8 px-4">
+        <div className="relative w-full max-w-5xl mx-auto mb-8">
+          <Image
+          src={`/images/${collection.toLowerCase()}/banner.png`} // example path
+          alt="Collection Banner"
+          width={1200}
+          height={400}
+          style={{
+            objectFit: "cover",
+            objectPosition: "center",
+          }}
+          priority
+        />
+        </div>
         <h1 className="scroll-m-20 text-center text-4xl font-extrabold tracking-tight text-balance mb-8">
           Cricket Attax 2011
         </h1>
+
         <div className="max-w-4xl mx-auto">
           <p className="text-lg text-center mb-8">
             Explore the complete Cricket Attax 2011 collection.
@@ -59,12 +74,15 @@ export default function CricketAttax2011() {
             <div className="p-6 border rounded-lg">
               <h2 className="text-2xl font-bold mb-4">Collection Overview</h2>
               <p>
-                Fun Fact: Deccan Chargers is the only team in this first edition of the collection
-                which does not have a captain.
+                Total Cards: 199<br />
+                Total Base Cards: 154<br />
+                Total Foil Cards: 45<br />
+                Pack Types: Flowpacks<br />
+                Total Teams: 9  
               </p>
             </div>
           </div>
-
+          <br />
           <Table>
             <TableCaption>Cricket Attax 2011 Checklist</TableCaption>
             <TableHeader>
@@ -72,8 +90,8 @@ export default function CricketAttax2011() {
                 <TableHead>No.</TableHead>
                 <TableHead className="w-[70px]">Name</TableHead>
                 <TableHead>Card</TableHead>
-                <TableHead className="w-[50px]">Sub Collection</TableHead>
-                <TableHead className="w-[40px]">Rarity</TableHead>
+                <TableHead>Sub Collection</TableHead>
+                <TableHead >Rarity</TableHead>
               </TableRow>
             </TableHeader>
             <TableBody>
