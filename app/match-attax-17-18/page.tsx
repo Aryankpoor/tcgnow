@@ -24,7 +24,7 @@ type CardEntry = {
   image?: string;
 };
 
-export default function MatchAttax1617() {
+export default function MatchAttax1718() {
   const [checklists, setChecklists] = useState<CardEntry[]>([]);
 
   useEffect(() => {
@@ -51,22 +51,22 @@ export default function MatchAttax1617() {
       <Navbar />
       <main className="pt-20 pb-8 px-4">
         <h1 className="scroll-m-20 text-center text-4xl font-extrabold tracking-tight text-balance mb-8">
-          Match Attax 16/17
+          Match Attax 17/18
         </h1>
         <div className="max-w-4xl mx-auto">
           <p className="text-lg text-center mb-8">
-            Explore the complete Match Attax 16/17 collection.
+            Explore the complete Match Attax 17/18 collection.
           </p>
 
           <div className="grid gap-4">
             <div className="p-6 border rounded-lg">
               <h2 className="text-2xl font-bold mb-4">Collection Overview</h2>
-              <p>The 16/17 lineup with brand new designs and players</p>
+              <p>The 17/18 lineup with brand new designs and players</p>
             </div>
           </div>
 
           <Table>
-            <TableCaption>Match Attax 16/17 Checklist</TableCaption>
+            <TableCaption>Match Attax 17/18 Checklist</TableCaption>
             <TableHeader>
               <TableRow>
                 <TableHead>No.</TableHead>
@@ -86,7 +86,7 @@ export default function MatchAttax1617() {
                       <HoverCard>
                         <HoverCardTrigger asChild>
                           <a
-                            href={`/match-attax-16-17/${encodeURIComponent(card.card)}`}
+                            href={`/match-attax-17-18/${encodeURIComponent(card.card)}`}
                             className="cursor-pointer text-blue-600 hover:underline"
                           >
                             {card.card}
