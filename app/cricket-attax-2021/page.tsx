@@ -16,7 +16,7 @@ import { HoverCard, HoverCardTrigger, HoverCardContent } from "@/components/ui/h
 import Image from "next/image";
 
 type CardEntry = {
-  sno: string; // changed from number → string
+  sno: number;
   card: string;
   type: string;
   subcollection: string;
@@ -24,24 +24,22 @@ type CardEntry = {
   image?: string;
 };
 
-export default function MatchAttax1617() {
+export default function CricketAttax2021() {
   const [checklists, setChecklists] = useState<CardEntry[]>([]);
+  const collection = "CA2021";
 
   useEffect(() => {
-    fetch("/api/items/MA1617")
-      .then((res) => res.json())
+    fetch("/data/ca2021/CA2021.json")
+      .then((res) => {
+        if (!res.ok) throw new Error(`Failed to load: ${res.status}`);
+        return res.json();
+      })
       .then((data) => {
         console.log("Fetched data:", data);
-
-        // ✅ Ensure data stays in original order as in JSON
-        if (Array.isArray(data)) {
-          setChecklists(data);
-        } else {
-          setChecklists([]);
-        }
+        setChecklists(Array.isArray(data) ? data : []);
       })
       .catch((err) => {
-        console.error("Failed to fetch items:", err);
+        console.error("Failed to fetch JSON:", err);
         setChecklists([]);
       });
   }, []);
@@ -50,35 +48,55 @@ export default function MatchAttax1617() {
     <div>
       <Navbar />
       <main className="pt-20 pb-8 px-4">
+        <div className="relative w-full max-w-5xl mx-auto mb-8">
+          <Image
+          src={`/images/${collection.toLowerCase()}/banner.png`} // example path
+          alt="Collection Banner"
+          width={1200}
+          height={400}
+          style={{
+            objectFit: "cover",
+            objectPosition: "center",
+          }}
+          priority
+        />
+        </div>
         <h1 className="scroll-m-20 text-center text-4xl font-extrabold tracking-tight text-balance mb-8">
-          Match Attax 16/17
+          Cricket Attax 2021
         </h1>
+
         <div className="max-w-4xl mx-auto">
           <p className="text-lg text-center mb-8">
-            Explore the complete Match Attax 16/17 collection.
+            Explore the complete Cricket Attax 2021 collection.
           </p>
 
           <div className="grid gap-4">
             <div className="p-6 border rounded-lg">
               <h2 className="text-2xl font-bold mb-4">Collection Overview</h2>
-              <p>The 16/17 lineup with brand new designs and players</p>
+              <p>
+                Total Cards: 199<br />
+                Total Base Cards: 154<br />
+                Total Foil Cards: 45<br />
+                Pack Types: Flowpacks<br />
+                Total Teams: 9  
+              </p>
             </div>
           </div>
-
+          <br />
           <Table>
-            <TableCaption>Match Attax 16/17 Checklist</TableCaption>
+            <TableCaption>Cricket Attax 2021 Checklist</TableCaption>
             <TableHeader>
               <TableRow>
                 <TableHead>No.</TableHead>
-                <TableHead className="w-[100px]">Name</TableHead>
+                <TableHead className="w-[70px]">Name</TableHead>
                 <TableHead>Card</TableHead>
-                <TableHead className="w-[100px]">Sub Collection</TableHead>
-                <TableHead className="w-[80px]">Collection Rarity</TableHead>
+                <TableHead>Sub Collection</TableHead>
+                <TableHead >Rarity</TableHead>
               </TableRow>
             </TableHeader>
             <TableBody>
-              {checklists.map((card, index) => (
-                <TableRow key={`${card.card}-${index}`}>
+              {checklists.map((card) => (
+                <TableRow key={card.sno}>
                   <TableCell className="font-medium">{card.sno}</TableCell>
 
                   <TableCell className="font-medium">
@@ -86,7 +104,7 @@ export default function MatchAttax1617() {
                       <HoverCard>
                         <HoverCardTrigger asChild>
                           <a
-                            href={`/match-attax-16-17/${encodeURIComponent(card.card)}`}
+                            href={`/cricket-attax-2021/${encodeURIComponent(card.card)}`}
                             className="cursor-pointer text-blue-600 hover:underline"
                           >
                             {card.card}
@@ -109,7 +127,7 @@ export default function MatchAttax1617() {
 
                   <TableCell>{card.type}</TableCell>
                   <TableCell>{card.subcollection}</TableCell>
-                  <TableCell className="text-right">{card.rarity}</TableCell>
+                  <TableCell>{card.rarity}</TableCell>
                 </TableRow>
               ))}
             </TableBody>
@@ -117,9 +135,7 @@ export default function MatchAttax1617() {
             <TableFooter>
               <TableRow>
                 <TableCell colSpan={3}>Total</TableCell>
-                <TableCell className="text-right">
-                  {checklists.length} Cards
-                </TableCell>
+                <TableCell className="text-right">{checklists.length} Cards</TableCell>
               </TableRow>
             </TableFooter>
           </Table>

@@ -22,7 +22,7 @@ export default function CardDetailPage() {
   useEffect(() => {
     if (!cardId) return;
 
-    fetch("/data/ca2011/CA2011.json")
+    fetch("/data/ca2013/CA2013.json")
       .then((res) => {
         if (!res.ok) throw new Error("Failed to fetch JSON");
         return res.json();

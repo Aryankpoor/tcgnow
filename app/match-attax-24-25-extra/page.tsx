@@ -86,7 +86,7 @@ export default function MatchAttax2425() {
                       <HoverCard>
                         <HoverCardTrigger asChild>
                           <a
-                            href={`/match-attax-23-24/${encodeURIComponent(card.card)}`}
+                            href={`/match-attax-24-25e/${encodeURIComponent(card.card)}`}
                             className="cursor-pointer text-blue-600 hover:underline"
                           >
                             {card.card}

@@ -24,12 +24,12 @@ type CardEntry = {
   image?: string;
 };
 
-export default function CricketAttax2011() {
+export default function CricketAttax2013() {
   const [checklists, setChecklists] = useState<CardEntry[]>([]);
-  const collection = "CA2012";
+  const collection = "CA2013";
 
   useEffect(() => {
-    fetch("/data/ca2012/CA2012.json")
+    fetch("/data/ca2013/CA2013.json")
       .then((res) => {
         if (!res.ok) throw new Error(`Failed to load: ${res.status}`);
         return res.json();
@@ -62,12 +62,12 @@ export default function CricketAttax2011() {
         />
         </div>
         <h1 className="scroll-m-20 text-center text-4xl font-extrabold tracking-tight text-balance mb-8">
-          Cricket Attax 2012
+          Cricket Attax 2013
         </h1>
 
         <div className="max-w-4xl mx-auto">
           <p className="text-lg text-center mb-8">
-            Explore the complete Cricket Attax 2012 collection.
+            Explore the complete Cricket Attax 2013 collection.
           </p>
 
           <div className="grid gap-4">
@@ -84,7 +84,7 @@ export default function CricketAttax2011() {
           </div>
           <br />
           <Table>
-            <TableCaption>Cricket Attax 2012 Checklist</TableCaption>
+            <TableCaption>Cricket Attax 2013 Checklist</TableCaption>
             <TableHeader>
               <TableRow>
                 <TableHead>No.</TableHead>
@@ -104,7 +104,7 @@ export default function CricketAttax2011() {
                       <HoverCard>
                         <HoverCardTrigger asChild>
                           <a
-                            href={`/cricket-attax-2012/${encodeURIComponent(card.card)}`}
+                            href={`/cricket-attax-2013/${encodeURIComponent(card.card)}`}
                             className="cursor-pointer text-blue-600 hover:underline"
                           >
                             {card.card}
