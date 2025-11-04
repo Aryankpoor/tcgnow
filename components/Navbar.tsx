@@ -97,13 +97,13 @@ export default function Navbar() {
             <NavigationMenuTrigger className="font-bold">Topps Match Attax Premier League</NavigationMenuTrigger>
             <NavigationMenuContent>
               <NavigationMenuLink className="font-bold" asChild>
-                <Link href="/match-attax-20-21">Topps Premier League 2026</Link>
+                <Link href="/match-attax-2026p">Topps Premier League 2026</Link>
               </NavigationMenuLink>
               <NavigationMenuLink className="font-bold" asChild>
-                <Link href="/match-attax-19-20">Match Attax 17/18</Link>
+                <Link href="/match-attax-17-18">Match Attax 17/18</Link>
               </NavigationMenuLink>
               <NavigationMenuLink className="font-bold" asChild>
-                <Link href="/match-attax-18-19">Match Attax 14/15</Link>
+                <Link href="/match-attax-14-15">Match Attax 14/15</Link>
               </NavigationMenuLink>
               <ul className="grid gap-2 md:w-[400px] lg:w-[500px] lg:grid-cols-[.75fr_1fr]">
                 <li className="row-span-3">

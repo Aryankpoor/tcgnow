@@ -26,11 +26,11 @@ type CardEntry = {
 
 export default function CricketAttax2017() {
   const [checklists, setChecklists] = useState<CardEntry[]>([]);
-  const collection = "CA2011";
+  const collection = "CA2017";
 
   useEffect(() => {
-    fetch("/data/ca2011/CA2011.json")
-      .then((res) => {
+    fetch("/data/ca2017/CA2017.json")
+      .then((res) => {8
         if (!res.ok) throw new Error(`Failed to load: ${res.status}`);
         return res.json();
       })
@@ -40,7 +40,7 @@ export default function CricketAttax2017() {
       })
       .catch((err) => {
         console.error("Failed to fetch JSON:", err);
-        setChecklists([]);
+        setChecklists([]); 
       });
   }, []);
 
@@ -50,7 +50,7 @@ export default function CricketAttax2017() {
       <main className="pt-20 pb-8 px-4">
         <div className="relative w-full max-w-5xl mx-auto mb-8">
           <Image
-          src={`/images/${collection.toLowerCase()}/banner.png`} // example path
+          src={`/images/${collection.toLowerCase()}/banner.png`} 
           alt="Collection Banner"
           width={1200}
           height={400}

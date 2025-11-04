@@ -21,54 +21,77 @@ type CardEntry = {
   type: string;
   subcollection: string;
   rarity: string;
-  image?: string; // optional if some items have no image
+  image?: string;
 };
 
 export default function MatchAttax2425() {
   const [checklists, setChecklists] = useState<CardEntry[]>([]);
+  const collection = "MA2425";
 
   useEffect(() => {
-  fetch("/api/items/MA2425")
-    .then(res => res.json())
-    .then(data => {
-      console.log("Fetched data:", data);
-      setChecklists(Array.isArray(data) ? data : []);
-    })
-    .catch(err => {
-      console.error("Failed to fetch items:", err);
-      setChecklists([]);
-    });
-}, []);
-
+    fetch("/data/ma2425/MA2425.json")
+      .then((res) => {
+        if (!res.ok) throw new Error(`Failed to load: ${res.status}`);
+        return res.json();
+      })
+      .then((data) => {
+        console.log("Fetched data:", data);
+        setChecklists(Array.isArray(data) ? data : []);
+      })
+      .catch((err) => {
+        console.error("Failed to fetch JSON:", err);
+        setChecklists([]);
+      });
+  }, []);
 
   return (
     <div>
       <Navbar />
       <main className="pt-20 pb-8 px-4">
+        <div className="relative w-full max-w-5xl mx-auto mb-8">
+          <Image
+          src={`/images/${collection.toLowerCase()}/banner.png`} 
+          alt="Collection Banner"
+          width={1200}
+          height={400}
+          style={{
+            objectFit: "cover",
+            objectPosition: "center",
+          }}
+          priority
+        />
+        </div>
         <h1 className="scroll-m-20 text-center text-4xl font-extrabold tracking-tight text-balance mb-8">
           Match Attax 24/25
         </h1>
+
         <div className="max-w-4xl mx-auto">
           <p className="text-lg text-center mb-8">
-            Explore the complete Match Attax 24/25 collection.
+            Explore the 2024 installment of Match Attax with cards from the 24/25 Season of Uefa Club Competitions.
           </p>
 
           <div className="grid gap-4">
             <div className="p-6 border rounded-lg">
               <h2 className="text-2xl font-bold mb-4">Collection Overview</h2>
-              <p>Information about Match Attax 24/25 collection.</p>
+              <p>
+                Total Cards: 676<br />
+                Total Base Cards: 454<br />
+                Total Foil Cards: 128<br />
+                Pack Types: Flowpacks, Multipacks, Mega Multipacks, Booster boxes, Update Packs, Tins<br />
+                Total Teams: 32  
+              </p>
             </div>
           </div>
-
+          <br />
           <Table>
             <TableCaption>Match Attax 24/25 Checklist</TableCaption>
             <TableHeader>
               <TableRow>
                 <TableHead>No.</TableHead>
-                <TableHead className="w-[100px]">Name</TableHead>
+                <TableHead className="w-[70px]">Name</TableHead>
                 <TableHead>Card</TableHead>
-                <TableHead className="w-[100px]">Sub Collection</TableHead>
-                <TableHead className="w-[80px]">Collection Rarity</TableHead>
+                <TableHead>Sub Collection</TableHead>
+                <TableHead >Rarity</TableHead>
               </TableRow>
             </TableHeader>
             <TableBody>
@@ -80,30 +103,22 @@ export default function MatchAttax2425() {
                     {card.image ? (
                       <HoverCard>
                         <HoverCardTrigger asChild>
-  <a
-    href={`/match-attax-24-25/${encodeURIComponent(card.card)}`}
-    className="cursor-pointer text-blue-600 hover:underline"
-  >
-    {card.card}
-  </a>
-</HoverCardTrigger>
-
+                          <a
+                            href={`/match-attax-24-25/${encodeURIComponent(card.card)}`}
+                            className="cursor-pointer text-blue-600 hover:underline"
+                          >
+                            {card.card}
+                          </a>
+                        </HoverCardTrigger>
                         <HoverCardContent className="w-48 p-2">
-  {card.image ? (
-  <Image
-    src={card.image}
-    alt={card.card}
-    width={180}
-    height={180}
-    className="object-cover rounded-md border"
-  />
-) : (
-  <div className="text-sm text-muted-foreground italic">
-    No image available
-  </div>
-)}
-
-</HoverCardContent>
+                          <Image
+                            src={card.image}
+                            alt={card.card}
+                            width={180}
+                            height={180}
+                            className="object-cover rounded-md border"
+                          />
+                        </HoverCardContent>
                       </HoverCard>
                     ) : (
                       card.card
@@ -112,7 +127,7 @@ export default function MatchAttax2425() {
 
                   <TableCell>{card.type}</TableCell>
                   <TableCell>{card.subcollection}</TableCell>
-                  <TableCell className="text-right">{card.rarity}</TableCell>
+                  <TableCell>{card.rarity}</TableCell>
                 </TableRow>
               ))}
             </TableBody>

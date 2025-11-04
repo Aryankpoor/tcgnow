@@ -21,81 +21,104 @@ type CardEntry = {
   type: string;
   subcollection: string;
   rarity: string;
-  image?: string; // optional if some items have no image
+  image?: string;
 };
 
-export default function MatchAttax2425() {
+export default function MatchAttax2223e() {
   const [checklists, setChecklists] = useState<CardEntry[]>([]);
+  const collection = "MA2223e";
 
   useEffect(() => {
-  fetch("/api/items/MA2223e")
-    .then(res => res.json())
-    .then(data => {
-      console.log("Fetched data:", data);
-      setChecklists(Array.isArray(data) ? data : []);
-    })
-    .catch(err => {
-      console.error("Failed to fetch items:", err);
-      setChecklists([]);
-    });
-}, []);
-
+    fetch("/data/ma2223e/MA2223e.json")
+      .then((res) => {
+        if (!res.ok) throw new Error(`Failed to load: ${res.status}`);
+        return res.json();
+      })
+      .then((data) => {
+        console.log("Fetched data:", data);
+        setChecklists(Array.isArray(data) ? data : []);
+      })
+      .catch((err) => {
+        console.error("Failed to fetch JSON:", err);
+        setChecklists([]);
+      });
+  }, []);
 
   return (
     <div>
       <Navbar />
       <main className="pt-20 pb-8 px-4">
+        <div className="relative w-full max-w-5xl mx-auto mb-8">
+          <Image
+          src={`/images/${collection.toLowerCase()}/banner.png`} 
+          alt="Collection Banner"
+          width={1200}
+          height={400}
+          style={{
+            objectFit: "cover",
+            objectPosition: "center",
+          }}
+          priority
+        />
+        </div>
         <h1 className="scroll-m-20 text-center text-4xl font-extrabold tracking-tight text-balance mb-8">
-          Match Attax 2023 Extra
+          Match Attax 22/23 Extra
         </h1>
+
         <div className="max-w-4xl mx-auto">
           <p className="text-lg text-center mb-8">
-            Explore the complete Match Attax 22/23 Extra collection.
+            Explore the 2023 installment of Match Attax extra.
           </p>
 
           <div className="grid gap-4">
             <div className="p-6 border rounded-lg">
               <h2 className="text-2xl font-bold mb-4">Collection Overview</h2>
-              <p>Information about Match Attax 22/23 Extra collection.</p>
+              <p>
+                Total Cards: 676<br />
+                Total Base Cards: 454<br />
+                Total Foil Cards: 128<br />
+                Pack Types: Flowpacks, Multipacks, Mega Multipacks, Booster boxes, Update Packs, Tins<br />
+                Total Teams: 32  
+              </p>
             </div>
           </div>
-
+          <br />
           <Table>
-            <TableCaption>Match Attax 22/23 Checklist</TableCaption>
+            <TableCaption>Match Attax 22/23 Extra Checklist</TableCaption>
             <TableHeader>
               <TableRow>
                 <TableHead>No.</TableHead>
-                <TableHead className="w-[100px]">Name</TableHead>
+                <TableHead className="w-[70px]">Name</TableHead>
                 <TableHead>Card</TableHead>
-                <TableHead className="w-[100px]">Sub Collection</TableHead>
-                <TableHead className="w-[80px]">Collection Rarity</TableHead>
+                <TableHead>Sub Collection</TableHead>
+                <TableHead >Rarity</TableHead>
               </TableRow>
             </TableHeader>
             <TableBody>
               {checklists.map((card) => (
-                <TableRow key={card.card}>
+                <TableRow key={card.sno}>
                   <TableCell className="font-medium">{card.sno}</TableCell>
 
                   <TableCell className="font-medium">
                     {card.image ? (
                       <HoverCard>
                         <HoverCardTrigger asChild>
-  <a
-    href={`/match-attax-22-23-extra/${encodeURIComponent(card.card)}`}
-    className="cursor-pointer text-blue-600 hover:underline"
-  >
-    {card.card}
-  </a>
-</HoverCardTrigger>
+                          <a
+                            href={`/match-attax-22-23-extra/${encodeURIComponent(card.card)}`}
+                            className="cursor-pointer text-blue-600 hover:underline"
+                          >
+                            {card.card}
+                          </a>
+                        </HoverCardTrigger>
                         <HoverCardContent className="w-48 p-2">
-  <Image
-    src={card.image}
-    alt={card.card}
-    width={180}
-    height={180}
-    className="object-cover rounded-md border"
-  />
-</HoverCardContent>
+                          <Image
+                            src={card.image}
+                            alt={card.card}
+                            width={180}
+                            height={180}
+                            className="object-cover rounded-md border"
+                          />
+                        </HoverCardContent>
                       </HoverCard>
                     ) : (
                       card.card
@@ -104,7 +127,7 @@ export default function MatchAttax2425() {
 
                   <TableCell>{card.type}</TableCell>
                   <TableCell>{card.subcollection}</TableCell>
-                  <TableCell className="text-right">{card.rarity}</TableCell>
+                  <TableCell>{card.rarity}</TableCell>
                 </TableRow>
               ))}
             </TableBody>
