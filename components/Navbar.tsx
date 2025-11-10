@@ -18,6 +18,9 @@ export default function Navbar() {
             <NavigationMenuTrigger className="font-bold">Topps UCC</NavigationMenuTrigger>
             <NavigationMenuContent>
               <NavigationMenuLink className="font-bold" asChild>
+                <Link href="/match-attax-25-26">Match Attax 25/26</Link>
+              </NavigationMenuLink>
+              <NavigationMenuLink className="font-bold" asChild>
                 <Link href="/match-attax-24-25-extra">Match Attax 24/25 Extra</Link>
               </NavigationMenuLink>
               <NavigationMenuLink className="font-bold" asChild>
