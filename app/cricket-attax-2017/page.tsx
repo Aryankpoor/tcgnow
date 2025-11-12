@@ -82,6 +82,23 @@ export default function CricketAttax2017() {
               </p>
             </div>
           </div>
+          <div style={{ marginTop: '16px' }}>
+        <a 
+          href="/data/ca2017/ca2017.pdf" 
+          download 
+          style={{
+            display: 'inline-block',
+            padding: '10px 20px',
+            backgroundColor: '#3498db',
+            color: 'white',
+            textDecoration: 'none',
+            borderRadius: '5px',
+            fontWeight: 500,
+          }}
+        >
+          Download Binder Covers
+        </a>
+      </div>
           <br />
           <Table>
             <TableCaption>Cricket Attax 2017 Checklist</TableCaption>
