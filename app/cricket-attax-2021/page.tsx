@@ -83,7 +83,7 @@ export default function CricketAttax2021() {
             </div>
           </div>
           <div style={{ marginTop: '16px' }}>
-        <a 
+        <a
           href="/data/ca2021/ca2021.pdf" 
           download 
           style={{

@@ -82,6 +82,23 @@ export default function MatchAttax1819() {
               </p>
             </div>
           </div>
+          <div style={{ marginTop: '16px' }}>
+        <a
+          href="/data/ma1819/ma1819.pdf" 
+          download 
+          style={{
+            display: 'inline-block',
+            padding: '10px 20px',
+            backgroundColor: '#3498db',
+            color: 'white',
+            textDecoration: 'none',
+            borderRadius: '5px',
+            fontWeight: 500,
+          }}
+        >
+          Download Binder Covers
+        </a>
+      </div>
           <br />
           <Table>
             <TableCaption>Match Attax 18/19 Checklist</TableCaption>

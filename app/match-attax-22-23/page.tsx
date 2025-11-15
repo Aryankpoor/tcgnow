@@ -82,6 +82,23 @@ export default function MatchAttax2223() {
               </p>
             </div>
           </div>
+          <div style={{ marginTop: '16px' }}>
+        <a
+          href="/data/ma2223/ma2223.pdf" 
+          download 
+          style={{
+            display: 'inline-block',
+            padding: '10px 20px',
+            backgroundColor: '#3498db',
+            color: 'white',
+            textDecoration: 'none',
+            borderRadius: '5px',
+            fontWeight: 500,
+          }}
+        >
+          Download Binder Covers
+        </a>
+      </div>
           <br />
           <Table>
             <TableCaption>Match Attax 22/23 Checklist</TableCaption>
