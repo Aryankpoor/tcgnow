@@ -82,7 +82,7 @@ export default function MatchAttax2223e() {
               </p>
             </div>
           </div>
-          <div style={{ marginTop: '16px' }}>
+          <div style={{ marginTop: '16px', display: "flex", gap: "12px" }}>
         <a
           href="/data/ma2223e/ma2223e.pdf" 
           download 

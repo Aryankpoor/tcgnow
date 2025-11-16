@@ -82,7 +82,7 @@ export default function MatchAttax2026p() {
               </p>
             </div>
           </div>
-        <div style={{ marginTop: '16px', display: "flex", gap: "12px"  }}>
+        <div style={{ marginTop: '16px', display: "flex", gap: "12px"}}>
         <a
           href="/data/sa2021/sa2021.pdf" 
           download 
