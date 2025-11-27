@@ -24,12 +24,12 @@ type CardEntry = {
   image?: string;
 };
 
-export default function MatchAttax2026p() {
+export default function SlamAttax2012p() {
   const [checklists, setChecklists] = useState<CardEntry[]>([]);
-  const collection = "MA2026p";
+  const collection = "SA2012p";
 
   useEffect(() => {
-    fetch("/data/ma2026p/MA2026p.json")
+    fetch("/data/sa2012p/SA2012p.json")
       .then((res) => {
         if (!res.ok) throw new Error(`Failed to load: ${res.status}`);
         return res.json();
@@ -62,12 +62,12 @@ export default function MatchAttax2026p() {
         />
         </div>
         <h1 className="scroll-m-20 text-center text-4xl font-extrabold tracking-tight text-balance mb-8">
-          Topps Premier League 2026
+          Slam Attax Rebellion
         </h1>
 
         <div className="max-w-4xl mx-auto">
           <p className="text-lg text-center mb-8">
-            Explore the complete Topps Premier League 2026 collection.
+            Explore the complete Slam Attax Rebellion collection.
           </p>
 
           <div className="grid gap-4">
@@ -101,7 +101,7 @@ export default function MatchAttax2026p() {
       </div>
           <br />
           <Table>
-            <TableCaption>Topps Premier League Checklist</TableCaption>
+            <TableCaption>Slam Attax Rebellion Checklist</TableCaption>
             <TableHeader>
               <TableRow>
                 <TableHead>No.</TableHead>
