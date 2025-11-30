@@ -14,7 +14,7 @@ type CardEntry = {
   image?: string;
 };
 
-export default function CardProfilePage() {
+export default function CardProfilePage() { 
   const { cardId } = useParams<{ cardId: string }>();
   const [cardData, setCardData] = useState<CardEntry | null>(null);
   const [loading, setLoading] = useState(true);
