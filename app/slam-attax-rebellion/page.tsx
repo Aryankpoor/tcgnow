@@ -62,7 +62,7 @@ export default function SlamAttax2012p() {
         />
         </div>
         <h1 className="scroll-m-20 text-center text-4xl font-extrabold tracking-tight text-balance mb-8">
-          Slam Attax Rebellion
+          Topps Slam Attax Rebellion
         </h1>
 
         <div className="max-w-4xl mx-auto">
