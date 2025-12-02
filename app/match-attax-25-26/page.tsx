@@ -79,6 +79,7 @@ export default function MatchAttax2425e() {
                 Total Foil Cards: 45<br />
                 Pack Types: Flowpacks<br />
                 Total Teams: 9  
+                3 Update Exclusive Packs
               </p>
             </div>
           </div>
