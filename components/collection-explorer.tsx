@@ -67,25 +67,36 @@ function getSportFromCollection(code: string): Sport | null {
 
   if (normalized.startsWith("CA")) return "Cricket";
   if (normalized.startsWith("WWE")) return "WWE";
-
+  if (normalized.startsWith("MA")) return "Football";
   return null;
 }
 
+
 function getSeasonFromCode(code: string): string {
-  const match = code.match(/((?:19|20)\d{2})(?:[-–](\d{2,4}))?/);
+  const normalized = code.trim().toUpperCase();
 
-  if (!match) return "Other / unknown";
+  // Format: MA2223 -> 2022–2023
+  const shortRangeMatch = normalized.match(/^[A-Z]+(\d{2})(\d{2})$/);
 
-  const startYear = match[1];
-  const endYear = match[2];
+  if (shortRangeMatch) {
+    const startYear = Number(shortRangeMatch[1]);
+    const endYear = Number(shortRangeMatch[2]);
 
-  if (!endYear) return startYear;
+    return `${2000 + startYear}–${2000 + endYear}`;
+  }
 
-  const shortEndYear =
-    endYear.length === 4 ? endYear.slice(2) : endYear;
+  // Format: MA2021 -> 2020–2021
+  const fullYearMatch = normalized.match(/^[A-Z]+(\d{4})$/);
 
-  return `${startYear}–${shortEndYear}`;
+  if (fullYearMatch) {
+    const endYear = Number(fullYearMatch[1]);
+
+    return `${endYear - 1}–${endYear}`;
+  }
+
+  return "Other / unknown";
 }
+
 
 const columnLabels: Record<ColumnKey, string> = {
   sno: "S. No.",
