@@ -21,12 +21,8 @@
     "gsap": "^3.15.0",
     "lucide-react": "^0.544.0",
     "mongodb": "^6.20.0",
-<<<<<<< HEAD
     "neo4j-driver": "^6.2.0",
     "next": "^16.0.1",
-=======
-    "next": "16.0.10",
->>>>>>> e293e447e29132d757b6a13154fc1da98282062d
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
     "swr": "^2.3.6",
@@ -40,11 +36,7 @@
     "@types/node": "^20",
     "@types/react": "19.2.2",
     "@types/react-dom": "19.2.2",
-<<<<<<< HEAD
     "baseline-browser-mapping": "^2.11.30",
-=======
-    "baseline-browser-mapping": "^2.9.4",
->>>>>>> e293e447e29132d757b6a13154fc1da98282062d
     "eslint": "^9",
     "eslint-config-next": "^16.0.1",
     "prisma": "^8.0.0-rc.12",
