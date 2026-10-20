@@ -6,14 +6,15 @@ import neo4j from "neo4j-driver";
 type CardRecord = {
   sno: number;
   card: string;
-  type: string;
-  subcollection: string;
-  rarity: string;
-  position: string;
-  image: string;
+  type?: string;
+  subcollection?: string;
+  rarity?: string;
+  position?: string;
+  image?: string;
   collection: string;
-  "collection-sno": number;
+  "collection-sno"?: number;
 };
+
 
 const uri = process.env.NEO4J_URI;
 const username = process.env.NEO4J_USERNAME;
@@ -67,18 +68,20 @@ async function main() {
       FOR (s:Subcollection) REQUIRE s.name IS UNIQUE
     `);
 
-    const records = cards.map((card) => ({
-      id: `${card.collection}:${card.sno}`,
-      sno: card.sno,
-      card: card.card,
-      type: card.type,
-      subcollection: card.subcollection,
-      rarity: card.rarity,
-      position: card.position,
-      image: card.image,
-      collection: card.collection,
-      collectionSno: card["collection-sno"],
-    }));
+    
+  const records = cards.map((card) => ({
+    id: `${card.collection}:${card.sno}`,
+    sno: card.sno,
+    card: card.card,
+    type: card.type ?? null,
+    subcollection: card.subcollection ?? "Uncategorized",
+    rarity: card.rarity ?? null,
+    position: card.position ?? null,
+    image: card.image ?? null,
+    collection: card.collection,
+    collectionSno: card["collection-sno"] ?? null,
+  }));
+
 
     const result = await session.executeWrite((tx) =>
       tx.run(
