@@ -67,24 +67,46 @@ export async function GET(request: NextRequest) {
     );
 
     
+
+const toSafeNumber = (value: unknown): number | null => {
+  if (value == null) return null;
+
+  if (typeof value === "number") {
+    return Number.isFinite(value) ? value : null;
+  }
+
+  if (
+    typeof value === "object" &&
+    "toNumber" in value &&
+    typeof value.toNumber === "function"
+  ) {
+    return value.toNumber();
+  }
+
+  const parsed = Number(value);
+  return Number.isFinite(parsed) ? parsed : null;
+};
+
 const cards = result.records.map((record) => {
-  const sno = record.get("sno");
-  const collectionSno = record.get("collectionSno");
+  const sno = toSafeNumber(record.get("sno"));
+  const collectionSno = toSafeNumber(record.get("collectionSno"));
 
   return {
-    id: String(record.get("id")),
-    sno: sno == null ? 0 : sno.toNumber(),
+    id: String(record.get("id") ?? ""),
+    sno: sno ?? 0,
     card: String(record.get("card") ?? ""),
     type: String(record.get("type") ?? "—"),
-    subcollection: String(record.get("subcollection") ?? "Uncategorized"),
+    subcollection: String(
+      record.get("subcollection") ?? "Uncategorized"
+    ),
     rarity: String(record.get("rarity") ?? "—"),
     position: String(record.get("position") ?? "—"),
     image: String(record.get("image") ?? ""),
     collection: String(record.get("collection") ?? ""),
-    "collection-sno":
-      collectionSno == null ? null : collectionSno.toNumber(),
+    "collection-sno": collectionSno,
   };
 });
+
 
 
     return NextResponse.json({ cards });
