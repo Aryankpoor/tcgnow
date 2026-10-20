@@ -37,7 +37,21 @@ type CollectionOption = {
   code: string;
   cardCount: number;
   season: string;
+  sport: Sport | null;
 };
+
+type Sport = "Cricket" | "Football" | "WWE";
+
+const sports: Sport[] = ["Cricket", "Football", "WWE"];
+
+function getSportFromCollection(code: string): Sport | null {
+  const normalized = code.trim().toUpperCase();
+
+  if (normalized.startsWith("CA")) return "Cricket";
+  if (normalized.startsWith("WWE")) return "WWE";
+
+  return null;
+}
 
 function getSeasonFromCode(code: string): string {
   const match = code.match(/((?:19|20)\d{2})(?:[-–](\d{2,4}))?/);
@@ -89,7 +103,7 @@ const defaultColumns: ColumnKey[] = [
 
 export default function CollectionExplorer() {
   const root = useRef<HTMLElement>(null);
-
+  const [sport, setSport] = useState<Sport | "">("");
   const [availableCollections, setAvailableCollections] =
     useState<CollectionOption[]>([]);
   const [season, setSeason] = useState("");
@@ -128,12 +142,13 @@ export default function CollectionExplorer() {
         const data = await response.json();
 
         const options: CollectionOption[] = data.collections.map(
-          (item: { code: string; cardCount: number }) => ({
-            code: item.code,
-            cardCount: Number(item.cardCount),
-            season: getSeasonFromCode(item.code),
-          })
-        );
+  (item: { code: string; cardCount: number }) => ({
+    code: item.code,
+    cardCount: Number(item.cardCount),
+    season: getSeasonFromCode(item.code),
+    sport: getSportFromCollection(item.code),
+  })
+);
 
         if (!cancelled) {
           setAvailableCollections(options);
@@ -390,25 +405,29 @@ export default function CollectionExplorer() {
     { scope: root }
   );
 
-  const seasons = useMemo(
-    () =>
-      [
-        ...new Set(
-          availableCollections.map((item) => item.season)
-        ),
-      ].sort((a, b) =>
-        a.localeCompare(b, undefined, { numeric: true })
-      ),
-    [availableCollections]
-  );
+  const sportCollections = useMemo(
+  () =>
+    availableCollections.filter(
+      (item) => !sport || item.sport === sport
+    ),
+  [availableCollections, sport]
+);
 
-  const collections = useMemo(
-    () =>
-      availableCollections.filter(
-        (item) => !season || item.season === season
-      ),
-    [availableCollections, season]
-  );
+const seasons = useMemo(
+  () =>
+    [...new Set(sportCollections.map((item) => item.season))].sort(
+      (a, b) => a.localeCompare(b, undefined, { numeric: true })
+    ),
+  [sportCollections]
+);
+
+const collections = useMemo(
+  () =>
+    sportCollections.filter(
+      (item) => !season || item.season === season
+    ),
+  [sportCollections, season]
+);
 
   const filteredRows = useMemo(() => {
     const normalized = query.trim().toLowerCase();
@@ -567,6 +586,30 @@ export default function CollectionExplorer() {
           </div>
 
           <div className="tcg-select-grid">
+            <label className="tcg-field">
+  <span>SPORT</span>
+  <div className="select-wrap">
+    <select
+      value={sport}
+      onChange={(event) => {
+        setSport(event.target.value as Sport | "");
+        setSeason("");
+        setCollection("");
+        setQuery("");
+        setPage(1);
+      }}
+      disabled={loadingCollections}
+    >
+      <option value="">Choose a sport</option>
+      {sports.map((value) => (
+        <option key={value} value={value}>
+          {value}
+        </option>
+      ))}
+    </select>
+    <ChevronDown size={15} />
+  </div>
+</label>
             <label className="tcg-field">
               <span>YEAR / SEASON</span>
               <div className="select-wrap">

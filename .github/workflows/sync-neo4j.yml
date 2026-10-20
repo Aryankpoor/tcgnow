@@ -1,0 +1,51 @@
+
+name: Sync card dataset to Neo4j
+
+on:
+  push:
+    branches:
+      - master
+    paths:
+      - "public/data/dataset.json"
+      - "scripts/import-cards.ts"
+      - "package.json"
+      - "package-lock.json"
+      - ".github/workflows/sync-neo4j.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: neo4j-dataset-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    name: Import card dataset
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Validate dataset JSON
+        run: node -e "const d = require('./public/data/dataset.json'); if (!Array.isArray(d) || d.length === 0) { console.error('Dataset must be a non-empty JSON array'); process.exit(1); } console.log('Validated ' + d.length + ' records');"
+
+      - name: Import dataset into Neo4j
+        run: npm run import:cards
+        env:
+          NEO4J_URI: ${{ secrets.NEO4J_URI }}
+          NEO4J_USERNAME: ${{ secrets.NEO4J_USERNAME }}
+          NEO4J_PASSWORD: ${{ secrets.NEO4J_PASSWORD }}
+          NEO4J_DATABASE: ${{ secrets.NEO4J_DATABASE }}
