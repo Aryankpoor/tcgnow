@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { driver, database } from "@/lib/neo4j";
-
+import neo4j from "neo4j-driver";
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
 
@@ -56,22 +56,36 @@ export async function GET(request: NextRequest) {
         SKIP $offset
         LIMIT $limit
         `,
-        { collection, subcollection, search, limit, offset }
+        {
+  collection,
+  subcollection,
+  search,
+  limit: neo4j.int(limit),
+  offset: neo4j.int(offset),
+}
       )
     );
 
-    const cards = result.records.map((record) => ({
-      id: record.get("id"),
-      sno: record.get("sno"),
-      card: record.get("card"),
-      type: record.get("type"),
-      subcollection: record.get("subcollection"),
-      rarity: record.get("rarity"),
-      position: record.get("position"),
-      image: record.get("image"),
-      collection: record.get("collection"),
-      "collection-sno": record.get("collectionSno"),
-    }));
+    
+const cards = result.records.map((record) => {
+  const sno = record.get("sno");
+  const collectionSno = record.get("collectionSno");
+
+  return {
+    id: String(record.get("id")),
+    sno: sno == null ? 0 : sno.toNumber(),
+    card: String(record.get("card") ?? ""),
+    type: String(record.get("type") ?? "—"),
+    subcollection: String(record.get("subcollection") ?? "Uncategorized"),
+    rarity: String(record.get("rarity") ?? "—"),
+    position: String(record.get("position") ?? "—"),
+    image: String(record.get("image") ?? ""),
+    collection: String(record.get("collection") ?? ""),
+    "collection-sno":
+      collectionSno == null ? null : collectionSno.toNumber(),
+  };
+});
+
 
     return NextResponse.json({ cards });
   } catch (error) {

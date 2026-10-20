@@ -1,4 +1,6 @@
-import "dotenv/config";
+import dotenv from "dotenv";
+
+dotenv.config({ path: ".env.local" });
 import fs from "node:fs";
 import path from "node:path";
 import neo4j from "neo4j-driver";

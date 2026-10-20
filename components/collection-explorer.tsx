@@ -1,7 +1,7 @@
 
 "use client";
 
-import { useMemo, useRef, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import {
@@ -20,8 +20,9 @@ import {
 gsap.registerPlugin(useGSAP);
 
 type CardRecord = {
+  id: string;
   sno: number;
-  collectionSno: number | string;
+  collectionSno: number | string | null;
   card: string;
   type: string;
   subcollection: string;
@@ -30,30 +31,29 @@ type CardRecord = {
   image: string;
 };
 
-type ColumnKey = keyof CardRecord;
+type ColumnKey = Exclude<keyof CardRecord, "id">;
 
-const previewRows: CardRecord[] = [
-  { sno: 1, collectionSno: 1, card: "Preview card 001", type: "Player", subcollection: "Base set", rarity: "Common", position: "Batter", image: "—" },
-  { sno: 2, collectionSno: 2, card: "Preview card 002", type: "Player", subcollection: "Rising stars", rarity: "Rare", position: "Bowler", image: "—" },
-  { sno: 3, collectionSno: 3, card: "Preview card 003", type: "Team", subcollection: "Base set", rarity: "Common", position: "—", image: "—" },
-  { sno: 4, collectionSno: 4, card: "Preview card 004", type: "Special", subcollection: "Legends", rarity: "Limited edition", position: "All-rounder", image: "—" },
-  { sno: 5, collectionSno: 5, card: "Preview card 005", type: "Player", subcollection: "Base set", rarity: "Rare", position: "Wicketkeeper", image: "—" },
-  { sno: 6, collectionSno: 6, card: "Preview card 006", type: "Player", subcollection: "Rising stars", rarity: "Common", position: "Batter", image: "—" },
-  { sno: 7, collectionSno: 7, card: "Preview card 007", type: "Special", subcollection: "Legends", rarity: "Limited edition", position: "Bowler", image: "—" },
-  { sno: 8, collectionSno: 8, card: "Preview card 008", type: "Team", subcollection: "Base set", rarity: "Common", position: "—", image: "—" },
-  { sno: 9, collectionSno: 9, card: "Preview card 009", type: "Player", subcollection: "Base set", rarity: "Rare", position: "All-rounder", image: "—" },
-  { sno: 10, collectionSno: 10, card: "Preview card 010", type: "Player", subcollection: "Rising stars", rarity: "Common", position: "Batter", image: "—" },
-  { sno: 11, collectionSno: 11, card: "Preview card 011", type: "Special", subcollection: "Legends", rarity: "Limited edition", position: "Bowler", image: "—" },
-  { sno: 12, collectionSno: 12, card: "Preview card 012", type: "Player", subcollection: "Base set", rarity: "Common", position: "Wicketkeeper", image: "—" },
-];
+type CollectionOption = {
+  code: string;
+  cardCount: number;
+  season: string;
+};
 
-const catalogue = [
-  { sport: "Cricket", season: "2011", collection: "Cricket Attax 2011" },
-  { sport: "Cricket", season: "2012", collection: "Cricket Attax 2012" },
-  { sport: "Cricket", season: "2024–25", collection: "Cricket Attax 2024–25" },
-  { sport: "Football", season: "2024–25", collection: "Match Attax 2024–25" },
-  { sport: "WWE", season: "2024", collection: "WWE Trading Cards 2024" },
-];
+function getSeasonFromCode(code: string): string {
+  const match = code.match(/((?:19|20)\d{2})(?:[-–](\d{2,4}))?/);
+
+  if (!match) return "Other / unknown";
+
+  const startYear = match[1];
+  const endYear = match[2];
+
+  if (!endYear) return startYear;
+
+  const shortEndYear =
+    endYear.length === 4 ? endYear.slice(2) : endYear;
+
+  return `${startYear}–${shortEndYear}`;
+}
 
 const columnLabels: Record<ColumnKey, string> = {
   sno: "S. No.",
@@ -67,24 +67,42 @@ const columnLabels: Record<ColumnKey, string> = {
 };
 
 const allColumns: ColumnKey[] = [
-  "sno", "collectionSno", "card", "type",
-  "subcollection", "rarity", "position", "image",
+  "sno",
+  "collectionSno",
+  "card",
+  "type",
+  "subcollection",
+  "rarity",
+  "position",
+  "image",
 ];
 
 const defaultColumns: ColumnKey[] = [
-  "sno", "collectionSno", "card", "type",
-  "subcollection", "rarity", "position",
+  "sno",
+  "collectionSno",
+  "card",
+  "type",
+  "subcollection",
+  "rarity",
+  "position",
 ];
 
 export default function CollectionExplorer() {
   const root = useRef<HTMLElement>(null);
 
-  const [sport, setSport] = useState("Cricket");
-  const [season, setSeason] = useState("2011");
-  const [collection, setCollection] = useState("Cricket Attax 2011");
+  const [availableCollections, setAvailableCollections] =
+    useState<CollectionOption[]>([]);
+  const [season, setSeason] = useState("");
+  const [collection, setCollection] = useState("");
+  const [cardRows, setCardRows] = useState<CardRecord[]>([]);
+  const [loadingCollections, setLoadingCollections] = useState(true);
+  const [loadingCards, setLoadingCards] = useState(false);
+  const [loadError, setLoadError] = useState("");
+
   const [query, setQuery] = useState("");
   const [sortKey, setSortKey] = useState<ColumnKey>("sno");
-  const [sortDirection, setSortDirection] = useState<"asc" | "desc">("asc");
+  const [sortDirection, setSortDirection] =
+    useState<"asc" | "desc">("asc");
   const [visibleColumns, setVisibleColumns] =
     useState<ColumnKey[]>(defaultColumns);
   const [showColumns, setShowColumns] = useState(false);
@@ -92,176 +110,316 @@ export default function CollectionExplorer() {
 
   const pageSize = 8;
 
-  
-useGSAP(() => {
-  if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
-    return;
-  }
+  // Discover all collections that exist in Neo4j.
+  useEffect(() => {
+    let cancelled = false;
 
-  const timeline = gsap.timeline({
-    defaults: { ease: "power3.out" },
-  });
+    async function loadCollections() {
+      try {
+        setLoadingCollections(true);
+        setLoadError("");
 
-  timeline
-    // Header drops in
-    .from(".tcg-topbar", {
-      y: -24,
-      opacity: 0,
-      duration: 0.7,
-    })
-    // Heading reveals
-    .from(
-      ".tcg-kicker",
-      {
-        x: -20,
-        opacity: 0,
-        duration: 0.45,
-      },
-      "-=0.25",
-    )
-    .from(
-      ".tcg-intro h1",
-      {
-        y: 32,
-        opacity: 0,
-        duration: 0.75,
-      },
-      "-=0.2",
-    )
-    .from(
-      ".tcg-intro p",
-      {
-        y: 12,
-        opacity: 0,
-        duration: 0.45,
-      },
-      "-=0.4",
-    )
-    // Collection selector enters
-    .from(
-      ".tcg-finder",
-      {
-        y: 35,
-        opacity: 0,
-        scale: 0.985,
-        duration: 0.65,
-      },
-      "-=0.1",
-    )
-    .from(
-      ".tcg-field",
-      {
-        y: 15,
-        opacity: 0,
-        stagger: 0.1,
-        duration: 0.4,
-      },
-      "-=0.3",
-    )
-    // Table appears last
-    .from(
-      ".tcg-table-card",
-      {
-        y: 40,
-        opacity: 0,
-        duration: 0.7,
-      },
-      "-=0.15",
-    )
-    .from(
-      ".data-table tbody tr",
-      {
-        y: 8,
-        opacity: 0,
-        stagger: 0.045,
-        duration: 0.28,
-      },
-      "-=0.25",
-    );
-}, { scope: root });
+        const response = await fetch("/api/collections");
 
-  
-useGSAP(() => {
-  if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
-    return;
-  }
+        if (!response.ok) {
+          throw new Error("Could not load collections.");
+        }
 
-  gsap.fromTo(
-    ".data-table tbody tr",
-    {
-      opacity: 0,
-      y: 10,
+        const data = await response.json();
+
+        const options: CollectionOption[] = data.collections.map(
+          (item: { code: string; cardCount: number }) => ({
+            code: item.code,
+            cardCount: Number(item.cardCount),
+            season: getSeasonFromCode(item.code),
+          })
+        );
+
+        if (!cancelled) {
+          setAvailableCollections(options);
+        }
+      } catch {
+        if (!cancelled) {
+          setLoadError(
+            "Unable to load collections from the database."
+          );
+        }
+      } finally {
+        if (!cancelled) setLoadingCollections(false);
+      }
+    }
+
+    void loadCollections();
+
+    return () => {
+      cancelled = true;
+    };
+  }, []);
+
+  // Load cards only after the user chooses a collection.
+  // Fetches additional batches when a collection contains over 200 cards.
+  useEffect(() => {
+    let cancelled = false;
+
+    async function loadCards() {
+      if (!collection) {
+        setCardRows([]);
+        setLoadingCards(false);
+        return;
+      }
+
+      try {
+        setLoadingCards(true);
+        setLoadError("");
+        setCardRows([]);
+        setPage(1);
+
+        const batchSize = 200;
+        let offset = 0;
+        const loadedCards: CardRecord[] = [];
+
+        while (true) {
+          const params = new URLSearchParams({
+            collection,
+            limit: String(batchSize),
+            offset: String(offset),
+          });
+
+          const response = await fetch(`/api/cards?${params}`);
+
+          if (!response.ok) {
+            throw new Error("Could not load cards.");
+          }
+
+          const data = await response.json();
+          const batch = data.cards as Array<Record<string, unknown>>;
+
+          loadedCards.push(
+            ...batch.map((item) => ({
+              id: String(item.id ?? `${collection}:${item.sno}`),
+              sno: Number(item.sno ?? 0),
+              collectionSno:
+                item["collection-sno"] == null
+                  ? null
+                  : Number(item["collection-sno"]),
+              card: String(item.card ?? ""),
+              type: String(item.type ?? "—"),
+              subcollection: String(
+                item.subcollection ?? "Uncategorized"
+              ),
+              rarity: String(item.rarity ?? "—"),
+              position: String(item.position ?? "—"),
+              image: String(item.image ?? ""),
+            }))
+          );
+
+          if (batch.length < batchSize) break;
+
+          offset += batchSize;
+        }
+
+        if (!cancelled) {
+          setCardRows(loadedCards);
+        }
+      } catch {
+        if (!cancelled) {
+          setCardRows([]);
+          setLoadError(
+            "Unable to load cards for this collection."
+          );
+        }
+      } finally {
+        if (!cancelled) setLoadingCards(false);
+      }
+    }
+
+    void loadCards();
+
+    return () => {
+      cancelled = true;
+    };
+  }, [collection]);
+
+  // Intro animations.
+  useGSAP(
+    () => {
+      if (
+        window.matchMedia("(prefers-reduced-motion: reduce)").matches
+      ) {
+        return;
+      }
+
+      const timeline = gsap.timeline({
+        defaults: { ease: "power3.out" },
+      });
+
+      timeline
+        .from(".tcg-topbar", {
+          y: -24,
+          opacity: 0,
+          duration: 0.7,
+        })
+        .from(
+          ".tcg-kicker",
+          {
+            x: -20,
+            opacity: 0,
+            duration: 0.45,
+          },
+          "-=0.25"
+        )
+        .from(
+          ".tcg-intro h1",
+          {
+            y: 32,
+            opacity: 0,
+            duration: 0.75,
+          },
+          "-=0.2"
+        )
+        .from(
+          ".tcg-intro p",
+          {
+            y: 12,
+            opacity: 0,
+            duration: 0.45,
+          },
+          "-=0.4"
+        )
+        .from(
+          ".tcg-finder",
+          {
+            y: 35,
+            opacity: 0,
+            scale: 0.985,
+            duration: 0.65,
+          },
+          "-=0.1"
+        )
+        .from(
+          ".tcg-field",
+          {
+            y: 15,
+            opacity: 0,
+            stagger: 0.1,
+            duration: 0.4,
+          },
+          "-=0.3"
+        )
+        .from(
+          ".tcg-table-card",
+          {
+            y: 40,
+            opacity: 0,
+            duration: 0.7,
+          },
+          "-=0.15"
+        );
     },
-    {
-      opacity: 1,
-      y: 0,
-      duration: 0.3,
-      stagger: 0.035,
-      ease: "power2.out",
-      clearProps: "all",
-    },
+    { scope: root }
   );
-}, {
-  scope: root,
-  dependencies: [collection, query, sortKey, sortDirection, page],
-  revertOnUpdate: true,
-});
 
-  
-useGSAP(() => {
-  const panel = root.current?.querySelector(".tcg-finder");
+  // Animate real rows when results or table controls change.
+  useGSAP(
+    () => {
+      if (
+        window.matchMedia("(prefers-reduced-motion: reduce)").matches
+      ) {
+        return;
+      }
 
-  if (!panel) return;
+      gsap.fromTo(
+        ".data-table tbody tr",
+        { opacity: 0, y: 10 },
+        {
+          opacity: 1,
+          y: 0,
+          duration: 0.3,
+          stagger: 0.035,
+          ease: "power2.out",
+          clearProps: "all",
+        }
+      );
+    },
+    {
+      scope: root,
+      dependencies: [
+        cardRows,
+        collection,
+        query,
+        sortKey,
+        sortDirection,
+        page,
+      ],
+      revertOnUpdate: true,
+    }
+  );
 
-  const handleEnter = () => {
-    gsap.to(panel, {
-      borderColor: "#566443",
-      duration: 0.25,
-      ease: "power2.out",
-    });
-  };
+  // Finder panel hover animation.
+  useGSAP(
+    () => {
+      const panel = root.current?.querySelector(".tcg-finder");
 
-  const handleLeave = () => {
-    gsap.to(panel, {
-      borderColor: "#2b3027",
-      duration: 0.3,
-      ease: "power2.out",
-    });
-  };
+      if (!panel) return;
 
-  panel.addEventListener("mouseenter", handleEnter);
-  panel.addEventListener("mouseleave", handleLeave);
+      const handleEnter = () => {
+        gsap.to(panel, {
+          borderColor: "#566443",
+          duration: 0.25,
+          ease: "power2.out",
+        });
+      };
 
-  return () => {
-    panel.removeEventListener("mouseenter", handleEnter);
-    panel.removeEventListener("mouseleave", handleLeave);
-    gsap.killTweensOf(panel);
-  };
-}, { scope: root });
+      const handleLeave = () => {
+        gsap.to(panel, {
+          borderColor: "#2b3027",
+          duration: 0.3,
+          ease: "power2.out",
+        });
+      };
 
+      panel.addEventListener("mouseenter", handleEnter);
+      panel.addEventListener("mouseleave", handleLeave);
 
-  const seasons = [
-    ...new Set(
-      catalogue
-        .filter((item) => item.sport === sport)
-        .map((item) => item.season),
-    ),
-  ];
+      return () => {
+        panel.removeEventListener("mouseenter", handleEnter);
+        panel.removeEventListener("mouseleave", handleLeave);
+        gsap.killTweensOf(panel);
+      };
+    },
+    { scope: root }
+  );
 
-  const collections = catalogue.filter(
-    (item) => item.sport === sport && item.season === season,
+  const seasons = useMemo(
+    () =>
+      [
+        ...new Set(
+          availableCollections.map((item) => item.season)
+        ),
+      ].sort((a, b) =>
+        a.localeCompare(b, undefined, { numeric: true })
+      ),
+    [availableCollections]
+  );
+
+  const collections = useMemo(
+    () =>
+      availableCollections.filter(
+        (item) => !season || item.season === season
+      ),
+    [availableCollections, season]
   );
 
   const filteredRows = useMemo(() => {
     const normalized = query.trim().toLowerCase();
 
-    return previewRows
+    return cardRows
       .filter(
         (row) =>
           !normalized ||
           Object.values(row).some((value) =>
-            String(value).toLowerCase().includes(normalized),
-          ),
+            String(value ?? "").toLowerCase().includes(normalized)
+          )
       )
       .sort((a, b) => {
         const left = a[sortKey];
@@ -270,50 +428,43 @@ useGSAP(() => {
         const comparison =
           typeof left === "number" && typeof right === "number"
             ? left - right
-            : String(left).localeCompare(String(right), undefined, {
-                numeric: true,
-              });
+            : String(left ?? "").localeCompare(
+                String(right ?? ""),
+                undefined,
+                { numeric: true }
+              );
 
         return sortDirection === "asc" ? comparison : -comparison;
       });
-  }, [query, sortKey, sortDirection]);
+  }, [cardRows, query, sortKey, sortDirection]);
 
   const pageCount = Math.max(
     1,
-    Math.ceil(filteredRows.length / pageSize),
+    Math.ceil(filteredRows.length / pageSize)
   );
 
   const rows = filteredRows.slice(
     (page - 1) * pageSize,
-    page * pageSize,
+    page * pageSize
   );
 
-  function changeSport(nextSport: string) {
-    const nextItems = catalogue.filter(
-      (item) => item.sport === nextSport,
-    );
-
-    setSport(nextSport);
-    setSeason(nextItems[0]?.season ?? "");
-    setCollection(nextItems[0]?.collection ?? "");
+  function changeSeason(nextSeason: string) {
+    setSeason(nextSeason);
+    setCollection("");
+    setQuery("");
     setPage(1);
   }
 
-  function changeSeason(nextSeason: string) {
-    const nextItems = catalogue.filter(
-      (item) =>
-        item.sport === sport && item.season === nextSeason,
-    );
-
-    setSeason(nextSeason);
-    setCollection(nextItems[0]?.collection ?? "");
+  function changeCollection(nextCollection: string) {
+    setCollection(nextCollection);
+    setQuery("");
     setPage(1);
   }
 
   function toggleSort(key: ColumnKey) {
     if (sortKey === key) {
       setSortDirection((direction) =>
-        direction === "asc" ? "desc" : "asc",
+        direction === "asc" ? "desc" : "asc"
       );
     } else {
       setSortKey(key);
@@ -326,27 +477,30 @@ useGSAP(() => {
   function toggleColumn(key: ColumnKey) {
     setVisibleColumns((current) => {
       if (current.includes(key)) {
-        // Keep at least one column visible.
         if (current.length === 1) return current;
         return current.filter((column) => column !== key);
       }
 
       return allColumns.filter(
-        (column) => column === key || current.includes(column),
+        (column) => column === key || current.includes(column)
       );
     });
   }
 
   function exportCsv() {
+    if (!collection || filteredRows.length === 0) return;
+
+    const escapeCsv = (value: unknown) =>
+      `"${String(value ?? "").replaceAll('"', '""')}"`;
+
     const lines = [
-      visibleColumns.map((key) => columnLabels[key]).join(","),
+      visibleColumns
+        .map((key) => escapeCsv(columnLabels[key]))
+        .join(","),
       ...filteredRows.map((row) =>
         visibleColumns
-          .map(
-            (key) =>
-              `"${String(row[key]).replaceAll('"', '""')}"`,
-          )
-          .join(","),
+          .map((key) => escapeCsv(row[key]))
+          .join(",")
       ),
     ];
 
@@ -358,18 +512,22 @@ useGSAP(() => {
     const anchor = document.createElement("a");
 
     anchor.href = url;
-    anchor.download = "tcgnow-preview.csv";
+    anchor.download = `tcgnow-${collection}.csv`;
     anchor.click();
 
-    setTimeout(() => URL.revokeObjectURL(url), 1000);
+    URL.revokeObjectURL(url);
   }
 
   return (
     <main ref={root} className="tcg-shell" id="top">
       <nav className="tcg-topbar">
         <a className="tcg-brand" href="#top" aria-label="TCG NOW home">
-          <span className="tcg-mark"><Layers3 size={18} /></span>
-          <span>TCG<span className="brand-light">NOW</span></span>
+          <span className="tcg-mark">
+            <Layers3 size={18} />
+          </span>
+          <span>
+            TCG<span className="brand-light">NOW</span>
+          </span>
         </a>
 
         <span className="tcg-topbar-label">
@@ -388,44 +546,42 @@ useGSAP(() => {
             <span /> COLLECTION DATABASE
           </div>
           <h1>Trading Card Archive</h1>
-          <p>Browse collections, search cards, and manage your checklist.</p>
+          <p>
+            Browse collections, search cards, and manage your checklist.
+          </p>
         </header>
 
-        <section className="tcg-finder" aria-labelledby="finder-title">
+        <section
+          className="tcg-finder"
+          aria-labelledby="finder-title"
+        >
           <div className="panel-heading">
-            <div className="panel-title-icon"><Database size={17} /></div>
+            <div className="panel-title-icon">
+              <Database size={17} />
+            </div>
             <div>
               <h2 id="finder-title">Select a collection</h2>
-              <p>Choose a sport, season, and set.</p>
+              <p>Choose a year or season, then select a collection.</p>
             </div>
             <span className="panel-index">01 / COLLECTION</span>
           </div>
 
           <div className="tcg-select-grid">
             <label className="tcg-field">
-              <span>SPORT</span>
-              <div className="select-wrap">
-                <select
-                  value={sport}
-                  onChange={(event) => changeSport(event.target.value)}
-                >
-                  <option>Cricket</option>
-                  <option>Football</option>
-                  <option>WWE</option>
-                </select>
-                <ChevronDown size={15} />
-              </div>
-            </label>
-
-            <label className="tcg-field">
               <span>YEAR / SEASON</span>
               <div className="select-wrap">
                 <select
                   value={season}
-                  onChange={(event) => changeSeason(event.target.value)}
+                  onChange={(event) =>
+                    changeSeason(event.target.value)
+                  }
+                  disabled={loadingCollections}
                 >
+                  <option value="">All seasons</option>
                   {seasons.map((value) => (
-                    <option key={value}>{value}</option>
+                    <option key={value} value={value}>
+                      {value}
+                    </option>
                   ))}
                 </select>
                 <ChevronDown size={15} />
@@ -437,14 +593,22 @@ useGSAP(() => {
               <div className="select-wrap">
                 <select
                   value={collection}
-                  onChange={(event) => {
-                    setCollection(event.target.value);
-                    setPage(1);
-                  }}
+                  onChange={(event) =>
+                    changeCollection(event.target.value)
+                  }
+                  disabled={
+                    loadingCollections ||
+                    availableCollections.length === 0
+                  }
                 >
+                  <option value="">
+                    {loadingCollections
+                      ? "Loading collections…"
+                      : "Choose a collection"}
+                  </option>
                   {collections.map((item) => (
-                    <option key={item.collection}>
-                      {item.collection}
+                    <option key={item.code} value={item.code}>
+                      {item.code} ({item.cardCount} cards)
                     </option>
                   ))}
                 </select>
@@ -454,16 +618,37 @@ useGSAP(() => {
           </div>
 
           <div className="selected-collection">
-            <span className="selected-icon"><Layers3 size={19} /></span>
+            <span className="selected-icon">
+              <Layers3 size={19} />
+            </span>
             <div className="selected-details">
               <span>SELECTED COLLECTION</span>
-              <strong>{collection || "Choose a collection"}</strong>
-              <small>{sport} · {season}</small>
+              <strong>
+                {collection || "No collection selected"}
+              </strong>
+              <small>
+                {collection
+                  ? `${
+                      availableCollections.find(
+                        (item) => item.code === collection
+                      )?.cardCount ?? 0
+                    } cards in this collection`
+                  : "Choose a collection to begin"}
+              </small>
             </div>
-            <span className="preview-tag">
-              <span className="status-dot" /> PREVIEW DATA
-            </span>
+            {collection && (
+              <span className="preview-tag">
+                <span className="status-dot" /> DATABASE
+              </span>
+            )}
           </div>
+
+          {loadError && (
+            <p role="alert" className="data-note">
+              <span className="note-mark">!</span>
+              {loadError}
+            </p>
+          )}
         </section>
 
         <section
@@ -473,11 +658,17 @@ useGSAP(() => {
         >
           <div className="table-heading">
             <div>
-              <div className="tcg-kicker"><span /> CARD LIST</div>
-              <h2 id="catalogue-title">{collection || "Cards"}</h2>
+              <div className="tcg-kicker">
+                <span /> CARD LIST
+              </div>
+              <h2 id="catalogue-title">
+                {collection || "Cards"}
+              </h2>
             </div>
             <span className="result-count">
-              {filteredRows.length} preview records
+              {loadingCards
+                ? "Loading cards…"
+                : `${filteredRows.length} records`}
             </span>
           </div>
 
@@ -490,8 +681,13 @@ useGSAP(() => {
                   setQuery(event.target.value);
                   setPage(1);
                 }}
-                placeholder="Search cards or attributes…"
+                placeholder={
+                  collection
+                    ? "Search cards or attributes…"
+                    : "Select a collection to search"
+                }
                 aria-label="Search cards"
+                disabled={!collection || loadingCards}
               />
               {query && (
                 <button
@@ -510,9 +706,13 @@ useGSAP(() => {
             <div className="toolbar-actions">
               <div className="column-control">
                 <button
-                  className={`tool-button ${showColumns ? "is-active" : ""}`}
+                  className={`tool-button ${
+                    showColumns ? "is-active" : ""
+                  }`}
                   type="button"
-                  onClick={() => setShowColumns((open) => !open)}
+                  onClick={() =>
+                    setShowColumns((open) => !open)
+                  }
                   aria-expanded={showColumns}
                 >
                   <Columns3 size={15} /> Columns
@@ -532,7 +732,10 @@ useGSAP(() => {
                     </div>
 
                     {allColumns.map((key) => (
-                      <label key={key} className="column-option">
+                      <label
+                        key={key}
+                        className="column-option"
+                      >
                         <input
                           type="checkbox"
                           checked={visibleColumns.includes(key)}
@@ -549,7 +752,9 @@ useGSAP(() => {
                     <button
                       className="reset-columns"
                       type="button"
-                      onClick={() => setVisibleColumns(defaultColumns)}
+                      onClick={() =>
+                        setVisibleColumns(defaultColumns)
+                      }
                     >
                       Reset defaults
                     </button>
@@ -561,6 +766,7 @@ useGSAP(() => {
                 className="tool-button"
                 type="button"
                 onClick={exportCsv}
+                disabled={!collection || filteredRows.length === 0}
               >
                 <Download size={15} /> Export CSV
               </button>
@@ -568,10 +774,11 @@ useGSAP(() => {
           </div>
 
           <div className="table-meta">
-            <span><span className="status-dot" /> SORTABLE TABLE</span>
+            <span>
+              <span className="status-dot" /> SORTABLE TABLE
+            </span>
             <span className="meta-divider" />
             Click a column heading to sort
-            <span className="meta-preview">DEMO RECORDS — NOT LIVE DATA</span>
           </div>
 
           <div className="table-scroll">
@@ -580,11 +787,16 @@ useGSAP(() => {
                 <tr>
                   {visibleColumns.map((key) => (
                     <th key={key}>
-                      <button type="button" onClick={() => toggleSort(key)}>
+                      <button
+                        type="button"
+                        onClick={() => toggleSort(key)}
+                      >
                         {columnLabels[key]}
                         <ArrowDownUp
                           size={12}
-                          className={sortKey === key ? "sort-active" : ""}
+                          className={
+                            sortKey === key ? "sort-active" : ""
+                          }
                         />
                         {sortKey === key && (
                           <span className="sr-only">
@@ -601,7 +813,7 @@ useGSAP(() => {
 
               <tbody>
                 {rows.map((row) => (
-                  <tr key={row.sno}>
+                  <tr key={row.id}>
                     {visibleColumns.map((key) => (
                       <td key={key}>
                         {key === "sno" ? (
@@ -624,7 +836,7 @@ useGSAP(() => {
                             {row.rarity}
                           </span>
                         ) : (
-                          String(row[key])
+                          String(row[key] ?? "—")
                         )}
                       </td>
                     ))}
@@ -635,9 +847,28 @@ useGSAP(() => {
 
             {rows.length === 0 && (
               <div className="empty-state">
-                <Search size={20} />
-                <strong>No matching cards</strong>
-                <span>Try a different search term.</span>
+                {loadingCards ? (
+                  <Database size={20} />
+                ) : (
+                  <Search size={20} />
+                )}
+                <strong>
+                  {loadingCards
+                    ? "Loading cards…"
+                    : loadError
+                      ? "Unable to load data"
+                      : !collection
+                        ? "Select a collection to begin"
+                        : "No matching cards"}
+                </strong>
+                <span>
+                  {loadError ||
+                    (!collection
+                      ? "Choose a collection above to display its cards."
+                      : loadingCards
+                        ? "Retrieving records from the database."
+                        : "Try a different search term.")}
+                </span>
               </div>
             )}
           </div>
@@ -646,8 +877,14 @@ useGSAP(() => {
             <span>
               Showing{" "}
               <b>
-                {rows.length ? (page - 1) * pageSize + 1 : 0}–
-                {Math.min(page * pageSize, filteredRows.length)}
+                {rows.length
+                  ? (page - 1) * pageSize + 1
+                  : 0}
+                –
+                {Math.min(
+                  page * pageSize,
+                  filteredRows.length
+                )}
               </b>{" "}
               of <b>{filteredRows.length}</b> records
             </span>
@@ -657,7 +894,9 @@ useGSAP(() => {
                 type="button"
                 disabled={page <= 1}
                 onClick={() =>
-                  setPage((current) => Math.max(1, current - 1))
+                  setPage((current) =>
+                    Math.max(1, current - 1)
+                  )
                 }
                 aria-label="Previous page"
               >
@@ -670,7 +909,9 @@ useGSAP(() => {
                 type="button"
                 disabled={page >= pageCount}
                 onClick={() =>
-                  setPage((current) => Math.min(pageCount, current + 1))
+                  setPage((current) =>
+                    Math.min(pageCount, current + 1)
+                  )
                 }
                 aria-label="Next page"
               >
@@ -682,14 +923,16 @@ useGSAP(() => {
 
         <p className="data-note">
           <span className="note-mark">i</span>
-          This interface currently uses sample records. Live collection data
-          will appear here once the database API is connected.
+          Collections are discovered from the database. Select a
+          collection to retrieve its card records.
         </p>
       </div>
 
       <footer className="tcg-footer">
         <span>TCG NOW</span>
-        <span>Trading card archive · Built as a personal project</span>
+        <span>
+          Trading card archive · Built as a personal project
+        </span>
         <a href="#top">Back to top ↑</a>
       </footer>
     </main>
