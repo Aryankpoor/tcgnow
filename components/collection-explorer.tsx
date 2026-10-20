@@ -12,7 +12,9 @@ import {
   Columns3,
   Database,
   Download,
+  GitCompare,
   Layers3,
+  RotateCcw,
   Search,
   X,
 } from "lucide-react";
@@ -38,6 +40,22 @@ type CollectionOption = {
   cardCount: number;
   season: string;
   sport: Sport | null;
+};
+
+type ComparisonResult = {
+  card: string;
+  appearances: {
+    collection: string;
+    cards: {
+      id: string;
+      sno: number | null;
+      collectionSno: number | null;
+      type: string;
+      rarity: string;
+      position: string;
+      image: string;
+    }[];
+  }[];
 };
 
 type Sport = "Cricket" | "Football" | "WWE";
@@ -109,6 +127,14 @@ export default function CollectionExplorer() {
   const [season, setSeason] = useState("");
   const [collection, setCollection] = useState("");
   const [cardRows, setCardRows] = useState<CardRecord[]>([]);
+  const [compareOpen, setCompareOpen] = useState(false);
+  const [selectedCompareCollections, setSelectedCompareCollections] =
+    useState<string[]>([]);
+  const [comparisonRows, setComparisonRows] =
+    useState<ComparisonResult[]>([]);
+  const [comparisonLoading, setComparisonLoading] = useState(false);
+  const [comparisonError, setComparisonError] = useState("");
+  const [comparisonDone, setComparisonDone] = useState(false);
   const [loadingCollections, setLoadingCollections] = useState(true);
   const [loadingCards, setLoadingCards] = useState(false);
   const [loadError, setLoadError] = useState("");
@@ -537,6 +563,58 @@ const collections = useMemo(
     URL.revokeObjectURL(url);
   }
 
+  function toggleCompareCollection(code: string) {
+    setSelectedCompareCollections((current) =>
+      current.includes(code)
+        ? current.filter((item) => item !== code)
+        : [...current, code]
+    );
+    setComparisonRows([]);
+    setComparisonDone(false);
+    setComparisonError("");
+  }
+
+  async function runComparison() {
+    if (selectedCompareCollections.length < 2) return;
+
+    setComparisonLoading(true);
+    setComparisonError("");
+    setComparisonRows([]);
+    setComparisonDone(false);
+
+    try {
+      const response = await fetch("/api/compare", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ collections: selectedCompareCollections }),
+      });
+      const data = await response.json();
+
+      if (!response.ok) {
+        throw new Error(data.error ?? "Unable to compare collections.");
+      }
+
+      setComparisonRows(data.commonCards ?? []);
+      setComparisonDone(true);
+    } catch (error) {
+      setComparisonError(
+        error instanceof Error
+          ? error.message
+          : "Unable to compare collections."
+      );
+    } finally {
+      setComparisonLoading(false);
+    }
+  }
+
+  function resetComparison() {
+    setSelectedCompareCollections([]);
+    setComparisonRows([]);
+    setComparisonError("");
+    setComparisonDone(false);
+    setComparisonLoading(false);
+  }
+
   return (
     <main ref={root} className="tcg-shell" id="top">
       <nav className="tcg-topbar">
@@ -692,6 +770,166 @@ const collections = useMemo(
               {loadError}
             </p>
           )}
+        </section>
+
+        <section className="tcg-table-card compare-panel" aria-labelledby="compare-title">
+          <div className="table-heading">
+            <div>
+              <div className="tcg-kicker">
+                <span /> DATABASE QUERY
+              </div>
+              <h2 id="compare-title">Collection comparison</h2>
+              <p className="compare-description">
+                Find card names shared by every selected collection using an INNER JOIN-style comparison.
+              </p>
+            </div>
+            <span className="result-count">
+              {selectedCompareCollections.length} selected
+            </span>
+          </div>
+
+          <div className="compare-controls">
+            <button
+              type="button"
+              className="tool-button"
+              onClick={() => setCompareOpen((open) => !open)}
+              aria-expanded={compareOpen}
+            >
+              <GitCompare size={15} />
+              {compareOpen ? "Hide collections" : "Compare collections"}
+              <ChevronDown size={14} />
+            </button>
+            <button
+              type="button"
+              className="tool-button"
+              onClick={resetComparison}
+              disabled={
+                selectedCompareCollections.length === 0 &&
+                !comparisonDone &&
+                !comparisonError
+              }
+            >
+              <RotateCcw size={15} /> Reset table
+            </button>
+          </div>
+
+          {compareOpen && (
+            <div className="compare-picker">
+              <p className="compare-help">
+                Select at least two collections. Collections can come from different seasons.
+              </p>
+              {availableCollections.length === 0 && !loadingCollections ? (
+                <p className="compare-help">No collections are available in the database yet.</p>
+              ) : (
+                <div className="compare-options">
+                  {availableCollections.map((item) => (
+                    <label key={item.code} className="compare-option">
+                      <input
+                        type="checkbox"
+                        checked={selectedCompareCollections.includes(item.code)}
+                        onChange={() => toggleCompareCollection(item.code)}
+                      />
+                      <span className="compare-option-details">
+                        <strong>{item.code}</strong>
+                        <small>{item.season} · {item.cardCount} cards</small>
+                      </span>
+                    </label>
+                  ))}
+                </div>
+              )}
+              <button
+                type="button"
+                className="tool-button compare-run"
+                onClick={runComparison}
+                disabled={selectedCompareCollections.length < 2 || comparisonLoading}
+              >
+                <GitCompare size={15} />
+                {comparisonLoading
+                  ? "Comparing…"
+                  : `Compare ${selectedCompareCollections.length} collections`}
+              </button>
+              {selectedCompareCollections.length < 2 && (
+                <p className="compare-help">Select at least two collections to enable comparison.</p>
+              )}
+            </div>
+          )}
+
+          {comparisonError && (
+            <p className="data-note" role="alert">
+              <span className="note-mark">!</span> {comparisonError}
+            </p>
+          )}
+
+          <div className="table-scroll">
+            <table className="data-table compare-results">
+              <thead>
+                <tr>
+                  <th>Common card</th>
+                  {selectedCompareCollections.map((code) => (
+                    <th key={code}>{code}</th>
+                  ))}
+                </tr>
+              </thead>
+              <tbody>
+                {comparisonRows.map((result, index) => (
+                  <tr key={`${result.card}-${index}`}>
+                    <td>
+                      <span className="card-cell">
+                        <span className="mini-card"><Layers3 size={12} /></span>
+                        {result.card}
+                      </span>
+                    </td>
+                    {selectedCompareCollections.map((code) => {
+                      const appearance = result.appearances.find(
+                        (item) => item.collection === code
+                      );
+                      return (
+                        <td key={code}>
+                          {appearance?.cards.length ? (
+                            <div className="compare-card-details">
+                              {appearance.cards.map((card, cardIndex) => (
+                                <div key={`${card.id}-${cardIndex}`}>
+                                  <strong>{card.type}</strong>
+                                  <small>
+                                    No. {card.collectionSno ?? card.sno ?? "—"} · {card.rarity}
+                                  </small>
+                                </div>
+                              ))}
+                            </div>
+                          ) : "—"}
+                        </td>
+                      );
+                    })}
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+            {comparisonRows.length === 0 && (
+              <div className="empty-state">
+                {comparisonLoading ? <Database size={20} /> : <GitCompare size={20} />}
+                <strong>
+                  {comparisonLoading
+                    ? "Comparing collections…"
+                    : comparisonDone
+                      ? "No common cards found"
+                      : "Comparison table is empty"}
+                </strong>
+                <span>
+                  {comparisonLoading
+                    ? "Finding names present in every selected collection."
+                    : comparisonDone
+                      ? "Try different collections or add more card data."
+                      : "Choose Compare collections to get started."}
+                </span>
+              </div>
+            )}
+          </div>
+          <div className="table-footer">
+            <span>
+              {comparisonDone ? `${comparisonRows.length} common card names` : "Awaiting comparison"}
+            </span>
+            {comparisonDone && <span>Across {selectedCompareCollections.length} collections</span>}
+          </div>
         </section>
 
         <section

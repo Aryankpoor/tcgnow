@@ -890,3 +890,124 @@ a:focus-visible {
   font-family: var(--font-geist-mono), monospace;
   font-variant-numeric: tabular-nums;
 }
+
+
+.compare-description {
+  margin: 8px 0 0;
+  max-width: 560px;
+  color: #899180;
+  font-size: 11px;
+  line-height: 1.7;
+}
+
+.compare-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 14px 17px;
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+}
+
+.compare-controls .tool-button:disabled,
+.compare-run:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.compare-picker {
+  padding: 17px;
+  border-bottom: 1px solid var(--line);
+  background: #131610;
+}
+
+.compare-help {
+  margin: 0 0 12px;
+  color: #929b87;
+  font-size: 11px;
+  line-height: 1.7;
+}
+
+.compare-options {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+  gap: 9px;
+}
+
+.compare-option {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px;
+  border: 1px solid #343b30;
+  border-radius: 5px;
+  background: #191d17;
+  cursor: pointer;
+}
+
+.compare-option:has(input:checked) {
+  border-color: #65784a;
+  background: #20291a;
+}
+
+.compare-option input {
+  accent-color: var(--accent);
+}
+
+.compare-option-details {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.compare-option-details strong {
+  color: #e0e5d9;
+  font-size: 11px;
+}
+
+.compare-option-details small,
+.compare-card-details small {
+  color: #929b87;
+  font-size: 10px;
+}
+
+.compare-run {
+  margin-top: 14px;
+}
+
+.compare-results td {
+  vertical-align: top;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.compare-card-details {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+}
+
+.compare-card-details > div {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.compare-card-details strong {
+  color: #dce3d2;
+  font-size: 11px;
+}
+
+@media (max-width: 700px) {
+  .compare-controls {
+    flex-direction: column;
+  }
+
+  .compare-controls .tool-button {
+    width: 100%;
+  }
+
+  .compare-options {
+    grid-template-columns: 1fr;
+  }
+}
