@@ -14,73 +14,73 @@ type CardEntry = {
   image?: string;
 };
 
-export default function CardProfilePage() {
-  const { cardId } = useParams<{ cardId: string }>(); 
-  const [cardData, setCardData] = useState<CardEntry | null>(null);
-  const [loading, setLoading] = useState(true);
+export default function CardDetailPage() {
+  const { cardId } = useParams<{ cardId: string }>();
+  const [card, setCard] = useState<CardEntry | null>(null);
+  const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
     if (!cardId) return;
 
-    fetch(`/api/items/CA2011/${encodeURIComponent(cardId)}`)
-      .then((res) => res.json())
-      .then((data) => {
-        setCardData(data);
-        setLoading(false);
+    fetch("/data/ca2011/CA2011.json")
+      .then((res) => {
+        if (!res.ok) throw new Error("Failed to fetch JSON");
+        return res.json();
       })
-      .catch(() => setLoading(false));
+      .then((data: CardEntry[]) => {
+        const found = data.find(
+          (c) => c.card.toLowerCase() === decodeURIComponent(cardId).toLowerCase()
+        );
+        if (!found) {
+          setError("Card not found");
+        } else {
+          setCard(found);
+        }
+      })
+      .catch((err) => {
+        console.error("Error fetching card:", err);
+        setError("Failed to load card");
+      });
   }, [cardId]);
-
-  if (loading) {
-    return (
-      <div className="flex justify-center items-center h-screen">
-        <p>Loading card details...</p>
-      </div>
-    );
-  }
-
-  if (!cardData) {
-    return (
-      <div className="flex justify-center items-center h-screen">
-        <p>Card not found.</p>
-      </div>
-    );
-  }
 
   return (
     <div>
       <Navbar />
-      <main className="pt-20 pb-8 px-4">
-        <div className="max-w-3xl mx-auto border rounded-xl p-6 shadow-sm">
-          <h1 className="text-3xl font-bold mb-4 text-center">{cardData.card}</h1>
-
-          {cardData.image && (
-            <div className="flex justify-center mb-6">
-              <Image
-                src={cardData.image}
-                alt={cardData.card}
-                width={250}
-                height={250}
-                className="rounded-lg border object-cover"
-              />
+      <main className="pt-20 pb-8 px-4 max-w-3xl mx-auto">
+        {error ? (
+          <p className="text-center text-red-600">{error}</p>
+        ) : !card ? (
+          <p className="text-center">Loading...</p>
+        ) : (
+          <>
+            <h1 className="text-center text-3xl font-bold mb-6">{card.card}</h1>
+            {card.image && (
+              <div className="flex justify-center mb-6">
+                <Image
+                  src={card.image}
+                  alt={card.card}
+                  width={240}
+                  height={240}
+                  className="rounded-lg border"
+                />
+              </div>
+            )}
+            <div className="space-y-2 text-lg">
+              <p>
+                <strong>Type:</strong> {card.type}
+              </p>
+              <p>
+                <strong>Subcollection:</strong> {card.subcollection}
+              </p>
+              <p>
+                <strong>Rarity:</strong> {card.rarity}
+              </p>
+              <p>
+                <strong>Serial No.:</strong> {card.sno}
+              </p>
             </div>
-          )}
-
-          <div className="grid gap-3 text-lg">
-            <p>
-              <strong>Serial No:</strong> {cardData.sno}
-            </p>
-            <p>
-              <strong>Type:</strong> {cardData.type}
-            </p>
-            <p>
-              <strong>Subcollection:</strong> {cardData.subcollection}
-            </p>
-            <p>
-              <strong>Rarity:</strong> {cardData.rarity}
-            </p>
-          </div>
-        </div>
+          </>
+        )}
       </main>
     </div>
   );

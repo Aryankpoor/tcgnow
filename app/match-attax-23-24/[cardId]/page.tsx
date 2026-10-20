@@ -6,7 +6,7 @@ import Navbar from "@/components/Navbar";
 import Image from "next/image";
 
 type CardEntry = {
-  sno: number;
+  sno: string;
   card: string;
   type: string;
   subcollection: string;
@@ -15,37 +15,39 @@ type CardEntry = {
 };
 
 export default function CardProfilePage() {
-  const { cardId } = useParams<{ cardId: string }>(); 
+  const { cardId } = useParams<{ cardId: string }>();
   const [cardData, setCardData] = useState<CardEntry | null>(null);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     if (!cardId) return;
 
-    fetch(`/api/items/CA2011/${encodeURIComponent(cardId)}`)
-      .then((res) => res.json())
-      .then((data) => {
+    // ✅ Fetch from your API route instead of directly from JSON
+    fetch(`/api/items/MA2324/${encodeURIComponent(cardId)}`)
+      .then((res) => {
+        if (!res.ok) throw new Error("Card not found");
+        return res.json();
+      })
+      .then((data: CardEntry) => {
         setCardData(data);
         setLoading(false);
       })
       .catch(() => setLoading(false));
   }, [cardId]);
 
-  if (loading) {
+  if (loading)
     return (
       <div className="flex justify-center items-center h-screen">
         <p>Loading card details...</p>
       </div>
     );
-  }
 
-  if (!cardData) {
+  if (!cardData)
     return (
       <div className="flex justify-center items-center h-screen">
         <p>Card not found.</p>
       </div>
     );
-  }
 
   return (
     <div>

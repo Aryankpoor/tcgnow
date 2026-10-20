@@ -1,5 +1,17 @@
-import clientPromise from "@/lib/mongodb";
 import { NextResponse } from "next/server";
+import path from "path";
+import fs from "fs/promises";
+
+type CardEntry = {
+  sno: number;
+  card: string;
+  type: string;
+  subcollection: string;
+  rarity: string;
+  image?: string;
+};
+
+const cache: Record<string, CardEntry[]> = {};
 
 export async function GET(
   req: Request,
@@ -7,25 +19,24 @@ export async function GET(
 ) {
   try {
     const { collection, cardId } = await context.params;
-    const client = await clientPromise;
-    const db = client.db("cards");
 
-    // Decode the card name from URL encoding (spaces, etc.)
-    const decodedCardId = decodeURIComponent(cardId);
-
-    const item = await db.collection("topps").findOne({
-      collection,
-      card: decodedCardId,
-    });
-
-    if (!item) {
-      console.log(`Card not found for ${decodedCardId} in ${collection}`);
-      return NextResponse.json({ error: "Card not found" }, { status: 404 });
+    if (!cache[collection]) {
+      const filePath = path.join(process.cwd(), "public", "data", collection, `${collection.toUpperCase()}.json`);
+      const fileData = await fs.readFile(filePath, "utf-8");
+      cache[collection] = JSON.parse(fileData) as CardEntry[];
     }
 
-    return NextResponse.json(item);
+    const card = cache[collection].find(
+      (c) => c.card.toLowerCase() === decodeURIComponent(cardId).toLowerCase()
+    );
+
+    if (!card) {
+      return NextResponse.json({ message: "Card not found" }, { status: 404 });
+    }
+
+    return NextResponse.json(card);
   } catch (err) {
     console.error("Failed to fetch card:", err);
-    return NextResponse.json({ error: "Internal Server Error" }, { status: 500 });
+    return NextResponse.json({ message: "Internal Server Error" }, { status: 500 });
   }
 }

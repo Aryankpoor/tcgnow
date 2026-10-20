@@ -1,0 +1,2423 @@
+[
+    {
+        "sno": "1",
+        "card": "Chelsea FC Logo",
+        "type": "Base",
+        "subcollection": "Chelsea Team Set",
+        "rarity": "6 in every packet",
+        "position": "L",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "2",
+        "card": "",
+        "type": "Base",
+        "subcollection": "Chelsea Team Set",
+        "rarity": "6 in every packet",
+        "position": "G",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "3",
+        "card": "Thiago Silva",
+        "type": "Base",
+        "subcollection": "Chelsea Team Set",
+        "rarity": "6 in every packet",
+        "position": "D",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "4",
+        "card": "Reece James",
+        "type": "Base",
+        "subcollection": "Chelsea Team Set",
+        "rarity": "6 in every packet",
+        "position": "D",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "5",
+        "card": "Ben Chilwell",
+        "type": "Base",
+        "subcollection": "Chelsea Team Set",
+        "rarity": "6 in every packet",
+        "position": "D",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "6",
+        "card": "N'golo Kante",
+        "type": "Base",
+        "subcollection": "Chelsea Team Set",
+        "rarity": "6 in every packet",
+        "position": "M",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "7",
+        "card": "Mateo Kovacic",
+        "type": "Base",
+        "subcollection": "Chelsea Team Set",
+        "rarity": "6 in every packet",
+        "position": "M",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "8",
+        "card": "Liam Livingstone",
+        "type": "Base",
+        "subcollection": "Birmingham Pheonix Team Set",
+        "rarity": "8 in every packet",
+        "position": "A",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2021/",
+        "collection": "MA2021"
+    },
+    {
+        "sno": "9",
+        "card": "Miles Hammond",
+        "type": "Base",
+        "subcollection": "Birmingham Pheonix Team Set",
+        "rarity": "8 in every packet",
+        "position": "B",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2021/",
+        "collection": "CA2021"
+    },
+    {
+        "sno": "10",
+        "card": "Manchester City Logo",
+        "type": "Base",
+        "subcollection": "Manchester City Team Set",
+        "rarity": "6 in every packet",
+        "position": "L",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "11",
+        "card": "Ederson",
+        "type": "Stopper",
+        "subcollection": "Manchester City Team Set",
+        "rarity": "3 in every packet",
+        "position": "K",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "12",
+        "card": "",
+        "type": "Base",
+        "subcollection": "Manchester City Team Set",
+        "rarity": "6 in every packet",
+        "position": "D",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "13",
+        "card": "",
+        "type": "Base",
+        "subcollection": "Manchester City Team Set",
+        "rarity": "6 in every packet",
+        "position": "D",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "14",
+        "card": "",
+        "type": "Base",
+        "subcollection": "Manchester City Team Set",
+        "rarity": "6 in every packet",
+        "position": "D",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "15",
+        "card": "",
+        "type": "Base",
+        "subcollection": "Manchester City Team Set",
+        "rarity": "6 in every packet",
+        "position": "D",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "16",
+        "card": "Joao Cancelo",
+        "type": "Base",
+        "subcollection": "Manchester City Team Set",
+        "rarity": "6 in every packet",
+        "position": "D",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "17",
+        "card": "Kyle Walker",
+        "type": "Base",
+        "subcollection": "Manchester City Team Set",
+        "rarity": "6 in every packet",
+        "position": "D",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "18",
+        "card": "Rodri",
+        "type": "Enforcer",
+        "subcollection": "Manchester City Team Set",
+        "rarity": "4 in every packet",
+        "position": "M",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "19",
+        "card": "",
+        "type": "Base",
+        "subcollection": "Manchester City Team Set",
+        "rarity": "6 in every packet",
+        "position": "M",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "20",
+        "card": "Kevin De Bruyne",
+        "type": "Base",
+        "subcollection": "Manchester City Team Set",
+        "rarity": "6 in every packet",
+        "position": "M",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "21",
+        "card": "Bernardo Silva",
+        "type": "Styler",
+        "subcollection": "Manchester City Team Set",
+        "rarity": "4 in every packet",
+        "position": "M",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "22",
+        "card": "Phil Foden",
+        "type": "Base",
+        "subcollection": "Manchester City Team Set",
+        "rarity": "6 in every packet",
+        "position": "M",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "23",
+        "card": "Jack Grealish",
+        "type": "Base",
+        "subcollection": "Manchester City Team Set",
+        "rarity": "6 in every packet",
+        "position": "M",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "24",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "25",
+        "card": "Erling Haaland",
+        "type": "Base",
+        "subcollection": "Manchester City Team Set",
+        "rarity": "6 in every packet",
+        "position": "F",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "26",
+        "card": "Julian alvarez",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "27",
+        "card": "Glenn Maxwell",
+        "type": "Base",
+        "subcollection": "London Spirit Team Set",
+        "rarity": "8 in every packet",
+        "position": "A",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2021 /",
+        "collection": "CA2021"
+    },
+    {
+        "sno": "28",
+        "card": "Liverpool FC Logo",
+        "type": "Base",
+        "subcollection": "Liverpool team set",
+        "rarity": "6 in every packet",
+        "position": "L",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "29",
+        "card": "allison becker",
+        "type": "Stopper",
+        "subcollection": "Liverpool team set",
+        "rarity": "4 in every packet",
+        "position": "K",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "30",
+        "card": "",
+        "type": "Base",
+        "subcollection": "Liverpool team set",
+        "rarity": "6 in every packet",
+        "position": "D",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "31",
+        "card": "",
+        "type": "Base",
+        "subcollection": "Liverpool team set",
+        "rarity": "6 in every packet",
+        "position": "D",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "32",
+        "card": "Virgil Van Dijk",
+        "type": "Warrior",
+        "subcollection": "Liverpool team set",
+        "rarity": "4 in every packet",
+        "position": "D",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "33",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "34",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "35",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "36",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "37",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "38",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "39",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "40",
+        "card": "Megan Schutt",
+        "type": "Base",
+        "subcollection": "London Spirit Team Set",
+        "rarity": "8 in every packet",
+        "position": "BO",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2021/",
+        "collection": "CA2021"
+    },
+    {
+        "sno": "41",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "42",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "43",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "44",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "45",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "46",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "47",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "48",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "49",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "50",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "51",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "52",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "53",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "54",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "55",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "56",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "57",
+        "card": "Laura Jackson",
+        "type": "Base",
+        "subcollection": "Manchester Originals Team Set",
+        "rarity": "8 in every packet",
+        "position": "A",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2021/",
+        "collection": "CA2021"
+    },
+    {
+        "sno": "58",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "59",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "60",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "61",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "62",
+        "card": "Hannah Jones",
+        "type": "Base",
+        "subcollection": "Manchester Originals Team Set",
+        "rarity": "8 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "63",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "64",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "65",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "66",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "67",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "68",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "69",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "70",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "71",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "72",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "73",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "74",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "75",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "76",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "77",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "78",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "79",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "80",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "81",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "82",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "83",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "84",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "85",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "86",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "87",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "88",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "89",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "90",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "91",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "92",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "93",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "94",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "95",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "96",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "97",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "98",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "99",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "100",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "101",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "102",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "103",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "104",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "105",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "106",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "107",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "108",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "109",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "110",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "111",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "112",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "113",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "114",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "115",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "116",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "117",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "118",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "119",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "120",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "121",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "122",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "123",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "124",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "125",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "126",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "127",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "128",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "129",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "130",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "131",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "132",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "133",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "134",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "135",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "136",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "137",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "138",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "139",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "140",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "141",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "142",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "143",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "144",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "145",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "146",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "147",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "148",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "149",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "150",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "151",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "152",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "153",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "154",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "155",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "156",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "157",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "158",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "159",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "160",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "161",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "162",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "163",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "164",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "165",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "166",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "167",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "168",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "169",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "170",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "171",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "172",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "173",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "174",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "175",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "176",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "177",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "178",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "179",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "180",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "181",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "182",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "183",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "184",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "185",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "186",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "187",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "188",
+        "card": "Sunrisers Hyderabad Powerplay",
+        "type": "Gold Foil",
+        "subcollection": "Winner's Team Boost",
+        "rarity": "1 in 5 packets",
+        "position": "P",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2017/",
+        "collection": "CA2017"
+    },
+    {
+        "sno": "189",
+        "card": "IPL Logo",
+        "type": "Silver Foil",
+        "subcollection": "Collector Cards",
+        "rarity": "1 in 2 packets",
+        "position": "C",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "190",
+        "card": "IPL Trophy",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "191",
+        "card": "Stadium Boost",
+        "type": "Base",
+        "subcollection": "Tactic Cards",
+        "rarity": "Unknown",
+        "position": "T",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2017/",
+        "collection": "CA2017"
+    },
+    
+    {
+        "sno": "192",
+        "card": "DRS",
+        "type": "Base",
+        "subcollection": "Tactic Cards",
+        "rarity": "Unknown",
+        "position": "T",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2017/",
+        "collection": "CA2017"
+    },
+    {
+        "sno": "193",
+        "card": "Injury",
+        "type": "Base",
+        "subcollection": "Tactic Cards",
+        "rarity": "Unknown",
+        "position": "T",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2017/",
+        "collection": "CA2017"
+    },
+    {
+        "sno": "194",
+        "card": "6 Runs Boost",
+        "type": "Base",
+        "subcollection": "Tactic Cards",
+        "rarity": "Unknown",
+        "position": "T",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2017/",
+        "collection": "CA2017"
+    },
+    {
+        "sno": "195",
+        "card": "Batting Power Play",
+        "type": "Base",
+        "subcollection": "Tactic Cards",
+        "rarity": "Unknown",
+        "position": "T",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2017/",
+        "collection": "CA2017"
+    },
+    {
+        "sno": "196",
+        "card": "Bowling Power Play",
+        "type": "Base",
+        "subcollection": "Tactic Cards",
+        "rarity": "Unknown",
+        "position": "T",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2017/",
+        "collection": "CA2017"
+    },
+    {
+        "sno": "197",
+        "card": "Amit Mishra",
+        "type": "Blue Parallel",
+        "subcollection": "10th Anniversary Legends",
+        "rarity": "1 in 10 packets",
+        "position": "B",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2017/",
+        "collection": "CA2017"
+    },
+    {
+        "sno": "198",
+        "card": "Zaheer Khan",
+        "type": "Blue Parallel",
+        "subcollection": "10th Anniversary Legends",
+        "rarity": "1 in 10 packets",
+        "position": "B",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2017/",
+        "collection": "CA2017"
+    },
+    {
+        "sno": "199",
+        "card": "Brendon McCullum",
+        "type": "Blue Parallel",
+        "subcollection": "10th Anniversary Legends",
+        "rarity": "1 in 10 packets",
+        "position": "B",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2017/",
+        "collection": "CA2017"
+    },
+    {
+        "sno": "200",
+        "card": "Suresh Raina",
+        "type": "Blue Parallel",
+        "subcollection": "10th Anniversary Legends",
+        "rarity": "1 in 10 packets",
+        "position": "B",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2017/",
+        "collection": "CA2017"
+    },
+    {
+        "sno": "201",
+        "card": "Dwayne Bravo",
+        "type": "Blue Parallel",
+        "subcollection": "10th Anniversary Legends",
+        "rarity": "1 in 10 packets",
+        "position": "A",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2017/",
+        "collection": "CA2017"
+    },
+    {
+        "sno": "202",
+        "card": "Ravindra Jadeja",
+        "type": "Blue Parallel",
+        "subcollection": "10th Anniversary Legends",
+        "rarity": "1 in 10 packets",
+        "position": "A",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2017/",
+        "collection": "CA2017"
+    },
+    {
+        "sno": "203",
+        "card": "Praveen Kumar",
+        "type": "Blue Parallel",
+        "subcollection": "10th Anniversary Legends",
+        "rarity": "1 in 10 packets",
+        "position": "BO",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2017/",
+        "collection": "CA2017"
+    },
+    {
+        "sno": "204",
+        "card": "Dinesh Karthik",
+        "type": "Blue Parallel",
+        "subcollection": "10th Anniversary Legends",
+        "rarity": "1 in 10 packets",
+        "position": "W",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2017/",
+        "collection": "CA2017"
+    },
+    {
+        "sno": "205",
+        "card": "Wriddhiman Saha",
+        "type": "Blue Parallel",
+        "subcollection": "10th Anniversary Legends",
+        "rarity": "1 in 10 packets",
+        "position": "W",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2017/",
+        "collection": "CA2017"
+    },
+    {
+        "sno": "206",
+        "card": "Manish Pandey",
+        "type": "Blue Parallel",
+        "subcollection": "BO",
+        "rarity": "1 in 10 packetS",
+        "position": "BO",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2017/",
+        "collection": "CA2017"
+    },
+    {
+        "sno": "207",
+        "card": "Gautam Gambhir",
+        "type": "Blue Parallel",
+        "subcollection": "10th Anniversary Legends",
+        "rarity": "1 in 10 packets",
+        "position": "B",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2017/",
+        "collection": "CA2017"
+    },
+    {
+        "sno": "208",
+        "card": "Yusuf Pathan",
+        "type": "Blue Parallel",
+        "subcollection": "10th Anniversary Legends",
+        "rarity": "1 in 10 packets",
+        "position": "A",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2017/",
+        "collection": "CA2017"
+    },
+    {
+        "sno": "209",
+        "card": "Piyush Chawla",
+        "type": "Blue Parallel",
+        "subcollection": "10th Anniversary Legends",
+        "rarity": "1 in 10 packets",
+        "position": "BO",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2017/",
+        "collection": "CA2017"
+    },
+    {
+        "sno": "210",
+        "card": "Robin Uthappa",
+        "type": "Blue Parallel",
+        "subcollection": "10th Anniversary Legends",
+        "rarity": "1 in 10 packets",
+        "position": "W",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2017/",
+        "collection": "CA2017"
+    },
+    {
+        "sno": "211",
+        "card": "Rohit Sharma",
+        "type": "Blue Parallel",
+        "subcollection": "10th Anniversary Legends",
+        "rarity": "1 in 10 packets",
+        "position": "B",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2017/",
+        "collection": "CA2017"
+    },
+    {
+        "sno": "212",
+        "card": "Harbhajan Singh",
+        "type": "Blue Parallel",
+        "subcollection": "10th Anniversary Legends",
+        "rarity": "1 in 10 packets",
+        "position": "BO",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2017/",
+        "collection": "CA2017"
+    },
+    {
+        "sno": "213",
+        "card": "Vinay Kumar",
+        "type": "Blue Parallel",                                                                 
+        "subcollection": "10th Anniversary Legends",
+        "rarity": "1 in 10 packets",
+        "position": "BO",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2017/",
+        "collection": "CA2017"
+    },
+    {
+        "sno": "214",
+        "card": "Parthiv Patel",
+        "type": "Blue Parallel",
+        "subcollection": "10th Anniversary Legends",
+        "rarity": "1 in 10 packet",
+        "position": "W",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2017/",
+        "collection": "CA2017"
+    },
+    {
+        "sno": "215",
+        "card": "Rajat Bhatia",
+        "type": "Blue Parallel",
+        "subcollection": "10th Anniversary Legends",
+        "rarity": "1 in 10 packets",
+        "position": "A",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2017/",
+        "collection": "CA2017"
+    },
+    {
+        "sno": "216",
+        "card": "Ashok Dinda",
+        "type": "Blue Parallel",
+        "subcollection": "10th Anniversary Legends",
+        "rarity": "1 in 10 packets",
+        "position": "BO",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2017/",
+        "collection": "CA2017"
+    },
+    {
+        "sno": "217",
+        "card": "MS Dhoni",
+        "type": "Blue Parallel",
+        "subcollection": "10th Anniversary Legends",
+        "rarity": "1 in 10 packets",
+        "position": "W",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2017/",
+        "collection": "CA2017"
+    },
+    {
+        "sno": "218",
+        "card": "Virat Kohli",
+        "type": "Blue Parallel",
+        "subcollection": "10th Anniversary Legends",
+        "rarity": "1 in 10 packets",
+        "position": "B",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2017/",
+        "collection": "CA2017"
+    },
+    {
+        "sno": "219",
+        "card": "AB DE Villiers",
+        "type": "Blue Parallel",
+        "subcollection": "10th Anniversary Legends",
+        "rarity": "1 in 10 packets",
+        "position": "W",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2017/",
+        "collection": "CA2017"
+    },
+    {
+        "sno": "220",
+        "card": "Shikhar Dhawan",
+        "type": "Blue Parallel",
+        "subcollection": "10th Anniversary Legends",
+        "rarity": "1 in 10 packets",
+        "position": "B",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "221",
+        "card": "Yuvraj Singh",
+        "type": "Blue Parallel",
+        "subcollection": "10th Anniversary Legends",
+        "rarity": "1 in 10 packets",
+        "position": "A",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2017/",
+        "collection": "CA2017"
+    },
+    {
+        "sno": "222",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "223",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "224",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "225",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "226",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "227",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "228",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "229",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "230",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "231",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "232",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "233",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "234",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "235",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "236",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "237",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "238",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "239",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "240",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "241",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    },
+    {
+        "sno": "242",
+        "card": "",
+        "type": "Base",
+        "subcollection": "",
+        "rarity": "6 in every packet",
+        "position": "",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223/",
+        "collection": "MA2223"
+    }
+]

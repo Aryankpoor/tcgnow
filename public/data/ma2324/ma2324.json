@@ -1,0 +1,32 @@
+[
+    {
+        "sno": 543,
+        "card": "Ronaldinho #AG-1",
+        "type": "Mixed",
+        "subcollection": "Artists of the Game Limited Editions",
+        "rarity": "Stadium Star booster box 1",
+        "position": "A",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2324",
+        "collection": "MA2324"
+    },
+    {
+        "sno": 566,
+        "card": "Mohamed Salah #EN-2",
+        "type": "Shiny Foil",
+        "subcollection": "Energy",
+        "rarity": "Unknown",
+        "position": "A",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2324/",
+        "collection": "MA2324"
+    },
+    {
+        "sno": 436,
+        "card": "Ronald Koeman",
+        "type": "Foil",
+        "subcollection": "Cult Hero",
+        "rarity": "1 in 8 packets",
+        "position": "D",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2324/",
+        "collection": "MA2324"
+    }
+]

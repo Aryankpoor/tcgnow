@@ -6,16 +6,31 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion"
+import Image from "next/image";
 
 export default function Home() {
   return (
     <div>
       <Navbar />
+      <section className="relative w-full h-[400px]">
+        <Image
+          src="/public/banner.png"
+          alt="TCGNOW banner"
+          fill
+          className="object-cover"
+          priority
+        />
+        <div className="absolute inset-0 bg-black/30 flex items-center justify-center">
+          <h1 className="text-white text-4xl md:text-5xl font-bold text-center drop-shadow-lg">
+            Welcome to TCGNOW
+          </h1>
+        </div>
+      </section>
       <header className="pt-20 pb-8 px-4">
-        <h1 className="scroll-m-20 text-center text-4xl font-extrabold tracking-tight text-balance">
-          Welcome to TCGNOW</h1>
+        
         <p className="text-xl text-center mt-4">
-          An archive for all from hobbyists to box breakers! Find all you need regarding a Topps collection :)
+          An archive for all from hobbyists to box breakers! Find all you need regarding a Topps collection!<br />
+          Only Match Attax 2024-25 and Cricket Attax 2011 are the current active collections!<br /> More to come in the coming days!
         </p>
       </header>
 

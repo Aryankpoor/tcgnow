@@ -1,0 +1,22 @@
+[
+    {
+        "sno": 400,
+        "card": "Konrad Laimer #MH-12",
+        "type": "Foil",
+        "subcollection": "Man of the Match Heritage",
+        "rarity": "1 in 3 packets",
+        "position": "M",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223e",
+        "collection": "MA2223e"
+    },
+    {
+        "sno": 83,
+        "card": "Christophe Galtier #MAN-11",
+        "type": "Base",
+        "subcollection": "Manager",
+        "rarity": "1 in every packets",
+        "position": "Manager",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ma2223e/",
+        "collection": "MA2223e"
+    }
+]

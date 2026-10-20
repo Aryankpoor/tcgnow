@@ -1,0 +1,2016 @@
+[
+    {
+        "sno": 1,
+        "card": "Chennai Super Kings Team Powerplay",
+        "type": "Silver Foil",
+        "subcollection": "Chennai Super Kings team set",
+        "rarity": "1 in 2 packets",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": 2,
+        "card": "Murali Vijay",
+        "type": "Base",
+        "subcollection": "Chennai Super Kings team set",
+        "rarity": "1 in 2 packets",
+        "position": "B",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": 3,
+        "card": "Subramaniam Badrinath",
+        "type": "Base",
+        "subcollection": "Chennai Super Kings team set",
+        "rarity": "4 in each packet",
+        "position": "B",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": 4,
+        "card": "Michael Hussey",
+        "type": "Base",
+        "subcollection": "Chennai Super Kings team set",
+        "rarity": "4 in each packet",
+        "position": "B",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": 5,
+        "card": "Suresh Raina",
+        "type": "Base",
+        "subcollection": "Chennai Super Kings team set",
+        "rarity": "4 in each packet",
+        "position": "B",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": 6,
+        "card": "Anirudha Srikkanth",
+        "type": "Base",
+        "subcollection": "Chennai Super Kings team set",
+        "rarity": "4 in each packet",
+        "position": "A",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": 7,
+        "card": "Albie Morkel",
+        "type": "Base",
+        "subcollection": "Chennai Super Kings team set",
+        "rarity": "4 in each packet",
+        "position": "A",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": 8,
+        "card": "Dwayne Bravo",
+        "type": "Base",
+        "subcollection": "Chennai Super Kings team set",
+        "rarity": "4 in each packet",
+        "position": "A",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": 9,
+        "card": "Scott Styris",
+        "type": "Base",
+        "subcollection": "Chennai Super Kings team set",
+        "rarity": "4 in each packet",
+        "position": "A",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": 10,
+        "card": "Suraj Randiv",
+        "type": "Base",
+        "subcollection": "Chennai Super Kings team set",
+        "rarity": "4 in each packet",
+        "position": "A",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": 11,
+        "card": "Shadab Jakati",
+        "type": "Base",
+        "subcollection": "Chennai Super Kings team set",
+        "rarity": "4 in each packet",
+        "position": "O",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": 12,
+        "card": "Joginder Sharma",
+        "type": "Base",
+        "subcollection": "Chennai Super Kings team set",
+        "rarity": "4 in each packet",
+        "position": "O",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": 13,
+        "card": "Doug Bollinger",
+        "type": "Base",
+        "subcollection": "Chennai Super Kings team set",
+        "rarity": "4 in each packet",
+        "position": "O",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": 14,
+        "card": "Nuwan Kulasekara",
+        "type": "Base",
+        "subcollection": "Chennai Super Kings team set",
+        "rarity": "4 in each packet",
+        "position": "O",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": 15,
+        "card": "Tim Southee",
+        "type": "Base",
+        "subcollection": "Chennai Super Kings team set",
+        "rarity": "4 in each packet",
+        "position": "O",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": 16,
+        "card": "Wriddhiman Saha",
+        "type": "Base",
+        "subcollection": "Chennai Super Kings team set",
+        "rarity": "4 in each packet",
+        "position": "W",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": 17,
+        "card": "M.S. Dhoni",
+        "type": "Base - Captain",
+        "subcollection": "Chennai Super Kings team set",
+        "rarity": "1 in 2 packets",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+
+
+
+    {
+        "sno": 18,
+        "card": "Deccan Chargers Powerplay",
+        "type": "Silver Foil",
+        "subcollection": "Deccan Chargers team set",
+        "rarity": "1 in 2 packets",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": 19,
+        "card": "Shikhar Dhawan",
+        "type": "Base",
+        "subcollection": "Deccan Chargers team set",
+        "rarity": "4 in each packet",
+        "position": "B",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": 20,
+        "card": "Michael Lumb",
+        "type": "Base",
+        "subcollection": "Deccan Chargers team set",
+        "rarity": "4 in each packet",
+        "position": "B",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": 21,
+        "card": "Chris Lynn",
+        "type": "Base",
+        "subcollection": "Deccan Chargers team set",
+        "rarity": "4 in each packet",
+        "position": "B",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": 22,
+        "card": "Dwaraka Ravi Teja",
+        "type": "Base",
+        "subcollection": "Deccan Chargers team set",
+        "rarity": "4 in each packet",
+        "position": "B",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": 23,
+        "card": "Kevin Pietersen",
+        "type": "Base",
+        "subcollection": "Deccan Chargers team set",
+        "rarity": "4 in each packet",
+        "position": "A",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": 24,
+        "card": "JP Duminy",
+        "type": "Base",
+        "subcollection": "Deccan Chargers team set",
+        "rarity": "4 in each packet",
+        "position": "A",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": 25,
+        "card": "Dan Christian",
+        "type": "Base",
+        "subcollection": "Deccan Chargers team set",
+        "rarity": "4 in each packet",
+        "position": "A",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": 26,
+        "card": "Cameron White",
+        "type": "Base",
+        "subcollection": "Deccan Chargers team set",
+        "rarity": "4 in each packet",
+        "position": "A",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": 27,
+        "card": "Aashish Reddy",
+        "type": "Base",
+        "subcollection": "Deccan Chargers team set",
+        "rarity": "4 in each packet",
+        "position": "O",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": 28,
+        "card": "Amit Mishra",
+        "type": "Base",
+        "subcollection": "Deccan Chargers team set",
+        "rarity": "4 in each packet",
+        "position": "O",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": 29,
+        "card": "Manpreet Gony",
+        "type": "Base",
+        "subcollection": "Deccan Chargers team set",
+        "rarity": "4 in each packet",
+        "position": "O",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": 30,
+        "card": "Ishant Sharma",
+        "type": "Base",
+        "subcollection": "Deccan Chargers team set",
+        "rarity": "4 in each packet",
+        "position": "O",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": 31,
+        "card": "Dale Steyn",
+        "type": "Base",
+        "subcollection": "Deccan Chargers team set",
+        "rarity": "4 in each packet",
+        "position": "O",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": 32,
+        "card": "Pragyan Ojha",
+        "type": "Base",
+        "subcollection": "Deccan Chargers team set",
+        "rarity": "4 in each packet",
+        "position": "O",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": 33,
+        "card": "Jaun Theron",
+        "type": "Base",
+        "subcollection": "Deccan Chargers team set",
+        "rarity": "4 in each packet",
+        "position": "O",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": 34,
+        "card": "Kumar Sangakkara",
+        "type": "Silver Foil",
+        "subcollection": "Deccan Chargers Star Player",
+        "rarity": "1 in 2 packets",
+        "position": "W",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+
+
+
+    {
+        "sno": 35,
+        "card": "Delhi Daredevils Powerplay",
+        "type": "Silver Foil",
+        "subcollection": "Delhi Daredevils team set",
+        "rarity": "1 in 2 packets",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": 36,
+        "card": "Venugopal Rao",
+        "type": "Base",
+        "subcollection": "Delhi Daredevils team set",
+        "rarity": "4 in each packet",
+        "position": "B",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": 37,
+        "card": "David Warner",
+        "type": "Base",
+        "subcollection": "Delhi Daredevils team set",
+        "rarity": "4 in each packet",
+        "position": "B",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": 38,
+        "card": "Colin Ingram",
+        "type": "Base",
+        "subcollection": "Delhi Daredevils team set",
+        "rarity": "4 in each packet",
+        "position": "B",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": 39,
+        "card": "Travis Birt",
+        "type": "Base",
+        "subcollection": "Delhi Daredevils team set",
+        "rarity": "4 in each packet",
+        "position": "B",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": 40,
+        "card": "Virender Sehwag",
+        "type": "Base - Captain",
+        "subcollection": "Delhi Daredevils team set",
+        "rarity": "4 in each packet",
+        "position": "B",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": 41,
+        "card": "Irfan Pathan",
+        "type": "Base",
+        "subcollection": "Delhi Daredevils team set",
+        "rarity": "4 in each packet",
+        "position": "A",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": 42,
+        "card": "Andrew McDonald",
+        "type": "Base",
+        "subcollection": "Delhi Daredevils team set",
+        "rarity": "4 in each packet",
+        "position": "A",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": 43,
+        "card": "Roelof Van Der Merwe",
+        "type": "Base",
+        "subcollection": "Delhi Daredevils team set",
+        "rarity": "4 in each packet",
+        "position": "A",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": 44,
+        "card": "James Hopes",
+        "type": "Base",
+        "subcollection": "Delhi Daredevils team set",
+        "rarity": "4 in each packet",
+        "position": "A",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": 45,
+        "card": "Ajit Agarkar",
+        "type": "Base",
+        "subcollection": "Delhi Daredevils team set",
+        "rarity": "4 in each packet",
+        "position": "A",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": 46,
+        "card": "Ashok Dinda",
+        "type": "Base",
+        "subcollection": "Delhi Daredevils team set",
+        "rarity": "4 in each packet",
+        "position": "O",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": 47,
+        "card": "Umesh Yadav",
+        "type": "Base",
+        "subcollection": "Delhi Daredevils team set",
+        "rarity": "4 in each packet",
+        "position": "O",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": 48,
+        "card": "Morne Morkel",
+        "type": "Base",
+        "subcollection": "Delhi Daredevils team set",
+        "rarity": "4 in each packet",
+        "position": "O",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": 49,
+        "card": "Matthew Wade",
+        "type": "Base",
+        "subcollection": "Delhi Daredevils team set",
+        "rarity": "4 in each packet",
+        "position": "W",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": 50,
+        "card": "Naman Ojha",
+        "type": "Base",
+        "subcollection": "Delhi Daredevils team set",
+        "rarity": "4 in each packet",
+        "position": "W",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": 51,
+        "card": "Aaron Finch",
+        "type": "Silver Foil",
+        "subcollection": "Delhi Daredevils Star Player",
+        "rarity": "1 in 2 packets",
+        "position": "B",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+
+
+
+
+    {
+        "sno": 52,
+        "card": "Kings XI Punjab Team Logo",
+        "type": "Base",
+        "subcollection": "Kings XI Punjab team set",
+        "rarity": "1 in 2 packets",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": 53,
+        "card": "David Hussey",
+        "type": "Base",
+        "subcollection": "Kings XI Punjab team set",
+        "rarity": "4 in each packet",
+        "position": "B",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": 54,
+        "card": "Shaun Marsh",
+        "type": "Base",
+        "subcollection": "Kings XI Punjab team set",
+        "rarity": "4 in each packet",
+        "position": "B",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": 55,
+        "card": "Siddharth Chitnis",
+        "type": "Base",
+        "subcollection": "Kings XI Punjab team set",
+        "rarity": "4 in each packet",
+        "position": "B",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": 56,
+        "card": "Paras Dogra",
+        "type": "Base",
+        "subcollection": "Kings XI Punjab team set",
+        "rarity": "4 in each packet",
+        "position": "B",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": 57,
+        "card": "Ryan Harris",
+        "type": "Base",
+        "subcollection": "Kings XI Punjab team set",
+        "rarity": "4 in each packet",
+        "position": "B",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": 58,
+        "card": "Abhishek Nayar",
+        "type": "Base",
+        "subcollection": "Kings XI Punjab team set",
+        "rarity": "4 in each packet",
+        "position": "B",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": 59,
+        "card": "Dimitri Mascarenhas",
+        "type": "Base",
+        "subcollection": "Kings XI Punjab team set",
+        "rarity": "4 in each packet",
+        "position": "B",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": 60,
+        "card": "Praveen Kumar",
+        "type": "Base",
+        "subcollection": "Kings XI Punjab team set",
+        "rarity": "4 in each packet",
+        "position": "B",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": 61,
+        "card": "Stuart Broad",
+        "type": "Base",
+        "subcollection": "Kings XI Punjab team set",
+        "rarity": "4 in each packet",
+        "position": "B",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": 62,
+        "card": "Shalabh Srivastava",
+        "type": "Base",
+        "subcollection": "Kings XI Punjab team set",
+        "rarity": "4 in each packet",
+        "position": "B",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": 63,
+        "card": "Vikramjeet Malik",
+        "type": "Base",
+        "subcollection": "Kings XI Punjab team set",
+        "rarity": "4 in each packet",
+        "position": "B",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": 64,
+        "card": "Lova Ablish",
+        "type": "Base",
+        "subcollection": "Kings XI Punjab team set",
+        "rarity": "4 in each packet",
+        "position": "B",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": 65,
+        "card": "Nathan Rimmington",
+        "type": "Base",
+        "subcollection": "Kings XI Punjab team set",
+        "rarity": "4 in each packet",
+        "position": "B",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": 66,
+        "card": "Adam Gilchrist",
+        "type": "Base - Captain",
+        "subcollection": "Kings XI Punjab team set",
+        "rarity": "4 in each packet",
+        "position": "W",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": 67,
+        "card": "Dinesh Karthik",
+        "type": "Base",
+        "subcollection": "Kings XI Punjab team set",
+        "rarity": "4 in each packet",
+        "position": "W",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": 68,
+        "card": "Piyush Chawla",
+        "type": "Silver Foil",
+        "subcollection": "Kings XI Punjab Star Player",
+        "rarity": "1 in 2 packets",
+        "position": "A",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+
+
+
+    {
+        "sno": 69,
+        "card": "Kochi Tuskers Kerala Powerplay",
+        "type": "Silver Foil",
+        "subcollection": "Kochi Tuskers Kerala team set",
+        "rarity": "1 in 2 packets",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": 70,
+        "card": "Brad Hodge",
+        "type": "Base",
+        "subcollection": "Kochi Tuskers Kerala team set",
+        "rarity": "4 in each packet",
+        "position": "B",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": 71,
+        "card": "VVS Laxman",
+        "type": "Base",
+        "subcollection": "Kochi Tuskers Kerala team set",
+        "rarity": "4 in each packet",
+        "position": "B",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": 72,
+        "card": "Owais Shah",
+        "type": "Base",
+        "subcollection": "Kochi Tuskers Kerala team set",
+        "rarity": "4 in each packet",
+        "position": "B",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": 73,
+        "card": "Michael Klinger",
+        "type": "Base",
+        "subcollection": "Kochi Tuskers Kerala team set",
+        "rarity": "4 in each packet",
+        "position": "B",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": 74,
+        "card": "Tanmay Srivastava",
+        "type": "Base",
+        "subcollection": "Kochi Tuskers Kerala team set",
+        "rarity": "4 in each packet",
+        "position": "B",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": 75,
+        "card": "Mahela Jayawardene",
+        "type": "Base",
+        "subcollection": "Kochi Tuskers Kerala team set",
+        "rarity": "4 in each packet",
+        "position": "B",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": 76,
+        "card": "Vinay Kumar",
+        "type": "Base",
+        "subcollection": "Kochi Tuskers Kerala team set",
+        "rarity": "4 in each packet",
+        "position": "A",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": 77,
+        "card": "Steven Smith",
+        "type": "Base",
+        "subcollection": "Kochi Tuskers Kerala team set",
+        "rarity": "4 in each packet",
+        "position": "A",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": 78,
+        "card": "Thisara Perera",
+        "type": "Base",
+        "subcollection": "Kochi Tuskers Kerala team set",
+        "rarity": "4 in each packet",
+        "position": "A",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": 79,
+        "card": "John Hastings",
+        "type": "Base",
+        "subcollection": "Kochi Tuskers Kerala team set",
+        "rarity": "4 in each packet",
+        "position": "A",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": 80,
+        "card": "Ravindra Jadeja",
+        "type": "Base",
+        "subcollection": "Kochi Tuskers Kerala team set",
+        "rarity": "4 in each packet",
+        "position": "A",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": 81,
+        "card": "Ramesh Powar",
+        "type": "Base",
+        "subcollection": "Kochi Tuskers Kerala team set",
+        "rarity": "4 in each packet",
+        "position": "O",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": 82,
+        "card": "R P Singh",
+        "type": "Base",
+        "subcollection": "Kochi Tuskers Kerala team set",
+        "rarity": "4 in each packet",
+        "position": "O",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": 83,
+        "card": "S Sreesanth",
+        "type": "Base",
+        "subcollection": "Kochi Tuskers Kerala team set",
+        "rarity": "4 in each packet",
+        "position": "O",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": 84,
+        "card": "Brendon McCullum",
+        "type": "Base",
+        "subcollection": "Kochi Tuskers Kerala team set",
+        "rarity": "4 in each packet",
+        "position": "W",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": 85,
+        "card": "Muttiah Muralitharan",
+        "type": "Silver Foil",
+        "subcollection": "Kochi Tuskers Kerala team set",
+        "rarity": "1 in 2 packets",
+        "position": "B",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+
+
+
+    {
+        "sno": 86,
+        "card": "Kolkata Knight Riders Team Logo",
+        "type": "Silver Foil",
+        "subcollection": "Kolkata Knight Riders team set",
+        "rarity": "1 in 2 packets",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": 87,
+        "card": "Manoj Tiwary",
+        "type": "Base",
+        "subcollection": "Kolkata Knight Riders team set",
+        "rarity": "4 in each packet",
+        "position": "B",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": 88,
+        "card": "Gautam Gambhir",
+        "type": "Base",
+        "subcollection": "Kolkata Knight Riders team set",
+        "rarity": "4 in each packet",
+        "position": "B",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": 89,
+        "card": "Eoin Morgan",
+        "type": "Base",
+        "subcollection": "Kolkata Knight Riders team set",
+        "rarity": "4 in each packet",
+        "position": "B",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": 90,
+        "card": "Yusuf Pathan",
+        "type": "Base",
+        "subcollection": "Kolkata Knight Riders team set",
+        "rarity": "4 in each packet",
+        "position": "A",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": 91,
+        "card": "Ryan Ten Doeschate",
+        "type": "Base",
+        "subcollection": "Kolkata Knight Riders team set",
+        "rarity": "4 in each packet",
+        "position": "A",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": 92,
+        "card": "Laxmi Ratan Shukla",
+        "type": "Base",
+        "subcollection": "Kolkata Knight Riders team set",
+        "rarity": "4 in each packet",
+        "position": "A",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": 93,
+        "card": "Shakib Al Hasan",
+        "type": "Base",
+        "subcollection": "Kolkata Knight Riders team set",
+        "rarity": "4 in each packet",
+        "position": "A",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": 94,
+        "card": "Rajat Bhatia",
+        "type": "Base",
+        "subcollection": "Kolkata Knight Riders team set",
+        "rarity": "4 in each packet",
+        "position": "A",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": 95,
+        "card": "Pradeep Sangwan",
+        "type": "Base",
+        "subcollection": "Kolkata Knight Riders team set",
+        "rarity": "4 in each packet",
+        "position": "O",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": 96,
+        "card": "James Pattinson",
+        "type": "Base",
+        "subcollection": "Kolkata Knight Riders team set",
+        "rarity": "4 in each packet",
+        "position": "O",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": 97,
+        "card": "Laxmipathy Balaji",
+        "type": "Base",
+        "subcollection": "Kolkata Knight Riders team set",
+        "rarity": "4 in each packet",
+        "position": "O",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": 98,
+        "card": "Iqbal Abdulla",
+        "type": "Base",
+        "subcollection": "Kolkata Knight Riders team set",
+        "rarity": "4 in each packet",
+        "position": "O",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": 99,
+        "card": "Brett Lee",
+        "type": "Base",
+        "subcollection": "Kolkata Knight Riders team set",
+        "rarity": "4 in each packet",
+        "position": "O",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": 100,
+        "card": "Sreevats Goswami",
+        "type": "Base",
+        "subcollection": "Kolkata Knight Riders team set",
+        "rarity": "4 in each packet",
+        "position": "W",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": 101,
+        "card": "Brad Haddin",
+        "type": "Base",
+        "subcollection": "Kolkata Knight Riders team set",
+        "rarity": "4 in each packet",
+        "position": "W",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": 102,
+        "card": "Jacques Kallis",
+        "type": "Silver Foil",
+        "subcollection": "Kolkata Knight Riders team set",
+        "rarity": "1 in 2 packets",
+        "position": "A",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+
+
+
+    {
+        "sno": 103,
+        "card": "Mumbai Indians Powerplay",
+        "type": "Silver Foil",
+        "subcollection": "Mumbai Indians team set",
+        "rarity": "1 in 2 packets",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": 104,
+        "card": "Sachin Tendulkar",
+        "type": "Base",
+        "subcollection": "Mumbai Indians team set",
+        "rarity": "4 in each packet",
+        "position": "B",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": 105,
+        "card": "Tirumalasetti Suman",
+        "type": "Base",
+        "subcollection": "Mumbai Indians team set",
+        "rarity": "4 in each packet",
+        "position": "B",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": 106,
+        "card": "Kieron Pollard",
+        "type": "Base",
+        "subcollection": "Mumbai Indians team set",
+        "rarity": "4 in each packet",
+        "position": "A",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": 107,
+        "card": "Andrew Symonds",
+        "type": "Base",
+        "subcollection": "Mumbai Indians team set",
+        "rarity": "4 in each packet",
+        "position": "A",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": 108,
+        "card": "Rohit Sharma",
+        "type": "Base",
+        "subcollection": "Mumbai Indians team set",
+        "rarity": "4 in each packet",
+        "position": "A",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": 109,
+        "card": "Rajagopal Sathish",
+        "type": "Base",
+        "subcollection": "Mumbai Indians team set",
+        "rarity": "4 in each packet",
+        "position": "A",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": 110,
+        "card": "James Franklin",
+        "type": "Base",
+        "subcollection": "Mumbai Indians team set",
+        "rarity": "4 in each packet",
+        "position": "A",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": 111,
+        "card": "Dhawal Kulkarni",
+        "type": "Base",
+        "subcollection": "Mumbai Indians team set",
+        "rarity": "4 in each packet",
+        "position": "A",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": 112,
+        "card": "Ali Murtaza",
+        "type": "Base",
+        "subcollection": "Mumbai Indians team set",
+        "rarity": "4 in each packet",
+        "position": "O",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": 113,
+        "card": "Dilhara Fernando",
+        "type": "Base",
+        "subcollection": "Mumbai Indians team set",
+        "rarity": "4 in each packet",
+        "position": "O",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": 114,
+        "card": "Lasith Malinga",
+        "type": "Base",
+        "subcollection": "Mumbai Indians team set",
+        "rarity": "4 in each packet",
+        "position": "O",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": 115,
+        "card": "Munaf Patel",
+        "type": "Base",
+        "subcollection": "Mumbai Indians team set",
+        "rarity": "4 in each packet",
+        "position": "O",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": 116,
+        "card": "Abu Nechim Ahmed",
+        "type": "Base",
+        "subcollection": "Mumbai Indians team set",
+        "rarity": "4 in each packet",
+        "position": "O",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": 117,
+        "card": "Ambati Rayudu",
+        "type": "Base",
+        "subcollection": "Mumbai Indians team set",
+        "rarity": "4 in each packet",
+        "position": "W",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": 118,
+        "card": "David Jacobs",
+        "type": "Base",
+        "subcollection": "Mumbai Indians team set",
+        "rarity": "4 in each packet",
+        "position": "W",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": 119,
+        "card": "Harbhajan Singh",
+        "type": "Silver Foil",
+        "subcollection": "Mumbai Indians Star Player",
+        "rarity": "1 in 2 packets",
+        "position": "B",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+
+
+
+
+    {
+        "sno": 120,
+        "card": "Pune Warriors India Powerplay",
+        "type": "Silver Foil",
+        "subcollection": "Pune Warriors India Star Player",
+        "rarity": "1 in 2 packets",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": 121,
+        "card": "Graeme Smith",
+        "type": "Base",
+        "subcollection": "team set",
+        "rarity": "4 in each packet",
+        "position": "B",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": 122,
+        "card": "Callum Ferguson",
+        "type": "Base",
+        "subcollection": "team set",
+        "rarity": "4 in each packet",
+        "position": "B",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": 123,
+        "card": "Abishek Jhunjhunwala",
+        "type": "Base",
+        "subcollection": "team set",
+        "rarity": "4 in each packet",
+        "position": "B",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": 124,
+        "card": "Angelo Mathews",
+        "type": "Base",
+        "subcollection": "team set",
+        "rarity": "4 in each packet",
+        "position": "A",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": 125,
+        "card": "Yuvraj Singh",
+        "type": "Base",
+        "subcollection": "team set",
+        "rarity": "4 in each packet",
+        "position": "A",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": 126,
+        "card": "Mitchell Marsh",
+        "type": "Base",
+        "subcollection": "team set",
+        "rarity": "4 in each packet",
+        "position": "A",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": 127,
+        "card": "Jesse Ryder",
+        "type": "Base",
+        "subcollection": "team set",
+        "rarity": "4 in each packet",
+        "position": "A",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": 128,
+        "card": "Nathan McCullum",
+        "type": "Base",
+        "subcollection": "team set",
+        "rarity": "4 in each packet",
+        "position": "A",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": 129,
+        "card": "Ashish Nehra",
+        "type": "Base",
+        "subcollection": "team set",
+        "rarity": "4 in each packet",
+        "position": "B",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": 130,
+        "card": "Murali Karthik",
+        "type": "Base",
+        "subcollection": "team set",
+        "rarity": "4 in each packet",
+        "position": "B",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": 131,
+        "card": "Wayne Parnell",
+        "type": "Base",
+        "subcollection": "team set",
+        "rarity": "4 in each packet",
+        "position": "B",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": 132,
+        "card": "Alfonso Thomas",
+        "type": "Base",
+        "subcollection": "team set",
+        "rarity": "4 in each packet",
+        "position": "B",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": 133,
+        "card": "Jerome Taylor",
+        "type": "Base",
+        "subcollection": "team set",
+        "rarity": "4 in each packet",
+        "position": "B",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": 134,
+        "card": "Kamran Khan",
+        "type": "Base",
+        "subcollection": "team set",
+        "rarity": "4 in each packet",
+        "position": "B",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": 135,
+        "card": "Tim Paine",
+        "type": "Base",
+        "subcollection": "team set",
+        "rarity": "4 in each packet",
+        "position": "W",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": 136,
+        "card": "Robin Uthappa",
+        "type": "Silver Foil",
+        "subcollection": "Pune Warriors India Star Player",
+        "rarity": "1 in 2 packets",
+        "position": "W",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+
+
+
+
+    {
+        "sno": 137,
+        "card": "Rajasthan Royals Powerplay",
+        "type": "Silver Foil",
+        "subcollection": "Rajasthan Royals team set",
+        "rarity": "1 in 2 packets",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": 138,
+        "card": "Ajinkya Rahane",
+        "type": "Base",
+        "subcollection": "Rajasthan Royals team set",
+        "rarity": "4 in each packet",
+        "position": "B",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": 139,
+        "card": "Ross Taylor",
+        "type": "Base",
+        "subcollection": "team set",
+        "rarity": "4 in each packet",
+        "position": "B",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": 140,
+        "card": "Faiz Fazal",
+        "type": "Base",
+        "subcollection": "team set",
+        "rarity": "4 in each packet",
+        "position": "B",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": 141,
+        "card": "Abishek Raut",
+        "type": "Base",
+        "subcollection": "team set",
+        "rarity": "4 in each packet",
+        "position": "B",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": 142,
+        "card": "Shane Watson",
+        "type": "Base",
+        "subcollection": "team set",
+        "rarity": "4 in each packet",
+        "position": "A",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": 143,
+        "card": "Paul Collingwood",
+        "type": "Base",
+        "subcollection": "team set",
+        "rarity": "4 in each packet",
+        "position": "A",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": 144,
+        "card": "Johan Botha",
+        "type": "Base",
+        "subcollection": "team set",
+        "rarity": "4 in each packet",
+        "position": "A",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": 145,
+        "card": "Ashok Menaria",
+        "type": "Base",
+        "subcollection": "team set",
+        "rarity": "4 in each packet",
+        "position": "A",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": 146,
+        "card": "Aditya Dole",
+        "type": "Base",
+        "subcollection": "team set",
+        "rarity": "4 in each packet",
+        "position": "O",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": 147,
+        "card": "Shane Warne",
+        "type": "Base",
+        "subcollection": "team set",
+        "rarity": "4 in each packet",
+        "position": "O",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": 148,
+        "card": "Siddharth Trivedi",
+        "type": "Base",
+        "subcollection": "team set",
+        "rarity": "4 in each packet",
+        "position": "O",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": 149,
+        "card": "Nayan Doshi",
+        "type": "Base",
+        "subcollection": "team set",
+        "rarity": "4 in each packet",
+        "position": "O",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": 150,
+        "card": "Shaun Tait",
+        "type": "Base",
+        "subcollection": "team set",
+        "rarity": "4 in each packet",
+        "position": "O",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": 151,
+        "card": "Pankaj Singh",
+        "type": "Base",
+        "subcollection": "team set",
+        "rarity": "4 in each packet",
+        "position": "O",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": 152,
+        "card": "Anil Paunkar",
+        "type": "Base",
+        "subcollection": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "rarity": "4 in each packet",
+        "position": "W",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": 153,
+        "card": "Rahul Dravid",
+        "type": "Silver Foil",
+        "subcollection": "Rajasthan Royals Star Player",
+        "rarity": "1 in 2 packets",
+        "position": "B",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+
+
+
+
+    {
+        "sno": 154,
+        "card": "Royal Challengers Bangalore Team Logo",
+        "type": "Silver Foil",
+        "subcollection": "Royal Challengers Bangalore team set",
+        "rarity": "1 in 2 packets",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": 155,
+        "card": "Virat Kohli",
+        "type": "Base",
+        "subcollection": "Royal Challengers Bangalore team set",
+        "rarity": "4 in each packet",
+        "position": "B",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": 156,
+        "card": "Cheteshwar Pujara",
+        "type": "Base",
+        "subcollection": "Royal Challengers Bangalore team set",
+        "rarity": "4 in each packet",
+        "position": "B",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": 157,
+        "card": "Mohammad Kaif",
+        "type": "Base",
+        "subcollection": "Royal Challengers Bangalore team set",
+        "rarity": "4 in each packet",
+        "position": "B",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": 158,
+        "card": "Luke Pomersbasch",
+        "type": "Base",
+        "subcollection": "Royal Challengers Bangalore team set",
+        "rarity": "4 in each packet",
+        "position": "B",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": 159,
+        "card": "Rilee Rossouw",
+        "type": "Base",
+        "subcollection": "Royal Challengers Bangalore team set",
+        "rarity": "4 in each packet",
+        "position": "B",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": 160,
+        "card": "Saurabh Tiwary",
+        "type": "Base",
+        "subcollection": "Royal Challengers Bangalore team set",
+        "rarity": "4 in each packet",
+        "position": "B",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": 161,
+        "card": "T Dilshan",
+        "type": "Base",
+        "subcollection": "Royal Challengers Bangalore team set",
+        "rarity": "4 in each packet",
+        "position": "B",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": 162,
+        "card": "Jonathan Vandiar",
+        "type": "Base",
+        "subcollection": "Royal Challengers Bangalore team set",
+        "rarity": "4 in each packet",
+        "position": "A",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": "163",
+        "card": "Daniel Vettori",
+        "type": "Base",
+        "subcollection": "Royal Challengers Bangalore team set",
+        "rarity": "4 in each packet",
+        "position": "A",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": "164",
+        "card": "Johan Wan Der Wath",
+        "type": "Base",
+        "subcollection": "Royal Challengers Bangalore team set",
+        "rarity": "4 in each packet",
+        "position": "A",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": "165",
+        "card": "Nuvan Pradeep",
+        "type": "Base",
+        "subcollection": "Royal Challengers Bangalore team set",
+        "rarity": "4 in each packet",
+        "position": "O",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": "166",
+        "card": "Zaheer Khan",
+        "type": "Base",
+        "subcollection": "Royal Challengers Bangalore team set",
+        "rarity": "4 in each packet",
+        "position": "O",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": "167",
+        "card": "Dirk Nannes",
+        "type": "Base",
+        "subcollection": "Royal Challengers Bangalore team set",
+        "rarity": "4 in each packet",
+        "position": "O",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": "168",
+        "card": "Abhimanyu Mithun",
+        "type": "Base",
+        "subcollection": "Royal Challengers Bangalore team set",
+        "rarity": "4 in each packet",
+        "position": "O",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": "169",
+        "card": "AB DE Villiers",
+        "type": "Base",
+        "subcollection": "Royal Challengers Bangalore team set",
+        "rarity": "4 in each packet",
+        "position": "W",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": "170",
+        "card": "Charl Langeveldt",
+        "type": "Silver Foil",
+        "subcollection": "Star Player",
+        "rarity": "1 in 2 packets",
+        "position": "B",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+
+
+
+
+    {
+        "sno": "171",
+        "card": "Murali Vijay",
+        "type": "Gold Foil",
+        "subcollection": "Man of the Match",
+        "rarity": "1 in 5 packets",
+        "position": "B",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": "172",
+        "card": "Ravichandran Ashwin",
+        "type": "Gold Foil",
+        "subcollection": "team set",
+        "rarity": "1 in 5 packets",
+        "position": "O",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": "173",
+        "card": "Kevin Pietersen",
+        "type": "Gold Foil",
+        "subcollection": "team set",
+        "rarity": "1 in 5 packets",
+        "position": "A",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": "174",
+        "card": "Cameron White",
+        "type": "Gold Foil",
+        "subcollection": "team set",
+        "rarity": "1 in 5 packets",
+        "position": "A",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": "175",
+        "card": "Virendra Sehwag",
+        "type": "Gold Foil",
+        "subcollection": "team set",
+        "rarity": "1 in 5 packets",
+        "position": "B",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": "176",
+        "card": "Naman Ojha",
+        "type": "Gold Foil",
+        "subcollection": "team set",
+        "rarity": "1 in 5 packets",
+        "position": "W",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": "177",
+        "card": "Vinay Kumar",
+        "type": "Gold Foil",
+        "subcollection": "team set",
+        "rarity": "1 in 5 packets",
+        "position": "A",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": "178",
+        "card": "Brendon McCullum",
+        "type": "Gold Foil",
+        "subcollection": "team set",
+        "rarity": "1 in 5 packets",
+        "position": "W",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": "179",
+        "card": "Ryan Harris",
+        "type": "Gold Foil",
+        "subcollection": "team set",
+        "rarity": "1 in 5 packets",
+        "position": "A",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": "180",
+        "card": "Adam Gilchrist",
+        "type": "Gold Foil",
+        "subcollection": "team set",
+        "rarity": "1 in 5 packets",
+        "position": "W",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": "181",
+        "card": "Yusuf Pathan",
+        "type": "Gold Foil",
+        "subcollection": "team set",
+        "rarity": "1 in 5 packets",
+        "position": "A",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": "182",
+        "card": "Jacques Kallis",
+        "type": "Gold Foil",
+        "subcollection": "team set",
+        "rarity": "1 in 5 packets",
+        "position": "A",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": "183",
+        "card": "Tirumalasetti Suman",
+        "type": "Gold Foil",
+        "subcollection": "team set",
+        "rarity": "1 in 5 packets",
+        "position": "B",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": "184",
+        "card": "Andrew Symonds",
+        "type": "Gold Foil",
+        "subcollection": "team set",
+        "rarity": "1 in 5 packets",
+        "position": "A",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": "185",
+        "card": "Robin Uthappa",
+        "type": "Gold Foil",
+        "subcollection": "team set",
+        "rarity": "1 in 5 packets",
+        "position": "B",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": "186",
+        "card": "Alfonso Thomas",
+        "type": "Gold Foil",
+        "subcollection": "team set",
+        "rarity": "1 in 5 packets",
+        "position": "O",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": "187",
+        "card": "Shane Watson",
+        "type": "Gold Foil",
+        "subcollection": "team set",
+        "rarity": "1 in 5 packets",
+        "position": "A",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": "188",
+        "card": "Shane Warne",
+        "type": "Gold Foil",
+        "subcollection": "team set",
+        "rarity": "1 in 5 packets",
+        "position": "O",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": "189",
+        "card": "Virat Kohli",
+        "type": "Gold Foil",
+        "subcollection": "team set",
+        "rarity": "1 in 5 packets",
+        "position": "B",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": "190",
+        "card": "Saurabh Tiwary",
+        "type": "Gold Foil",
+        "subcollection": "team set",
+        "rarity": "1 in 5 packets",
+        "position": "B",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": "191",
+        "card": "M.S. Dhoni",
+        "type": "Silver Foil",
+        "subcollection": "Auction Stars",
+        "rarity": "Only available in special packets",
+        "position": "W",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": "192",
+        "card": "Irfan Pathan",
+        "type": "Silver Foil",
+        "subcollection": "Auction Stars",
+        "rarity": "1 each in special packets",
+        "position": "A",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": "193",
+        "card": "Mahela Jayawardene",
+        "type": "Silver Foil",
+        "subcollection": "Auction Stars",
+        "rarity": "1 each in special packets",
+        "position": "B",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": "194",
+        "card": "Gautam Gambhir",
+        "type": "Silver Foil",
+        "subcollection": "Auction Stars",
+        "rarity": "1 each in special packets",
+        "position": "B",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": "195",
+        "card": "Rohit Sharma",
+        "type": "Silver Foil",
+        "subcollection": "Auction Stars",
+        "rarity": "1 each in special packets",
+        "position": "A",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": "196",
+        "card": "Praveen Kumar",
+        "type": "Gold Foil",
+        "subcollection": "Hat-trick Hero",
+        "rarity": "Unknown",
+        "position": "O",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": "197",
+        "card": "Sachin Tendulkar",
+        "type": "Gold-Orange Foil",
+        "subcollection": "IPL3 Orange Cap Winner",
+        "rarity": "Unknown",
+        "position": "B",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": "198",
+        "card": "Pragyan Ojha",
+        "type": "Gold-Purple Foil",
+        "subcollection": "IPL3 Purple Cap Winner",
+        "rarity": "Unknown",
+        "position": "O",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    },
+    {
+        "sno": "199",
+        "card": "Sachin Tendulkar",
+        "type": "Gold Foil",
+        "subcollection": "IPL3 POTT",
+        "rarity": "Unknown",
+        "position": "B",
+        "image": "https://cdn.jsdelivr.net/gh/Aryankpoor/tcgnow/images/ca2012/",
+        "collection": "CA2012"
+    }
+]
